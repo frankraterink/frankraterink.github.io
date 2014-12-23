@@ -10,61 +10,61 @@
 
 
 
-/* SERIF */
+/* MAIN TEXT */
 
-@text-serif-family:         'Merriweather', serif;
-@text-serif-weight:         300;
+@text-main-family:         'Exo 2', sans-serif;
+@text-main-weight:         300;
 
-@text-serif-m:              15px;
-@text-serif-m-lineheight:   25px;
+@text-main-m:              15px;
+@text-main-m-lineheight:   25px;
 
 
-.text-serif-base (@size, @lineheight, @color) {
-  font-family: @text-serif-family;
-  font-weight: @text-serif-weight;
-  
-  font-size: @text-serif-m;
+.text-main-base (@size, @lineheight, @color) {
+  font-family: @text-main-family;
+  font-weight: @text-main-weight;
+
+  font-size: @text-main-m;
   line-height: @lineheight;
-  
+
   color: @color;
 }
 
-.text-serif-m (@color: @text-color-on-light) {
-  .text-serif-base(@text-serif-m, @text-serif-m-lineheight, @color)
+.text-main-m (@color: @text-color-on-light) {
+  .text-main-base(@text-main-m, @text-main-m-lineheight, @color)
 }
 
 
 
 
 
-/* SANS */
-@text-sans-family:        'Lato', sans-serif;
-@text-sans-weight:        300;
+/* SEC TEXT */
+@text-sec-family:        'Lato', sans-serif;
+@text-sec-weight:        300;
 
-@text-sans-s:             15px;
-@text-sans-s-lineheight:  25px;
+@text-sec-s:             15px;
+@text-sec-s-lineheight:  25px;
 
-@text-sans-m:             20px;
-@text-sans-m-lineheight:  25px;
+@text-sec-m:             20px;
+@text-sec-m-lineheight:  25px;
 
 
 
-.text-sans-base (@size, @lineheight, @color){
-  font-family: @text-sans-family;
-  font-weight: @text-sans-weight;
-  
+.text-sec-base (@size, @lineheight, @color){
+  font-family: @text-sec-family;
+  font-weight: @text-sec-weight;
+
   font-size: @size;
   line-height: @lineheight;
-  
+
   color: @color;
 }
 
-.text-sans-s (@color: @text-color-on-light) {
-  .text-sans-base(@text-sans-s, @text-sans-s-lineheight, @color)
+.text-sec-s (@color: @text-color-on-light) {
+  .text-sec-base(@text-sec-s, @text-sec-s-lineheight, @color)
 }
 
-.text-sans-m (@color: @text-color-on-light) {
-  .text-sans-base(@text-sans-m, @text-sans-m-lineheight, @color)
+.text-sec-m (@color: @text-color-on-light) {
+  .text-sec-base(@text-sec-m, @text-sec-m-lineheight, @color)
 }
 
 
@@ -95,7 +95,7 @@ html, body {
 }
 
 body {
-  .text-serif-m();
+  .text-main-m();
 }
 
 a {
@@ -138,11 +138,11 @@ a {
   box-pack: center;
   box-align: center;
   position: relative;
-  
+
   .radial-gradient(@main-photo-background-from, @main-photo-background-to);
-  
-  
-  
+
+
+
 	.image-centerer {
 	  width: 70%;
     height: 90%;
@@ -152,12 +152,12 @@ a {
       display: block;
       margin: 0px auto;
       border: 10px solid @main-photo-border-color;
-      box-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 1px 0px 0px rgba(255, 255, 255, 0.4), -1px 0px 0px 0px rgba(214, 210, 136, 0.4), 0px -1px 0px 0px rgba(214, 210, 136, 0.4), 0px 31px 26px -20px rgba(0,0,0,0.5);  
+      box-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 1px 0px 0px rgba(255, 255, 255, 0.4), -1px 0px 0px 0px rgba(214, 210, 136, 0.4), 0px -1px 0px 0px rgba(214, 210, 136, 0.4), 0px 31px 26px -20px rgba(0,0,0,0.5);
     }
     .photo-description {
       text-align: center;
       margin-top: 20px;
-      .text-sans-m(@text-color-link-on-dark)
+      .text-sec-m(@text-color-link-on-dark)
     }
 	}
 	.more-icon {
@@ -198,7 +198,7 @@ a {
 @media all and (max-width: @mobilep) {
   .content {
     width: 90%;
-  }  
+  }
 }
 
 
@@ -264,7 +264,7 @@ a {
 /* FOOTER */
 
 .footer {
-  .text-sans-s();
+  .text-sec-s();
   ul {
     list-style-type: none;
     margin: 0;
