@@ -109,12 +109,12 @@ a {
   margin: 50px 20px 0 0px;
   padding: 10px 0 10px;
   background-color: bisque;
-  background-color: #43424a;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #43424a, #09071d 100%);
-  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #43424a, #282828 100%);
-  background-image: -o-radial-gradient(50% -10%, ellipse cover, #43424a, #282828 100%);
-  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #43424a, #282828 100%);
-  background-image: radial-gradient(50% -10%, ellipse cover, #43424a, #282828 100%);
+  background-color: #b4056b;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #b4056b, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
 }
 .tile a {
   text-decoration: none;
