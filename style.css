@@ -15,6 +15,7 @@ body {
   font-size: 15px;
   line-height: 25px;
   color: #5a5a5a;
+  text-rendering: optimizeLegibility;
 }
 a {
   color: #000000;
