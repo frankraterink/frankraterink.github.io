@@ -1,0 +1,79 @@
+$(function(){
+	
+	var $photos,
+	$body,
+	$galleryMapLinks,
+	isMobile = false,
+	photoCount;
+
+	function init(){
+		$photos = $('[data-role=photo]');
+		$body = $('body');
+		photoCount = $photos.length;
+		
+		checkIfDeviceIsMobile();
+		
+		if (!isMobile) {
+		  replaceLowResImages();
+		}
+		
+		addGalleryMapToPage();
+		
+	}
+
+	function replaceLowResImages() {
+    if (photoCount > 0) {
+      $photos.each(function(index, el){
+        var lowResImg = $(el);
+        var highResUrl = lowResImg.attr('data-highResUrl');
+        var highResImage = lowResImg.attr('src', highResUrl);
+      });
+    }
+	}
+	
+	function checkIfDeviceIsMobile() {
+  	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      isMobile = true;
+    }
+	}
+	
+	function addGalleryMapToPage(){
+
+  	var isGalleryPage = $body.hasClass('gallery-page');
+
+    if (photoCount > 0 && isGalleryPage) {
+      
+      // MAKE A GALLERY OBJECT
+      var galleryMap = $('<div class="gallery-map"></div>');
+      $photos.each(function(index, el){
+        var photoNr = index + 1;
+        var listItem = $('<a href="#' + photoNr + '" data-role="galleryMapLink" data-photolink="' + photoNr + '">foto ' + photoNr + '</a>');
+        galleryMap.append(listItem);
+      });
+      
+      // APPEND THE GALLERY TO EACH PHOTO
+      $photos.each(function(index, el){
+        var photo = $(el);
+        var newGalleryMap = galleryMap.clone();
+        var selectedMapItem = "[data-photolink=" + (index + 1) + "]"
+        newGalleryMap.find(selectedMapItem).addClass('active');
+        photo.closest('.image-container').append(newGalleryMap);
+        
+      });
+      
+      // MAKE THE NAVIGATION VISIBLE
+      $galleryMapLinks = $('[data-role="galleryMapLink"]');      
+      
+    }
+	}
+	
+	function selectGalleryMapItem(nr) {
+  	$galleryMapLinks.removeClass('active');
+  	
+  	$('[data-photoLink=' + nr + ']').addClass('active');
+	}
+	
+
+	init();
+	
+});
