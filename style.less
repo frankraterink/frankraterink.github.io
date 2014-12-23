@@ -1,7 +1,7 @@
 /* TEXT COLORS */
 
 @text-color-on-light:     #5a5a5a;
-@text-color-on-dark:      #5a5a5a;
+@text-color-on-dark:      #fff;
 
 @text-color-link-on-light:#000;
 @text-color-link-on-dark: #fff;
@@ -18,12 +18,15 @@
 @text-main-m:              15px;
 @text-main-m-lineheight:   25px;
 
+@text-main-l:              18px;
+@text-main-l-lineheight:   25px;
+
 
 .text-main-base (@size, @lineheight, @color) {
   font-family: @text-main-family;
   font-weight: @text-main-weight;
 
-  font-size: @text-main-m;
+  font-size: @size;
   line-height: @lineheight;
 
   color: @color;
@@ -31,6 +34,10 @@
 
 .text-main-m (@color: @text-color-on-light) {
   .text-main-base(@text-main-m, @text-main-m-lineheight, @color)
+}
+
+.text-main-l (@color: @text-color-on-light) {
+  .text-main-base(@text-main-l, @text-main-l-lineheight, @color)
 }
 
 
@@ -190,6 +197,7 @@ a {
   width: 50%;
   margin: 0 auto;
   padding: 50px 0;
+  overflow: hidden;
 }
 @media all and (max-width: @tabletl) {
   .content {
@@ -199,6 +207,29 @@ a {
 @media all and (max-width: @mobilep) {
   .content {
     width: 90%;
+  }
+}
+
+
+.tile {
+  width: 200px;
+  margin: 50px 20px 0 0px;
+  padding: 10px 0 10px;
+  background-color: bisque;
+  .radial-gradient(#43424A, #282828);
+  a {
+    text-decoration: none;
+    display: block;
+    margin: 0 40px 0;
+    h1 {
+      .text-main-l();
+      color: @text-color-link-on-dark;
+      text-decoration: underline;
+      margin: 0 0 4px;
+    }
+    span {
+      .text-main-m(@text-color-on-dark);
+    }
   }
 }
 
