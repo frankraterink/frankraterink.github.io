@@ -34,12 +34,14 @@ $(function(){
         if (isFullyVisible(el)) {
           var activeMapItem = galleryMap.find('.active');
 
-          if(e.keyCode == 37) { // left
+          if(e.keyCode == 37 || e.keyCode == 38) { // left, up
+            e.preventDefault();
             if (activeMapItem.prev().is( "a" ) ) {
               window.location.hash = activeMapItem.prev().attr('data-photolink');;
             }
           }
-          else if(e.keyCode == 39) { // right
+          else if(e.keyCode == 39 || e.keyCode == 40) { // right, down
+            e.preventDefault();
             if (activeMapItem.next().is( "a" ) ) {
               window.location.hash = activeMapItem.next().attr('data-photolink');;
             }
