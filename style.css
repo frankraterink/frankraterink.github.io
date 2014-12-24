@@ -107,7 +107,6 @@ a {
 .tile {
   width: 200px;
   margin: 50px 20px 0 0px;
-  padding: 10px 0 10px;
   background-color: bisque;
   background-color: #b4056b;
   background-image: -moz-radial-gradient(50% -10%, ellipse cover, #b4056b, #09071d 100%);
@@ -115,11 +114,21 @@ a {
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
+  transition: all .3s;
+}
+.tile:hover {
+  -webkit-filter: grayscale(0.4);
+  -moz-filter: grayscale(0.4);
+  -o-filter: grayscale(0.4);
+  -ms-filter: grayscale(0.4);
+  filter: grayscale(0.4);
+  transition: all .3s;
 }
 .tile a {
   text-decoration: none;
   display: block;
-  margin: 0 40px 0;
+  padding: 10px 30px 10px;
+  text-align: center;
 }
 .tile a h1 {
   font-family: 'Merriweather', serif;

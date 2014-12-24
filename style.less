@@ -124,9 +124,13 @@ a {
   background-image: radial-gradient(50% -10%, ellipse cover, @from, @to 100%);
 }
 
-
-
-
+.grayscale(@value) {
+  -webkit-filter: grayscale(@value);
+  -moz-filter: grayscale(@value);
+  -o-filter: grayscale(@value);
+  -ms-filter: grayscale(@value);
+  filter: grayscale(@value);
+}
 
 /* HOMEPAGE */
 
@@ -214,13 +218,18 @@ a {
 .tile {
   width: 200px;
   margin: 50px 20px 0 0px;
-  padding: 10px 0 10px;
   background-color: bisque;
   .radial-gradient(#B4056B, #4A1543);
+  transition: all .3s;
+  &:hover {
+    .grayscale(0.4);
+    transition: all .3s;
+  }
   a {
     text-decoration: none;
     display: block;
-    margin: 0 40px 0;
+    padding: 10px 30px 10px;
+    text-align: center;
     h1 {
       .text-main-l();
       color: @text-color-link-on-dark;
