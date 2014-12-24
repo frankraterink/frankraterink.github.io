@@ -28,7 +28,7 @@
   background-image: radial-gradient(50% -10%, ellipse cover, #6d6d6d, #09071d 100%);
 }
 .image-container .image-centerer {
-  width: 70%;
+  width: 75%;
   height: 90%;
 }
 .image-container .image-centerer img {
@@ -187,6 +187,9 @@
   background-color: rgba(255, 255, 255, 0.3);
 }
 @media all and (max-width: 1023px) {
+  .gallery-page .image-container {
+    padding: 4% 0 13%;
+  }
   .gallery-map {
     top: auto;
     bottom: 6%;
