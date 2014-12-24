@@ -186,6 +186,48 @@
 .gallery-map a.active {
   background-color: rgba(255, 255, 255, 0.3);
 }
+.back-tag-homepage {
+  color: red;
+  position: fixed;
+  background-color: #fff;
+  background-color: #ffffff;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ffffff, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #ffffff, #959ba4 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #ffffff, #959ba4 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #ffffff, #959ba4 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #ffffff, #959ba4 100%);
+  top: 40%;
+  width: 160px;
+  box-shadow: -10px 6px 20px 0px rgba(0, 0, 0, 0.3);
+  opacity: 0.2;
+  transition: opacity .3s;
+}
+.back-tag-homepage:hover {
+  opacity: 1;
+  transition: opacity .3s;
+}
+.back-tag-homepage a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 10px 10px;
+}
+.back-tag-homepage a h1 {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #5a5a5a;
+  color: #000000;
+  text-decoration: underline;
+  margin: 0 0 4px;
+}
+.back-tag-homepage a span {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: #5a5a5a;
+}
 @media all and (max-width: 1023px) {
   .gallery-page .image-container {
     padding: 4% 0 13%;
