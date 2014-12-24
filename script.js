@@ -24,6 +24,8 @@ $(function(){
 
   function addControlsToGallery() {
 
+
+
     $body.keydown(function(e) {
 
       var $galleryMaps = $('[data-role=galleryMap]');
@@ -45,6 +47,10 @@ $(function(){
             if (activeMapItem.next().is( "a" ) ) {
               window.location.hash = activeMapItem.next().attr('data-photolink');;
             }
+          }
+          else if(e.keyCode == 8) {
+            e.preventDefault();
+            window.location.href= "index.html";
           }
 
           // when a active galleryMap is found the each can stop
