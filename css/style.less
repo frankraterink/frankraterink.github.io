@@ -1,0 +1,44 @@
+@import "variables.less";
+@import "mixins.less";
+@import "homepage.less";
+@import "gallery.less";
+
+
+/* MAIN PHOTO */
+@main-photo-border-color:     #D7D7D7;
+@main-photo-background-from:  #6D6D6D;
+@main-photo-background-to:    #09071D;
+
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+  .text-main-m();
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: @text-color-link-on-light;
+}
+
+
+
+
+/* FOOTER */
+
+.footer {
+  .text-sec-s();
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    li {
+      float: left;
+      margin-right: 20px;
+    }
+  }
+}

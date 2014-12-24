@@ -1,0 +1,63 @@
+
+/* MAIN TEXT */
+
+.text-main-base (@size, @lineheight, @color) {
+  font-family: @text-main-family;
+  font-weight: @text-main-weight;
+
+  font-size: @size;
+  line-height: @lineheight;
+
+  color: @color;
+}
+
+.text-main-m (@color: @text-color-on-light) {
+  .text-main-base(@text-main-m, @text-main-m-lineheight, @color)
+}
+
+.text-main-l (@color: @text-color-on-light) {
+  .text-main-base(@text-main-l, @text-main-l-lineheight, @color)
+}
+
+
+
+
+/* SEC TEXT */
+
+
+
+.text-sec-base (@size, @lineheight, @color){
+  font-family: @text-sec-family;
+  font-weight: @text-sec-weight;
+
+  font-size: @size;
+  line-height: @lineheight;
+
+  color: @color;
+}
+
+.text-sec-s (@color: @text-color-on-light) {
+  .text-sec-base(@text-sec-s, @text-sec-s-lineheight, @color)
+}
+
+.text-sec-m (@color: @text-color-on-light) {
+  .text-sec-base(@text-sec-m, @text-sec-m-lineheight, @color)
+}
+
+
+.radial-gradient(@from, @to) {
+  background-color: @from;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, @from, @main-photo-background-to 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, @from, @to 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, @from, @to 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, @from, @to 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, @from, @to 100%);
+}
+
+.grayscale(@value) {
+  -webkit-filter: grayscale(@value);
+  -moz-filter: grayscale(@value);
+  -o-filter: grayscale(@value);
+  -ms-filter: grayscale(@value);
+  filter: grayscale(@value);
+}

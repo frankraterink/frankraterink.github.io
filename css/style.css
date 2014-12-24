@@ -2,29 +2,11 @@
 /* MAIN TEXT */
 /* SEC TEXT */
 /* BREAKPOINTS */
-/* MAIN PHOTO */
-html,
-body {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-body {
-  font-family: 'Merriweather', serif;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 25px;
-  color: #5a5a5a;
-  text-rendering: optimizeLegibility;
-}
-a {
-  color: #000000;
-}
-/* MIXINS */
-/* HOMEPAGE */
+/* MAIN TEXT */
+/* SEC TEXT */
 .image-container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
   -webkit-box-pack: center;
@@ -89,19 +71,18 @@ a {
   }
 }
 .content {
-  width: 50%;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 50px 20%;
   overflow: hidden;
 }
 @media all and (max-width: 1023px) {
   .content {
-    width: 80%;
+    padding: 50px 10%;
   }
 }
 @media all and (max-width: 480px) {
   .content {
-    width: 90%;
+    padding: 50px 4%;
   }
 }
 .tile {
@@ -147,10 +128,8 @@ a {
   line-height: 25px;
   color: #ffffff;
 }
-/* GALLERY PAGE*/
 .gallery-page .image-container {
   padding: 3% 0;
-  height: 100%;
 }
 .gallery-page .more-icon {
   margin-bottom: 6%;
@@ -215,6 +194,23 @@ a {
     left: 5%;
     width: 90%;
   }
+}
+/* MAIN PHOTO */
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: #5a5a5a;
+  text-rendering: optimizeLegibility;
+}
+a {
+  color: #000000;
 }
 /* FOOTER */
 .footer {
