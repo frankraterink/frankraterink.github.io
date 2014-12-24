@@ -39,13 +39,13 @@ $(function(){
           if(e.keyCode == 37 || e.keyCode == 38) { // left, up
             e.preventDefault();
             if (activeMapItem.prev().is( "a" ) ) {
-              window.location.hash = activeMapItem.prev().attr('data-photolink');;
+              gotoGalleryMapItem(activeMapItem.prev().attr('data-photolink'));
             }
           }
           else if(e.keyCode == 39 || e.keyCode == 40) { // right, down
             e.preventDefault();
             if (activeMapItem.next().is( "a" ) ) {
-              window.location.hash = activeMapItem.next().attr('data-photolink');;
+              gotoGalleryMapItem(activeMapItem.next().attr('data-photolink'));
             }
           }
           else if(e.keyCode == 8) {
@@ -102,21 +102,33 @@ $(function(){
         galleryMap.append(listItem);
       });
 
-      // APPEND THE GALLERY TO EACH PHOTO
+      // APPEND THE GALLERYMAP TO EACH PHOTO
       $photos.each(function(index, el){
         var photo = $(el);
         var newGalleryMap = galleryMap.clone();
         var selectedMapItem = "[data-photolink=" + (index + 1) + "]"
         newGalleryMap.find(selectedMapItem).addClass('active');
         photo.closest('.image-container').append(newGalleryMap);
-
       });
 
       // MAKE THE NAVIGATION VISIBLE
       $galleryMapLinks = $('[data-role="galleryMapLink"]');
 
+      // MAKE GALLERY MAP ITEMS CLICKABLE AND PREVENT THE WINDOW HASH TO BE SET
+      $galleryMapLinks.each(function(i, el){
+        $(el).click(function(e){
+          e.preventDefault();
+          var nr = $(el).attr('data-photolink');
+          gotoGalleryMapItem(nr);
+        });
+      });
+
     }
 	}
+
+  function gotoGalleryMapItem(nr) {
+    $('html,body').scrollTop($("#"+nr).offset().top);
+  }
 
 	function selectGalleryMapItem(nr) {
   	$galleryMapLinks.removeClass('active');
