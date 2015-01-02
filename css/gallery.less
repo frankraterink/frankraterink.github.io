@@ -79,18 +79,34 @@
     }
   }
 }
+@media all and (max-width: @tabletl) {
+  .back-tag-homepage {
+    top: auto;
+    bottom: 0px;
+    width: 100%;
+    opacity: 0.8;
+    h1 {
+      display: inline;
+    }
+  }
+}
 
 @media all and (max-width: @tabletl) {
   .gallery-page {
     .image-container {
-      padding: 4% 0 13%;
+      padding: 14% 0 23%;
     }
   }
   .gallery-map {
     top: auto;
-    bottom: 6%;
-    margin-bottom: 20px;
-    left: 5%;
+    bottom: 10px;
+    left: 10px;
     width: 90%;
+  }
+}
+
+@media all and (max-width: @mobilel) {
+  .gallery-map {
+    display: none;
   }
 }
