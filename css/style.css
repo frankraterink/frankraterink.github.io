@@ -134,6 +134,14 @@
 .gallery-page .more-icon {
   margin-bottom: 6%;
 }
+.wallpaper-waldorpstraat {
+  background-color: #6d6d6d;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #6d6d6d, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #6d6d6d, #09071d 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #6d6d6d, #09071d 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #6d6d6d, #09071d 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #6d6d6d, #09071d 100%);
+}
 .wallpaper-scotland {
   background-color: #6e762c;
   background-image: -moz-radial-gradient(50% -10%, ellipse cover, #6e762c, #09071d 100%);
