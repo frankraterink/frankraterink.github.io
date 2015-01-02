@@ -115,15 +115,8 @@
   }
 }
 .tile {
-  width: 200px;
   margin: 50px 20px 0 0px;
-  background-color: bisque;
-  background-color: #b4056b;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #b4056b, #09071d 100%);
-  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
-  background-image: -o-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
-  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
-  background-image: radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
+  float: left;
   transition: all .3s;
 }
 .tile:hover {
@@ -156,6 +149,24 @@
   font-size: 15px;
   line-height: 25px;
   color: #ffffff;
+}
+.tile.tile-fotogalerij {
+  width: 200px;
+  background-color: #b4056b;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #b4056b, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
+}
+.tile.tile-arghnice {
+  width: 280px;
+  background-color: #89e9ff;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #89e9ff, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
 }
 .gallery-page .image-container {
   padding: 3% 0;
