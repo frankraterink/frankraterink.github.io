@@ -185,6 +185,94 @@
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #c8af93, #2a1c0d 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #c8af93, #2a1c0d 100%);
 }
+.wallpaper-berlin {
+  background-color: #6a5040;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #6a5040, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #6a5040, #020100 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #6a5040, #020100 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #6a5040, #020100 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #6a5040, #020100 100%);
+}
+.wallpaper-markthal {
+  background-color: #ffffff;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ffffff, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #ffffff, #6d6362 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #ffffff, #6d6362 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #ffffff, #6d6362 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #ffffff, #6d6362 100%);
+}
+.wallpaper-kookfabriek {
+  background-color: #cfc3b7;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #cfc3b7, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #cfc3b7, #996965 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #cfc3b7, #996965 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #cfc3b7, #996965 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #cfc3b7, #996965 100%);
+}
+.wallpaper-dyos {
+  background-color: #d6d6d6;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #d6d6d6, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #d6d6d6, #6a6a6a 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #d6d6d6, #6a6a6a 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #d6d6d6, #6a6a6a 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #d6d6d6, #6a6a6a 100%);
+}
+.wallpaper-blijdorp {
+  background-color: #9bc3e6;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #9bc3e6, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #9bc3e6, #512e09 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #9bc3e6, #512e09 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #9bc3e6, #512e09 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #9bc3e6, #512e09 100%);
+}
+.wallpaper-koffie {
+  background-color: #988096;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #988096, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #988096, #060002 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #988096, #060002 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #988096, #060002 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #988096, #060002 100%);
+}
+.wallpaper-babym {
+  background-color: #ffffff;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ffffff, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #ffffff, #4c8fb6 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #ffffff, #4c8fb6 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #ffffff, #4c8fb6 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #ffffff, #4c8fb6 100%);
+}
+.wallpaper-stoerejongen {
+  background-color: #ebf5ff;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ebf5ff, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #ebf5ff, #676767 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #ebf5ff, #676767 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #ebf5ff, #676767 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #ebf5ff, #676767 100%);
+}
+.wallpaper-stedelijk {
+  background-color: #cdac9c;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #cdac9c, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #cdac9c, #836940 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #cdac9c, #836940 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #cdac9c, #836940 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #cdac9c, #836940 100%);
+}
+.wallpaper-vuurwerk {
+  background-color: #63002f;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #63002f, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #63002f, #000000 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #63002f, #000000 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #63002f, #000000 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #63002f, #000000 100%);
+}
+.wallpaper-onweer {
+  background-color: #625370;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #625370, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #625370, #010000 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #625370, #010000 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #625370, #010000 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #625370, #010000 100%);
+}
 .gallery-map {
   width: 70px;
   position: absolute;
