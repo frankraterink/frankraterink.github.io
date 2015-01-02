@@ -143,6 +143,14 @@
   text-decoration: underline;
   margin: 0 0 4px;
 }
+.tile a .label {
+  background: #fff;
+  color: #242424;
+  display: inline-block;
+  margin-right: 6px;
+  padding: 0px 9px 0px;
+  border-radius: 4px;
+}
 .tile a span {
   font-family: 'Merriweather', serif;
   font-weight: 300;
