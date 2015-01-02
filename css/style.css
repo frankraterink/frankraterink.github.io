@@ -419,6 +419,9 @@
   }
 }
 /* MAIN PHOTO */
+* {
+  box-sizing: border-box;
+}
 html,
 body {
   padding: 0;
