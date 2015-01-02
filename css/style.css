@@ -303,7 +303,7 @@
   width: 70px;
   position: absolute;
   right: 10px;
-  top: 40%;
+  top: 300px;
 }
 .gallery-map a {
   background-color: rgba(255, 255, 255, 0.17);
@@ -329,7 +329,7 @@
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #ffffff, #959ba4 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #ffffff, #959ba4 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #ffffff, #959ba4 100%);
-  top: 40%;
+  top: 300px;
   width: 160px;
   box-shadow: -10px 6px 20px 0px rgba(0, 0, 0, 0.3);
   opacity: 0.2;
