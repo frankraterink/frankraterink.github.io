@@ -64,6 +64,17 @@
     display: none;
   }
 }
+.homepage-logo {
+  width: 100%;
+}
+.logo-background {
+  background-color: #eedc4f;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #eedc4f, #09071d 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #eedc4f, #154a18 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #eedc4f, #154a18 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #eedc4f, #154a18 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #eedc4f, #154a18 100%);
+}
 @media all and (max-width: 1023px) {
   .image-container {
     height: auto;

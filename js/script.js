@@ -3,12 +3,17 @@ $(function(){
 	var $photos,
 	$body,
 	$galleryMapLinks,
+  $homepageLogo,
+  homepageLogoHue,
 	isMobile = false,
 	photoCount;
 
 	function init(){
 		$photos = $('[data-role=photo]');
 		$body = $('body');
+    $homepageLogo = $('[data-role=homepageLogo]');
+    homepageLogoHue = 0;
+
 		photoCount = $photos.length;
 
 		checkIfDeviceIsMobile();
@@ -20,6 +25,8 @@ $(function(){
 		addGalleryMapToPage();
 
     addControlsToGallery();
+
+    //logoHueRotateAnimation();
 	}
 
   function addControlsToGallery() {
@@ -136,6 +143,26 @@ $(function(){
   	$('[data-photoLink=' + nr + ']').addClass('active');
 	}
 
+  function logoHueRotateAnimation() {
+
+    //homepageLogoHue = homepageLogoHue + 80
+
+    homepageLogoHue = Math.floor(Math.random() * 360) + 1;
+
+    setTimeout(function() {
+      $homepageLogo.css({
+          'filter': 'hue-rotate(' + homepageLogoHue + 'deg)',
+          '-webkit-filter': 'hue-rotate(' + homepageLogoHue + 'deg)',
+          '-moz-filter': 'hue-rotate(' + homepageLogoHue + 'deg)',
+          '-o-filter': 'hue-rotate(' + homepageLogoHue + 'deg)',
+          '-ms-filter': 'hue-rotate(' + homepageLogoHue + 'deg)'
+      });
+      logoHueRotateAnimation();
+      console.log('hue ');
+    }, 2000);
+
+
+  }
 
 	init();
 
