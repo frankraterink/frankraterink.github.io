@@ -364,6 +364,9 @@ body {
 a {
   color: #000000;
 }
+strong {
+  font-weight: 700;
+}
 /* FOOTER */
 .footer {
   font-family: 'Lato', sans-serif;
