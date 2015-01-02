@@ -9,7 +9,7 @@ $(function(){
 	photoCount;
 
 	function init(){
-		$photos = $('[data-role=photo]');
+		$photos = $('[data-role=wall]');
 		$body = $('body');
     $homepageLogo = $('[data-role=homepageLogo]');
     homepageLogoHue = 0;
@@ -82,7 +82,7 @@ $(function(){
 	function replaceLowResImages() {
     if (photoCount > 0) {
       $photos.each(function(index, el){
-        var lowResImg = $(el);
+        var lowResImg = $(el).find('img');
         var highResUrl = lowResImg.attr('data-highResUrl');
         var highResImage = lowResImg.attr('src', highResUrl);
       });
@@ -115,7 +115,7 @@ $(function(){
         var newGalleryMap = galleryMap.clone();
         var selectedMapItem = "[data-photolink=" + (index + 1) + "]"
         newGalleryMap.find(selectedMapItem).addClass('active');
-        photo.closest('.image-container').append(newGalleryMap);
+        photo.append(newGalleryMap);
       });
 
       // MAKE THE NAVIGATION VISIBLE
