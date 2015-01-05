@@ -20,6 +20,7 @@
   box-pack: center;
   box-align: center;
   position: relative;
+  box-sizing: content-box;
   background-color: #6d6d6d;
   background-image: -moz-radial-gradient(50% -10%, ellipse cover, #6d6d6d, #09071d 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #6d6d6d, #09071d 100%);
