@@ -1,3 +1,5 @@
 
 .icon-down-open:before { content: '\e800'; } /* '' */
 .icon-globe:before { content: '\e801'; } /* '' */
+.icon-left:before { content: '\e802'; } /* '' */
+.icon-right:before { content: '\e803'; } /* '' */
