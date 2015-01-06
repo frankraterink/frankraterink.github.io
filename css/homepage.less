@@ -105,6 +105,11 @@
   margin: 0 auto;
   padding: 50px 20%;
   overflow: hidden;
+  box-sizing: content-box;
+  max-width: 960px;
+  &.logo-background {
+    max-width: none;
+  }
 }
 @media all and (max-width: @tabletl) {
   .content {
@@ -117,45 +122,60 @@
   }
 }
 
-
-.tile {
-  margin: 50px 20px 0 0px;
-  float: left;
-  transition: all .3s;
-  &:hover {
-    .grayscale(0.4);
+.tile-area{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  .tile {
+    margin: 20px 20px 0 0px;
+    height: 100px;
+    float: left;
+    list-style-type: none;
     transition: all .3s;
-  }
-  a {
-    text-decoration: none;
-    display: block;
-    padding: 10px 30px 10px;
-    text-align: center;
-    h1 {
-      .text-main-l();
-      color: @text-color-link-on-dark;
-      text-decoration: underline;
-      margin: 0 0 4px;
+    &:hover {
+      .grayscale(0.6);
+      transition: all .3s;
     }
-    .label {
-      background: #fff;
-      color: @text-color-on-light;
-      display: inline-block;
-      margin-right: 6px;
-      padding: 0px 9px 0px;
-      border-radius: 4px;
+    a {
+      text-decoration: none;
+      display: block;
+      padding: 10px 20px 10px;
+      text-align: center;
+      h1 {
+        .text-main-l();
+        color: @text-color-link-on-dark;
+        text-decoration: underline;
+        margin: 0 0 4px;
+      }
+      .label {
+        background: #fff;
+        color: @text-color-on-light;
+        display: inline-block;
+        margin-right: 6px;
+        padding: 0px 9px 0px;
+        border-radius: 4px;
+      }
+      span {
+        .text-main-m(@text-color-on-dark);
+      }
     }
-    span {
-      .text-main-m(@text-color-on-dark);
+    &.tile-fotogalerij {
+      width: 160px;
+      .radial-gradient(#B4056B, #4A1543);
     }
-  }
-  &.tile-fotogalerij {
-    width: 200px;
-    .radial-gradient(#B4056B, #4A1543);
-  }
-  &.tile-arghnice {
-    width: 280px;
-    .radial-gradient(#89E9FF, #000552);
+    &.tile-arghnice {
+      width: 230px;
+      .radial-gradient(#89E9FF, #000552);
+    }
+    &.tile-treinontmoeting {
+      width: 280px;
+      .radial-gradient(#FFAB89, #520001);
+    }
+    &.tile-glinsterendeogen {
+      width: 290px;
+      .radial-gradient(#FFD989, #005052);
+    }
   }
 }
+
 
