@@ -570,3 +570,8 @@ strong {
   float: left;
   margin-right: 20px;
 }
+@media all and (max-width: 1023px) {
+  .footer {
+    margin-bottom: 50px;
+  }
+}
