@@ -286,16 +286,6 @@
     display: none;
   }
 }
-@media all and (max-width: 1023px) {
-  .image-container {
-    -webkit-transition: all 0.6s;
-    transition: all 0.6s;
-    /* nice when resizing */
-  
-    height: 100vh;
-    padding: 40px 0px 80px;
-  }
-}
 .wallpaper-waldorpstraat {
   background-color: #6d6d6d;
   background-image: -moz-radial-gradient(50% -10%, ellipse cover, #6d6d6d, #09071d 100%);
