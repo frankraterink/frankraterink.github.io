@@ -507,11 +507,11 @@
 }
 @media all and (max-width: 1023px) {
   .gallery-page .image-container {
-    padding: 14% 0 0%;
+    padding: 14% 0 30%;
   }
   .gallery-map {
     top: auto;
-    bottom: 10px;
+    bottom: 130px;
     left: 10px;
     width: 90%;
   }
