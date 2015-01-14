@@ -46,7 +46,7 @@
 }
 .logo-background {
   background-color: #eedc4f;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #eedc4f, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #eedc4f, #154a18 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #eedc4f, #154a18 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #eedc4f, #154a18 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #eedc4f, #154a18 100%);
@@ -64,13 +64,15 @@
   float: left;
   list-style-type: none;
   background-color: #89e9ff;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #89e9ff, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
   width: 250px;
   transition: all .3s;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
 }
 .tile-area .tile:hover {
   -webkit-filter: grayscale(0.6);
@@ -79,6 +81,8 @@
   -ms-filter: grayscale(0.6);
   filter: grayscale(0.6);
   transition: all .3s;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
 }
 .tile-area .tile a {
   text-decoration: none;
@@ -114,7 +118,7 @@
 .tile-area .tile.tile-fotogalerij {
   width: 160px;
   background-color: #b4056b;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #b4056b, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
@@ -123,7 +127,7 @@
 .tile-area .tile.tile-arghnice {
   width: 230px;
   background-color: #89e9ff;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #89e9ff, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
@@ -132,7 +136,7 @@
 .tile-area .tile.tile-treinontmoeting {
   width: 280px;
   background-color: #ffab89;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ffab89, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ffab89, #520001 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #ffab89, #520001 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #ffab89, #520001 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #ffab89, #520001 100%);
@@ -141,7 +145,7 @@
 .tile-area .tile.tile-glinsterendeogen {
   width: 290px;
   background-color: #ffd989;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ffd989, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ffd989, #005052 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #ffd989, #005052 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #ffd989, #005052 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #ffd989, #005052 100%);
@@ -150,7 +154,7 @@
 .tile-area .tile.tile-htmlexperimenten {
   width: 314px;
   background-color: #9f89ff;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #9f89ff, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #9f89ff, #520000 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #9f89ff, #520000 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #9f89ff, #520000 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #9f89ff, #520000 100%);
@@ -296,7 +300,7 @@
 }
 .wallpaper-scotland {
   background-color: #6e762c;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #6e762c, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #6e762c, #000000 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #6e762c, #000000 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #6e762c, #000000 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #6e762c, #000000 100%);
@@ -304,7 +308,7 @@
 }
 .wallpaper-usa {
   background-color: #466a8e;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #466a8e, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #466a8e, #0a0608 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #466a8e, #0a0608 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #466a8e, #0a0608 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #466a8e, #0a0608 100%);
@@ -312,7 +316,7 @@
 }
 .wallpaper-gouda {
   background-color: #7f6f6a;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #7f6f6a, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #7f6f6a, #5f6c75 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #7f6f6a, #5f6c75 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #7f6f6a, #5f6c75 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #7f6f6a, #5f6c75 100%);
@@ -320,7 +324,7 @@
 }
 .wallpaper-portugal {
   background-color: #c8af93;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #c8af93, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #c8af93, #2a1c0d 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #c8af93, #2a1c0d 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #c8af93, #2a1c0d 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #c8af93, #2a1c0d 100%);
@@ -328,7 +332,7 @@
 }
 .wallpaper-berlin {
   background-color: #6a5040;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #6a5040, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #6a5040, #020100 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #6a5040, #020100 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #6a5040, #020100 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #6a5040, #020100 100%);
@@ -336,7 +340,7 @@
 }
 .wallpaper-markthal {
   background-color: #ffffff;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ffffff, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ffffff, #6d6362 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #ffffff, #6d6362 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #ffffff, #6d6362 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #ffffff, #6d6362 100%);
@@ -344,7 +348,7 @@
 }
 .wallpaper-kookfabriek {
   background-color: #cfc3b7;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #cfc3b7, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #cfc3b7, #996965 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #cfc3b7, #996965 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #cfc3b7, #996965 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #cfc3b7, #996965 100%);
@@ -352,7 +356,7 @@
 }
 .wallpaper-dyos {
   background-color: #d6d6d6;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #d6d6d6, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #d6d6d6, #6a6a6a 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #d6d6d6, #6a6a6a 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #d6d6d6, #6a6a6a 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #d6d6d6, #6a6a6a 100%);
@@ -360,7 +364,7 @@
 }
 .wallpaper-blijdorp {
   background-color: #9bc3e6;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #9bc3e6, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #9bc3e6, #512e09 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #9bc3e6, #512e09 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #9bc3e6, #512e09 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #9bc3e6, #512e09 100%);
@@ -368,7 +372,7 @@
 }
 .wallpaper-koffie {
   background-color: #988096;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #988096, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #988096, #060002 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #988096, #060002 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #988096, #060002 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #988096, #060002 100%);
@@ -376,7 +380,7 @@
 }
 .wallpaper-babym {
   background-color: #ffffff;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ffffff, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ffffff, #4c8fb6 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #ffffff, #4c8fb6 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #ffffff, #4c8fb6 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #ffffff, #4c8fb6 100%);
@@ -384,7 +388,7 @@
 }
 .wallpaper-stoerejongen {
   background-color: #ebf5ff;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ebf5ff, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ebf5ff, #676767 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #ebf5ff, #676767 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #ebf5ff, #676767 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #ebf5ff, #676767 100%);
@@ -392,7 +396,7 @@
 }
 .wallpaper-stedelijk {
   background-color: #cdac9c;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #cdac9c, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #cdac9c, #836940 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #cdac9c, #836940 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #cdac9c, #836940 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #cdac9c, #836940 100%);
@@ -400,7 +404,7 @@
 }
 .wallpaper-vuurwerk {
   background-color: #63002f;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #63002f, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #63002f, #000000 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #63002f, #000000 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #63002f, #000000 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #63002f, #000000 100%);
@@ -408,7 +412,7 @@
 }
 .wallpaper-onweer {
   background-color: #625370;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #625370, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #625370, #010000 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #625370, #010000 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #625370, #010000 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #625370, #010000 100%);
@@ -416,7 +420,7 @@
 }
 .wallpaper-text {
   background-color: #fffedc;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #fffedc, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #fffedc, #9f8fa5 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #fffedc, #9f8fa5 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #fffedc, #9f8fa5 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #fffedc, #9f8fa5 100%);
@@ -447,7 +451,7 @@
   position: fixed;
   background-color: #fff;
   background-color: #ffffff;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ffffff, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ffffff, #959ba4 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #ffffff, #959ba4 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #ffffff, #959ba4 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #ffffff, #959ba4 100%);
@@ -553,7 +557,7 @@ h2 {
 /* HEADER */
 .header-small {
   background-color: #eedc4f;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #eedc4f, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #eedc4f, #154a18 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #eedc4f, #154a18 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #eedc4f, #154a18 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #eedc4f, #154a18 100%);
@@ -678,7 +682,7 @@ h2 {
 }
 .keyframe-animations-experiment .jumparea {
   background-color: #a0f1ff;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #a0f1ff, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #a0f1ff, #38bdff 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #a0f1ff, #38bdff 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #a0f1ff, #38bdff 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #a0f1ff, #38bdff 100%);
@@ -847,7 +851,7 @@ h2 {
 }
 .form-experiment form {
   background-color: #f8f8f8;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #f8f8f8, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #f8f8f8, #dddddd 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #f8f8f8, #dddddd 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #f8f8f8, #dddddd 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #f8f8f8, #dddddd 100%);
@@ -981,7 +985,7 @@ h2 {
 .form-experiment .final-check .submit-button:focus,
 .form-experiment .final-check .submit-button:hover {
   background-color: #ffffff;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ffffff, #09071d 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #ffffff, #dddddd 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #ffffff, #dddddd 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #ffffff, #dddddd 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #ffffff, #dddddd 100%);
