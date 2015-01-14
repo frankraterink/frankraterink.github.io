@@ -26,7 +26,7 @@
 */
   position: relative;
   box-sizing: content-box;
-  .transition(.6s); /* nice when resizing */
+  .transition(all, .6s); /* nice when resizing */
 
   .radial-gradient(@main-photo-background-from, @main-photo-background-to);
 
@@ -121,7 +121,7 @@
 
 @media all and (max-width: @tabletl) {
   .image-container {
-    .transition(.6s); /* nice when resizing */
+    .transition(all, .6s); /* nice when resizing */
     height: auto;
     padding: 40px 0px 80px;
   }
