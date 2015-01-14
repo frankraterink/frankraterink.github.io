@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Title</title>
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+	<!-- GOOGLE WEBFONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+
+	<!-- ICON FONT -->
+	<link rel="stylesheet" href="../../css/fontello.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script language="javascript" type="text/javascript" src="../../js/script.js"> </script>
+	<script language="javascript" type="text/javascript" src="../../js/formexperiment.js"> </script>
+</head>
+<body class="gallery-page">
+
+  <!-- HEADER -->
+  <div class="header header-small">
+    <a href="../../index.html"><img class="logo" src="../../img/logo-light.png" alt="Frank labs logo" data-role="homepageLogo" /></a>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content">
+
+    <h1 class="main-title">Webdevelopment experimentjes</h1>
+
+    <!--
+    Put the name of the experiment as a classname on the experiment-container.
+    Thas way the css will be kept separated per experiment.
+    -->
+    <div class="experiment-container ">
+
+      <!-- EXPERIMENT -->
+      <div class="experiment-block longshadow-experiment">
+        <h2>Long shadow tryout</h2>
+        <div class="block-container">
+          <div class="block block1">1</div>
+          <div class="block block2">2</div>
+          <div class="block block3">3</div>
+          <div class="block block4">4</div>
+          <div class="block block5">5</div>
+          <div class="block block6">6</div>
+          <div class="block block7">7</div>
+        </div>
+        <p>Met box-shadow een aantal verschillende long-shadows maken.</p>
+      </div>
+
+      <!-- EXPERIMENT -->
+      <div class="experiment-block form-experiment">
+        <h2>Een formulier, maar dan vriendelijk</h2>
+          <form class="testform" class="">
+            <div class="form-inputs-container">
+              <label for="name">Naam</label>
+              <input id="name" type="text" />
+
+              <div class="address-street">
+                <label for="address">Adres</label>
+                <input id="address" class="address-input" type="text" />
+              </div>
+
+              <div class="address-number">
+                <label for="address-number" class="number-label">Nummer</label>
+                <input id="address-number" class="number-input" type="text" />
+              </div>
+
+              <div class="address-addition">
+                <label for="address-addition" class="addition-label">Toevoeging</label>
+                <input id="address-addition" class="addition-input" type="text" />
+              </div>
+
+              <div class="address-zip">
+                <label for="zip">Postcode</label>
+                <input id="zip" type="text" maxlength="7" />
+              </div>
+
+              <div class="address-city">
+                <label for="city">Woonplaats</label>
+                <input id="city" type="text" />
+              </div>
+
+              <div class="final-check">
+                <input class="submit-button" type="submit" value="Verstuur" />
+              </div>
+            </div>
+
+
+          </form>
+        <p>Op het web kom je vaak formulieren tegen die niet goed werken. Dan heb je net je adres ingevuld, blijkt dat er een los veld is voor nummer. Moet je het nummer weer bij je straatnaam weghalen en in het andere veld toevoegen. Ik heb geprobeerd een eenvoudig formulier <strong>super vriendelijk te maken</strong>. Later kwam er ook als doelstelling bij geen errormeldingen te gebruiken en ervoor te zorgen dat duidelijk was was er nog moet gebeuren om het formulier volledig in te vullen. Probeer 'm maar eens uit.</p>
+      </div>
+
+      <!-- EXPERIMENT -->
+      <div class="experiment-block shadow-note-experiment">
+        <h2>2 lichtbronnen en bijbehorende schaduwen</h2>
+        <div class="room">
+          <div class="note"></div>
+        </div>
+        <p>Zoals je hier en daar op deze site misschien al gezien hebt, hou ik van schaduwen zoals ze in werkelijkheid voor zouden kunnen komen. In dit experiment probeerde ik <strong>met 2 lichtbronnen een zo realistisch mogelijk licht- en schaduwspel</strong> neer te zetten.</p>
+      </div>
+
+      <!-- EXPERIMENT -->
+      <div class="experiment-block keyframe-animations-experiment">
+        <h2>Keyframe bounce animations</h2>
+        <div class="keep-height jumparea">
+          <div class="jumper jumper-a">a</div>
+          <div class="jumper jumper-b">b</div>
+          <div class="jumper jumper-c">c</div>
+        </div>
+        <p>Met css animations probeerde ik een zo realistisch mogelijke bounce te realiseren. <strong>Blokje a</strong> heeft een hele sequence aan keyframes waarin ik positie van het blokje bepaald wordt. <strong>Blokje b</strong> animeert met ease-out en ease-in. Maar dat ziet er niet soepel uit. <strong>Blokje c</strong> probeerde ik met cubic-bezier easing 1 bounce soepel eruit te laten zien. Maar het effect daarvan valt ook tegen.</p>
+      </div>
+      <!-- <div class="experiment-block">
+        <h2>Keyframe bounce animations</h2>
+        <div>experiment hier</div>
+        <p>Tekst hier aangevuld met <strong>strongs</strong>.</p>
+      </div> -->
+    </div>
+  </div>
+
+  <!-- BACK TO HOMEPAGE LINK -->
+  <div class="back-tag-homepage">
+    <a href="../../index.html">
+      <h1>Terug</h1>
+      <span>naar de homepage</span>
+     </a>
+  </div>
+
+	<!-- FOOTER -->
+	<div class="footer content">
+  	<ul>
+    	<li>Frank van den Hoogen</li>
+    	<li><a href="tel://0641546530" class="link-phonenumber">0641546530</a></li>
+    	<li><a href="mailto:frankvdhoogen@gmail.com">frankvdhoogen@gmail.com</a></li>
+  	</ul>
+	</div>
+
+</body>
+</html>

@@ -14,15 +14,23 @@
 .text-main-m (@color: @text-color-on-light) {
   .text-main-base(@text-main-m, @text-main-m-lineheight, @color)
 }
+.text-main-m {
+  .text-main-m();
+}
 
 .text-main-l (@color: @text-color-on-light) {
   .text-main-base(@text-main-l, @text-main-l-lineheight, @color)
+}
+.text-main-l {
+  .text-main-l();
 }
 
 .text-main-xl (@color: @text-color-on-light) {
   .text-main-base(@text-main-xl, @text-main-xl-lineheight, @color)
 }
-
+.text-main-xl {
+  .text-main-xl();
+}
 
 
 
@@ -43,10 +51,33 @@
 .text-sec-s (@color: @text-color-on-light) {
   .text-sec-base(@text-sec-s, @text-sec-s-lineheight, @color)
 }
+.text-sec-s {
+  .text-sec-s();
+}
 
 .text-sec-m (@color: @text-color-on-light) {
   .text-sec-base(@text-sec-m, @text-sec-m-lineheight, @color)
 }
+.text-sec-m {
+  .text-sec-m();
+}
+
+/* TITLES */
+
+.text-title-base (@size, @lineheight, @color){
+  font-family: @text-title-family;
+  font-weight: @text-title-weight;
+
+  font-size: @size;
+  line-height: @lineheight;
+
+  color: @color;
+}
+
+.text-title-xl (@color: @text-color-on-light) {
+  .text-title-base(@text-title-xl, @text-title-xl-lineheight, @color)
+}
+
 
 
 .radial-gradient(@from, @to) {
