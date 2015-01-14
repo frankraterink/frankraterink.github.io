@@ -507,6 +507,7 @@
 @media all and (max-width: 1023px) {
   .gallery-page .image-container {
     padding: 14% 0 0%;
+    height: 100vh;
   }
   .gallery-map {
     top: auto;
