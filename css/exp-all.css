@@ -292,6 +292,7 @@
     transition: all 0.6s;
     /* nice when resizing */
   
+    height: 100vh;
     padding: 40px 0px 80px;
   }
 }
@@ -507,11 +508,10 @@
 @media all and (max-width: 1023px) {
   .gallery-page .image-container {
     padding: 14% 0 0%;
-    height: 100vh;
   }
   .gallery-map {
     top: auto;
-    bottom: 20%;
+    bottom: 10px;
     left: 10px;
     width: 90%;
   }
