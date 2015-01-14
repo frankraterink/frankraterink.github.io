@@ -509,14 +509,8 @@
   .gallery-page .image-container {
     padding: 14% 0 30%;
   }
-  .gallery-map {
-    top: auto;
-    bottom: 130px;
-    left: 10px;
-    width: 90%;
-  }
 }
-@media all and (max-width: 740px) {
+@media all and (max-width: 800px) {
   .gallery-map {
     display: none;
   }
