@@ -70,9 +70,8 @@
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
   width: 250px;
-  transition: all .3s;
-  -moz-transition: all .3s;
   -webkit-transition: all .3s;
+  transition: all .3s;
 }
 .tile-area .tile:hover {
   -webkit-filter: grayscale(0.6);
@@ -80,9 +79,8 @@
   -o-filter: grayscale(0.6);
   -ms-filter: grayscale(0.6);
   filter: grayscale(0.6);
-  transition: all .3s;
-  -moz-transition: all .3s;
   -webkit-transition: all .3s;
+  transition: all .3s;
 }
 .tile-area .tile a {
   text-decoration: none;
@@ -178,6 +176,7 @@
 .image-container {
   width: 100%;
   height: 100vh;
+  /*
   display: -webkit-box;
   -webkit-box-orient: horizontal;
   -webkit-box-pack: center;
@@ -190,6 +189,8 @@
   box-orient: horizontal;
   box-pack: center;
   box-align: center;
+*/
+
   position: relative;
   box-sizing: content-box;
   transition: all .6s;
@@ -203,7 +204,9 @@
   background-image: radial-gradient(50% -10%, ellipse cover, #6d6d6d, #09071d 100%);
 }
 .image-container.with-text .image-centerer {
-  height: auto;
+  height: 100%;
+  display: table;
+  overflow: hidden;
 }
 .image-container.with-text .image-centerer .text {
   font-family: 'Merriweather', serif;
@@ -211,9 +214,11 @@
   font-size: 20px;
   line-height: 37px;
   color: #242424;
-  margin: -150px auto 0;
+  margin: 0px auto 0;
   width: 80%;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -1px 0px rgba(255, 255, 255, 0.3);
+  display: table-cell;
+  vertical-align: middle;
 }
 @media all and (max-width: 740px) {
   .image-container.with-text {
@@ -234,6 +239,7 @@
 .image-container .image-centerer {
   width: 69%;
   height: 90%;
+  margin: 0px auto;
 }
 .image-container .image-centerer img {
   max-width: 100%;
