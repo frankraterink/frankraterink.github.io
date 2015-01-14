@@ -604,6 +604,39 @@ h2 {
 .shadow-note-experiment {
   xdisplay: none;
 }
+.longshadow-experiment .block-container {
+  height: 130px;
+}
+.longshadow-experiment .block-container .block {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 30px 30px 0 0;
+  padding: 13px 0px;
+  text-align: center;
+  background-color: #ededed;
+}
+.longshadow-experiment .block-container .block.block1 {
+  box-shadow: 1px 1px 1px 0px rgba(120, 120, 120, 0.1), 2px 2px 1px 0px rgba(120, 120, 120, 0.1), 3px 3px 1px 0px rgba(120, 120, 120, 0.1), 4px 4px 1px 0px rgba(120, 120, 120, 0.1), 5px 5px 1px 0px rgba(120, 120, 120, 0.1), 6px 6px 1px 0px rgba(120, 120, 120, 0.1), 7px 7px 1px 0px rgba(120, 120, 120, 0.1);
+}
+.longshadow-experiment .block-container .block.block2 {
+  box-shadow: 1px 1px 1px 0px rgba(120, 120, 120, 0.1), 2px 2px 2px 0px rgba(120, 120, 120, 0.1), 3px 3px 3px 0px rgba(120, 120, 120, 0.1), 4px 4px 4px 0px rgba(120, 120, 120, 0.1), 5px 5px 5px 0px rgba(120, 120, 120, 0.1), 6px 6px 6px 0px rgba(120, 120, 120, 0.1), 7px 7px 7px 0px rgba(120, 120, 120, 0.1);
+}
+.longshadow-experiment .block-container .block.block3 {
+  box-shadow: 2px 2px 2px 0px rgba(120, 120, 120, 0.1), 4px 4px 4px 0px rgba(120, 120, 120, 0.1), 6px 6px 6px 0px rgba(120, 120, 120, 0.1), 8px 8px 8px 0px rgba(120, 120, 120, 0.1), 10px 10px 10px 0px rgba(120, 120, 120, 0.1), 12px 12px 12px 0px rgba(120, 120, 120, 0.1), 14px 14px 14px 0px rgba(120, 120, 120, 0.1);
+}
+.longshadow-experiment .block-container .block.block4 {
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1), 2px 2px 2px 0px rgba(30, 30, 30, 0.1), 3px 3px 3px 0px rgba(60, 60, 60, 0.1), 4px 4px 4px 0px rgba(90, 90, 90, 0.1), 5px 5px 5px 0px rgba(120, 120, 120, 0.1), 6px 6px 6px 0px rgba(150, 150, 150, 0.1), 7px 7px 7px 0px rgba(180, 180, 180, 0.1);
+}
+.longshadow-experiment .block-container .block.block5 {
+  box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.1), 2px 4px 4px 0px rgba(30, 30, 30, 0.1), 3px 6px 6px 0px rgba(60, 60, 60, 0.1), 4px 8px 8px 0px rgba(90, 90, 90, 0.1), 5px 10px 10px 0px rgba(120, 120, 120, 0.1), 6px 12px 12px 0px rgba(150, 150, 150, 0.1), 7px 14px 14px 0px rgba(180, 180, 180, 0.1);
+}
+.longshadow-experiment .block-container .block.block6 {
+  box-shadow: 1px 1px 1px 0px #bebebe, 2px 2px 1px 0px #c3c3c3, 3px 3px 1px 0px #c8c8c8, 4px 4px 1px 0px #cdcdcd, 5px 5px 1px 0px #d2d2d2, 6px 6px 1px 0px #d7d7d7, 7px 7px 1px 0px #dcdcdc, 8px 8px 1px 0px #e1e1e1, 9px 9px 1px 0px #e6e6e6, 10px 10px 1px 0px #ebebeb, 11px 11px 1px 0px #f0f0f0, 12px 12px 1px 0px #f5f5f5, 13px 13px 1px 0px #fafafa, 14px 14px 1px 0px #ffffff;
+}
+.longshadow-experiment .block-container .block.block7 {
+  box-shadow: 1px 1px 1px 0px #bebebe, 2px 2px 2px 0px #c3c3c3, 3px 3px 3px 0px #c8c8c8, 4px 4px 4px 0px #cdcdcd, 5px 5px 5px 0px #d2d2d2, 6px 6px 6px 0px #d7d7d7, 7px 7px 7px 0px #dcdcdc, 8px 8px 8px 0px #e1e1e1, 9px 9px 9px 0px #e6e6e6, 10px 10px 10px 0px #ebebeb, 11px 11px 11px 0px #f0f0f0, 12px 12px 12px 0px #f5f5f5, 13px 13px 13px 0px #fafafa, 14px 14px 14px 0px #ffffff;
+}
 .experiment-container {
   overflow: hidden;
 }
@@ -1018,10 +1051,10 @@ h2 {
 
 }
 .initial.initial-treinontmoeting {
-  background-image: url('../img/initial-treinontmoeting.jpg');
+  background-image: url('/img/initial-treinontmoeting.jpg');
 }
 .initial.initial-glinsterendeogen {
-  background-image: url('../img/initial-glinsterendeogen.jpg');
+  background-image: url('/img/initial-glinsterendeogen.jpg');
 }
 @media all and (max-width: 1023px) {
   .initial {
