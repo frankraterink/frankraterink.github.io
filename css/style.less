@@ -69,7 +69,7 @@ h1, h2 {
   overflow: hidden;
   box-sizing: content-box;
   max-width: 800px;
-  transition: all .6s; /* nice when resizing */
+  .transition(all, .6s); /* nice when resizing */
   &.logo-background {
     max-width: none;
   }
@@ -79,13 +79,13 @@ h1, h2 {
 }
 @media all and (max-width: @tabletl) {
   .content {
-    transition: all .6s; /* nice when resizing */
+    .transition(all, .6s); /* nice when resizing */
     padding: 50px 10%;
   }
 }
 @media all and (max-width: @mobilep) {
   .content {
-    transition: all .6s; /* nice when resizing */
+    .transition(all, .6s); /* nice when resizing */
     padding: 50px 4%;
   }
 }
@@ -407,7 +407,7 @@ h1, h2 {
       margin-bottom: 15px;
       padding: 5px 8px 2px;
       outline: none;
-      transition: all .6s;
+      .transition(all, .6s);
       &:focus {
         border: 2px solid #484151;
       }
@@ -421,7 +421,7 @@ h1, h2 {
     .address-number {
       width: 20%;
       float: left;
-      transition: all .6s;
+      .transition(all, .6s);
 
     }
     .address-addition {
@@ -432,7 +432,7 @@ h1, h2 {
       transition: all .6s;
       label {
         opacity: 0;
-        transition: all .6s;
+        .transition(all, .6s);
       }
     }
     .address-zip {
@@ -448,7 +448,7 @@ h1, h2 {
       .address-street{
         width: 56%;
         margin-right: 2%;
-        transition: all .6s;
+        .transition(all, .6s);
       }
       .address-number {
         width: 20%;
@@ -457,16 +457,16 @@ h1, h2 {
         transition: all .6s;
         label {
           opacity: 1;
-          transition: all .6s;
+          .transition(all, .6s);
         }
       }
       .address-addition {
         width: 20%;
         visibility: visible;
-        transition: all .6s;
+        .transition(all, .6s);
         label {
           opacity: 1;
-          transition: all .6s;
+          .transition(all, .6s);
         }
       }
     }
@@ -507,7 +507,7 @@ h1, h2 {
       &:focus, &:hover {
         .radial-gradient(#fff, #ddd);
         border: 2px solid #484151;
-        transition: all .6s;
+        .transition(all, .6s);
       }
     }
   }
@@ -530,7 +530,7 @@ h1, h2 {
   box-shadow: inset 0px 0px 90px 0px rgba(0,0,0,1);
   float: left;
   margin: 0px 30px 30px 0px;
-  transition: all .6s; /* nice when resizing */
+  .transition(all, .6s); /* nice when resizing */
   &.initial-treinontmoeting {
     background-image: url('../img/initial-treinontmoeting.jpg');
   }
@@ -555,7 +555,7 @@ h1, h2 {
     height: 120px;
     font-size: 120px;
     line-height: 140px;
-    transition: all .6s; /* nice when resizing */
+    .transition(all, .6s); /* nice when resizing */
   }
 }
 
@@ -568,14 +568,14 @@ h1, h2 {
   width: 450px;
   float: right;
   margin: 0px -30% 30px 50px;
-  transition: all .6s; /* nice when resizing */
+  .transition(all, .6s); /* nice when resizing */
 }
 
 @media all and (max-width: @tabletl) {
   .image-break-out-right {
     margin: 0px 0px 10px 20px;
     width: 50%;
-    transition: all .6s; /* nice when resizing */
+    .transition(all, .6s); /* nice when resizing */
   }
 }
 
@@ -583,7 +583,7 @@ h1, h2 {
   .image-break-out-right {
     margin: 20px 0;
     width: 100%;
-    transition: all .6s; /* nice when resizing */
+    .transition(all, .6s); /* nice when resizing */
   }
 }
 

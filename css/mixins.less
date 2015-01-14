@@ -89,10 +89,7 @@
   background-image: radial-gradient(50% -10%, ellipse cover, @from, @to 100%);
 }
 
-.grayscale(@value) {
-  -webkit-filter: grayscale(@value);
-  -moz-filter: grayscale(@value);
-  -o-filter: grayscale(@value);
-  -ms-filter: grayscale(@value);
-  filter: grayscale(@value);
+.transition(@property: all, @sec: .3s) {
+  -webkit-transition: @property @sec;
+          transition: @property @sec;
 }

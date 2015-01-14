@@ -70,48 +70,9 @@
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #89e9ff, #000552 100%);
   width: 250px;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-.tile-area .tile:hover {
-  -webkit-filter: grayscale(0.6);
-  -moz-filter: grayscale(0.6);
-  -o-filter: grayscale(0.6);
-  -ms-filter: grayscale(0.6);
-  filter: grayscale(0.6);
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-.tile-area .tile a {
-  text-decoration: none;
-  display: block;
-  padding: 10px 20px 10px;
-  text-align: center;
-}
-.tile-area .tile a h3 {
-  font-family: 'Merriweather', serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 25px;
-  color: #242424;
-  color: #ffffff;
-  text-decoration: underline;
-  margin: 0 0 4px;
-}
-.tile-area .tile a .label {
-  background: #fff;
-  color: #242424;
-  display: inline-block;
-  margin-right: 6px;
-  padding: 0px 9px 0px;
-  border-radius: 4px;
-}
-.tile-area .tile a span {
-  font-family: 'Merriweather', serif;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 25px;
-  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 1;
 }
 .tile-area .tile.tile-fotogalerij {
   width: 160px;
@@ -158,6 +119,42 @@
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #9f89ff, #520000 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #9f89ff, #520000 100%);
 }
+.tile-area .tile:hover {
+  opacity: 0.8;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.tile-area .tile a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px 10px;
+  text-align: center;
+}
+.tile-area .tile a h3 {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #242424;
+  color: #ffffff;
+  text-decoration: underline;
+  margin: 0 0 4px;
+}
+.tile-area .tile a .label {
+  background: #fff;
+  color: #242424;
+  display: inline-block;
+  margin-right: 6px;
+  padding: 0px 9px 0px;
+  border-radius: 4px;
+}
+.tile-area .tile a span {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+}
 @media all and (max-width: 740px) {
   .tile-area .tile {
     width: 100% !important;
@@ -193,7 +190,8 @@
 
   position: relative;
   box-sizing: content-box;
-  transition: all .6s;
+  -webkit-transition: 0.6s 0.3s;
+  transition: 0.6s 0.3s;
   /* nice when resizing */
 
   background-color: #6d6d6d;
@@ -289,7 +287,8 @@
 }
 @media all and (max-width: 1023px) {
   .image-container {
-    transition: all .6s;
+    -webkit-transition: 0.6s 0.3s;
+    transition: 0.6s 0.3s;
     /* nice when resizing */
   
     height: auto;
@@ -581,7 +580,8 @@ h2 {
   overflow: hidden;
   box-sizing: content-box;
   max-width: 800px;
-  transition: all .6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
   /* nice when resizing */
 
 }
@@ -593,7 +593,8 @@ h2 {
 }
 @media all and (max-width: 1023px) {
   .content {
-    transition: all .6s;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
     /* nice when resizing */
   
     padding: 50px 10%;
@@ -601,7 +602,8 @@ h2 {
 }
 @media all and (max-width: 480px) {
   .content {
-    transition: all .6s;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
     /* nice when resizing */
   
     padding: 50px 4%;
@@ -901,23 +903,27 @@ h2 {
   float: left;
   width: 78%;
   margin-right: 2%;
-  transition: all .6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .form-experiment form .address-number {
   width: 20%;
   float: left;
-  transition: all .6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .form-experiment form .address-addition {
   visibility: hidden;
   width: 0%;
   overflow: hidden;
   float: left;
-  transition: all .6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .form-experiment form .address-addition label {
   opacity: 0;
-  transition: all .6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .form-experiment form .address-zip {
   float: left;
@@ -931,17 +937,20 @@ h2 {
 .form-experiment form.both-visible .address-street {
   width: 56%;
   margin-right: 2%;
-  transition: all .6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .form-experiment form.both-visible .address-number {
   width: 20%;
   margin-right: 2%;
   visibility: visible;
-  transition: all .6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .form-experiment form.both-visible .address-number label {
   opacity: 1;
-  transition: all .6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .form-experiment form.both-visible .address-addition {
   width: 20%;
@@ -950,7 +959,8 @@ h2 {
 }
 .form-experiment form.both-visible .address-addition label {
   opacity: 1;
-  transition: all .6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .form-experiment form.address-complete input[type=text] {
   margin-bottom: 0px;
@@ -986,7 +996,8 @@ h2 {
   background-color: rgba(0, 0, 0, 0);
   margin-top: -6px;
   height: 37px;
-  transition: all .6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .form-experiment .final-check .submit-button:focus,
 .form-experiment .final-check .submit-button:hover {
@@ -997,7 +1008,8 @@ h2 {
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #ffffff, #dddddd 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #ffffff, #dddddd 100%);
   border: 2px solid #484151;
-  transition: all .6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 /* INITIAL */
 .initial {
@@ -1015,7 +1027,8 @@ h2 {
   box-shadow: inset 0px 0px 90px 0px #000000;
   float: left;
   margin: 0px 30px 30px 0px;
-  transition: all .6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
   /* nice when resizing */
 
 }
@@ -1031,7 +1044,8 @@ h2 {
     height: 200px;
     font-size: 210px;
     line-height: 230px;
-    transition: all .6s;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
     /* nice when resizing */
   
   }
@@ -1042,7 +1056,8 @@ h2 {
     height: 120px;
     font-size: 120px;
     line-height: 140px;
-    transition: all .6s;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
     /* nice when resizing */
   
   }
@@ -1060,7 +1075,8 @@ h2 {
   .image-break-out-right {
     margin: 0px 0px 10px 20px;
     width: 50%;
-    transition: all .6s;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
     /* nice when resizing */
   
   }
@@ -1069,7 +1085,8 @@ h2 {
   .image-break-out-right {
     margin: 20px 0;
     width: 100%;
-    transition: all .6s;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
     /* nice when resizing */
   
   }
