@@ -267,6 +267,11 @@
   font-size: 15px;
   margin: 0 10px;
 }
+@media all and (max-width: 1023px) {
+  .image-container .more-icon {
+    bottom: 120px;
+  }
+}
 @media all and (max-width: 740px) {
   .image-container .more-icon {
     display: none;
