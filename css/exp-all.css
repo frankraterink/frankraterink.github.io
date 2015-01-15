@@ -269,7 +269,7 @@
 }
 @media all and (max-width: 1023px) {
   .image-container .more-icon {
-    bottom: 120px;
+    bottom: 140px;
   }
 }
 @media all and (max-width: 740px) {
