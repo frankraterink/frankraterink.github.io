@@ -170,11 +170,6 @@
 .gallery-page .more-icon {
   margin-bottom: 6%;
 }
-@media all and (max-width: 1023px) {
-  .gallery-page .more-icon {
-    display: none;
-  }
-}
 .image-container {
   width: 100%;
   height: 100vh;
