@@ -1037,10 +1037,10 @@ h2 {
   /* nice when resizing */
 }
 .initial.initial-treinontmoeting {
-  background-image: url('/img/initial-treinontmoeting.jpg');
+  background-image: url('../../img/initial-treinontmoeting.jpg');
 }
 .initial.initial-glinsterendeogen {
-  background-image: url('/img/initial-glinsterendeogen.jpg');
+  background-image: url('../../img/initial-glinsterendeogen.jpg');
 }
 @media all and (max-width: 1023px) {
   .initial {
