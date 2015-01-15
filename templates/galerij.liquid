@@ -1,0 +1,28 @@
+{% layout "layout" %}
+
+{% block title %}Frank labs - galerij{% endblock %}
+
+{% block bodyclass %}gallery-page{% endblock %}
+
+{% block content %}
+
+
+  {% for item in model.photos %}
+  <div data-role="wall" id="{{ item.id }}" class="image-container {{ item.classname }}">
+    <div class="image-centerer">
+
+      {% if item.text == "" %}
+         <img src="/assets/fotos/{{ item.low }}" data-role="photo" data-highResUrl="/assets/fotos/{{item.high}}"  alt="picture" />
+        <div class="photo-description">{{item.description}}</div>
+      {% else %}
+         <div class="text">{{item.text}}</div>
+      {% endif %}
+
+    </div>
+    <!-- <div class="more-icon"><i class="icon-down-open"></i><span>Scroll naar beneden of gebruik de</span> <i class="icon-left"></i> <span>en</span> <i class="icon-right"></i> <span>toets</span></div> -->
+  </div>
+  {% endfor %}
+
+  {% include "goto-homepage" %}
+
+{% endblock %}
