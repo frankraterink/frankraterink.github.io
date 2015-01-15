@@ -15,18 +15,12 @@
   	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   	<script language="javascript" type="text/javascript" src="/js/script.js"> </script>
 
+    <!-- VIEWPORT UNITS BUGGYFILL -->
+    <!-- fixes the vh on iOS -->
+    <!-- Credits and source: https://github.com/rodneyrehm/viewport-units-buggyfill -->
     <script src="/js/viewport-units-buggyfill.js"></script>
-    <script src="/js/viewport-units-buggyfill.hacks.js"></script>
-    <script>window.viewportUnitsBuggyfill.init({
+    <script>window.viewportUnitsBuggyfill.init();</script>
 
-      // milliseconds to delay between updates of viewport-units
-      // caused by orientationchange, pageshow, resize events
-      refreshDebounceWait: 250,
-
-      // provide hacks plugin to make the contentHack property work correctly.
-      hacks: window.viewportUnitsBuggyfillHacks
-
-  });</script>
   </head>
   <body class="gallery-page">
 
