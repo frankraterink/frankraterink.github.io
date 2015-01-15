@@ -538,6 +538,20 @@ h1,
 h2 {
   text-shadow: 0px 1px 1px #909090, 0px 3px 4px rgba(144, 144, 144, 0.5);
 }
+h2 {
+  padding-top: 20px;
+}
+.icon-link {
+  margin-left: 10px;
+  opacity: .3;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.icon-link:hover {
+  opacity: 1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
 /* HEADER */
 .header-small {
   background-color: #eedc4f;
