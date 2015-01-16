@@ -83,6 +83,15 @@
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #b4056b, #4a1543 100%);
 }
+.tile-area .tile.tile-blog {
+  width: 200px;
+  background-color: #fff300;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #fff300, #5e5d3a 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #fff300, #5e5d3a 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #fff300, #5e5d3a 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #fff300, #5e5d3a 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #fff300, #5e5d3a 100%);
+}
 .tile-area .tile.tile-arghnice {
   width: 230px;
   background-color: #89e9ff;
@@ -582,6 +591,11 @@ h2 {
 .content p {
   margin-bottom: 30px;
 }
+@media all and (min-width: 1200px) {
+  .content p {
+    line-height: 29px;
+  }
+}
 @media all and (max-width: 1023px) {
   .content {
     -webkit-transition: all 0.6s;
@@ -713,4 +727,8 @@ h2 {
   .footer {
     margin-bottom: 50px;
   }
+}
+/* BLOG */
+.blog-page {
+  background-color: #C2C5CF;
 }
