@@ -26,6 +26,11 @@ $(function(){
 
     addControlsToGallery();
     //logoHueRotateAnimation();
+
+    $('img').click(function(){
+
+      window.viewportUnitsBuggyfill.init();
+    });
 	}
 
   function addControlsToGallery() {
