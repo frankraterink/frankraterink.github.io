@@ -732,3 +732,6 @@ h2 {
 .blog-page {
   background-color: #C2C5CF;
 }
+.plain-page {
+  padding-bottom: 80px;
+}
