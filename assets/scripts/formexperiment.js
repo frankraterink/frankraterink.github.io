@@ -14,13 +14,14 @@ $(function(){
   function init(){
     $body = $('body'),
     $form = $('.testform');
-    $name = $('#name');
-    $address = $('#address');
-    $number = $('#address-number');
-    $addition = $('#address-addition');
-    $zip = $('#zip');
-    $submit = $('.submit-button');
-    $city = $('#city');
+    $name = $form.find('[data-role=name]');
+    $address = $form.find('[data-role=address]');
+    $number = $form.find('[data-role=address-number]');
+    $addition = $form.find('[data-role=address-addition]');
+    $zip = $form.find('[data-role=zip]');
+    $city = $form.find('[data-role=city]');
+    $submit = $form.find('[data-role=submit]');
+
 
 
     $address.blur(function(){
@@ -56,9 +57,18 @@ $(function(){
       onFocusSubmit();
     });
 
-    $body.click(function(){
-      checkIfFieldIsFocussed();
+    // $body.click(function(){
+    //   checkIfFieldIsFocussed();
+    // });
+
+    var ua = navigator.userAgent,
+            event = (ua.match(/iPad/i)) ? "touchstart" : "click";
+
+    $(document).on(event, function (ev) {
+        $form.blur();
+        checkIfFieldIsFocussed();
     });
+
     $body.keydown(function(e){
       if (e.which == 13) {
 
