@@ -25,6 +25,13 @@
   line-height: 37px;
   color: #242424;
 }
+.text-main-xxl {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 62px;
+  color: #242424;
+}
 /* SEC TEXT */
 .text-sec-s {
   font-family: 'Lato', sans-serif;
@@ -746,6 +753,52 @@ h2 {
 .blog-page {
   background-color: #C2C5CF;
 }
+.vraag-page {
+  background-color: #D2FA6F;
+}
 .plain-page {
   padding-bottom: 80px;
+}
+/* Wie m opent, moet 'm beantwoorden */
+.question {
+  margin-top: 50px;
+}
+.question .line1,
+.question .line2 {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 62px;
+  color: #242424;
+  display: block;
+  max-width: 700px;
+  margin: 0px auto;
+  font-weight: 700;
+}
+.question .line1 {
+  text-align: left;
+}
+.question .line2 {
+  text-align: right;
+}
+.question .line3 {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 37px;
+  color: #242424;
+  display: block;
+  text-align: center;
+  margin: 100px 0;
+}
+@media all and (max-width: 480px) {
+  .question .line1,
+  .question .line2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 37px;
+    color: #242424;
+    font-weight: 700;
+  }
 }

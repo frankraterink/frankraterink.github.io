@@ -25,6 +25,13 @@
   line-height: 37px;
   color: #242424;
 }
+.text-main-xxl {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 62px;
+  color: #242424;
+}
 /* SEC TEXT */
 .text-sec-s {
   font-family: 'Lato', sans-serif;
