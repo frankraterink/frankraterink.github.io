@@ -574,6 +574,19 @@ h2 {
 .header-small .logo {
   max-height: 100%;
 }
+/* TL;DR LINK*/
+.tldr-link {
+  position: absolute;
+  left: -10%;
+}
+@media all and (max-width: 740px) {
+  .tldr-link {
+    position: relative;
+    left: 0px;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
 /* CONTENT */
 .content {
   margin: 0 auto;
@@ -590,6 +603,7 @@ h2 {
 }
 .content p {
   margin-bottom: 30px;
+  position: relative;
 }
 @media all and (min-width: 1200px) {
   .content p {

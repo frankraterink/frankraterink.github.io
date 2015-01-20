@@ -3,17 +3,20 @@
     {
       "title": "Een vriendelijk formulier",
       "url": "een-vriendelijk-formulier",
-      "teaser": "Op het web kom je vaak formulieren tegen die niet goed werken. Dan heb je net je adres ingevuld, blijkt dat er een los veld is voor nummer. Moet je het nummer weer bij je straatnaam weghalen en in het andere veld toevoegen. Ik heb geprobeerd een eenvoudig formulier super vriendelijk te maken."
+      "teaser": "Op het web kom je vaak formulieren tegen die niet goed werken. Dan heb je net je adres ingevuld, blijkt dat er een los veld is voor nummer. Moet je het nummer weer bij je straatnaam weghalen en in het andere veld toevoegen. Ik heb geprobeerd een eenvoudig formulier super vriendelijk te maken.",
+      "short-teaser": "Hoe vaak kom je op het web niet een formulier tegen dat gewoon niet lekker werkt. In deze post leg ik uit hoe ik tot een simpel, vriendelijk formulier ben gekomen."
     },
     {
       "title": "Feedback",
       "url": "feedback",
-      "teaser": ""
+      "teaser": "",
+      "short-teaser": ""
     },
     {
       "title": "De opening",
       "url": "de-opening",
-      "teaser": ""
+      "teaser": "",
+      "short-teaser": ""
     }
 
   ]
