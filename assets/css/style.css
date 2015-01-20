@@ -758,7 +758,7 @@ h2 {
   width: 224px;
   height: 280px;
   padding: 14px 14px;
-  margin: 0 5px 5px 0;
+  margin: 0px 7px 7px 0;
   position: relative;
   float: left;
   text-decoration: none;
@@ -848,10 +848,13 @@ h2 {
 .site-map .dashed-container {
   position: relative;
   border: 1px dashed #A0A0A0;
-  padding: 7px 84px 2px 7px;
-  margin: 5px 0 10px;
+  padding: 0px 84px 0px 7px;
+  margin-bottom: 7px;
   width: auto;
   background-color: #f6f6f6;
+}
+.site-map .dashed-container .page {
+  margin-top: 7px;
 }
 .site-map .dashed-container .page:after {
   border-color: #f6f6f6 #f6f6f6 transparent transparent;
