@@ -739,7 +739,12 @@ h2 {
 .site-map .title {
   position: absolute;
   right: 7px;
-  top: 0;
+  left: 2px;
+}
+@media all and (max-width: 740px) {
+  .site-map .title {
+    position: relative;
+  }
 }
 .site-map .page {
   background-color: #6a6868;
@@ -851,5 +856,5 @@ h2 {
   border-color: #f6f6f6 #f6f6f6 transparent transparent;
 }
 .site-map .indent {
-  margin-left: 30px;
+  margin-left: 10%;
 }
