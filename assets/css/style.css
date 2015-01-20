@@ -739,11 +739,12 @@ h2 {
 .site-map .title {
   position: absolute;
   right: 7px;
-  left: 2px;
 }
 @media all and (max-width: 740px) {
   .site-map .title {
     position: relative;
+    right: auto;
+    left: 2px;
   }
 }
 .site-map .page {
