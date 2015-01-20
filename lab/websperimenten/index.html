@@ -41,7 +41,7 @@
 
 
     
-<link rel="stylesheet" href="/assets/css/exp-all.css">
+<link rel="stylesheet" href="/assets/css/exp-all.min.css">
 
 
   </head>
@@ -85,43 +85,45 @@
     <!-- EXPERIMENT -->
     <div class="experiment-block form-experiment">
       <h2 id="formulier">Een formulier, maar dan vriendelijk<a href="#formulier"><i class="icon-link" ></i></a></h2>
-        <form class="testform" class="">
+        <!-- BEGIN FORM -->
+      <div class="experiment-block form-experiment">
+        <form data-role="testform" class="testform">
           <div class="form-inputs-container">
             <label for="name">Naam</label>
-            <input id="name" type="text" />
+            <input data-role="name" id="name" type="text" />
 
             <div class="address-street">
               <label for="address">Adres</label>
-              <input id="address" class="address-input" type="text" />
+              <input data-role="address" id="address" class="address-input" type="text"/>
             </div>
 
             <div class="address-number">
               <label for="address-number" class="number-label">Nummer</label>
-              <input id="address-number" class="number-input" type="text" />
+              <input data-role="address-number" id="address-number" class="number-input" type="text" />
             </div>
 
             <div class="address-addition">
               <label for="address-addition" class="addition-label">Toevoeging</label>
-              <input id="address-addition" class="addition-input" type="text" />
+              <input data-role="address-addition" id="address-addition" class="addition-input" type="text" />
             </div>
 
             <div class="address-zip">
               <label for="zip">Postcode</label>
-              <input id="zip" type="text" maxlength="7" />
+              <input data-role="zip" id="zip" type="text" maxlength="7" />
             </div>
 
             <div class="address-city">
               <label for="city">Woonplaats</label>
-              <input id="city" type="text" />
+              <input data-role="city" id="city" type="text" />
             </div>
 
             <div class="final-check">
-              <input class="submit-button" type="submit" value="Verstuur" />
+              <input class="submit-button" data-role="submit" type="submit" value="Verstuur" />
             </div>
           </div>
-
-
         </form>
+      </div>
+      <!-- END FORM -->
       <p>Op het web kom je vaak formulieren tegen die niet goed werken. Dan heb je net je adres ingevuld, blijkt dat er een los veld is voor nummer. Moet je het nummer weer bij je straatnaam weghalen en in het andere veld toevoegen. Ik heb geprobeerd een eenvoudig formulier <strong>super vriendelijk te maken</strong>. Later kwam er ook als doelstelling bij geen errormeldingen te gebruiken en ervoor te zorgen dat duidelijk was was er nog moet gebeuren om het formulier volledig in te vullen. Probeer 'm maar eens uit.</p>
     </div>
 
