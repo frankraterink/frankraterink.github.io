@@ -849,7 +849,7 @@ h2 {
   position: relative;
   border: 1px dashed #A0A0A0;
   padding: 7px 84px 2px 7px;
-  margin: 5px 0px;
+  margin: 5px 0 10px;
   width: auto;
   background-color: #f6f6f6;
 }
