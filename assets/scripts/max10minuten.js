@@ -204,6 +204,7 @@ $(function(){
           clearInterval(readTimeInterval);
           $controlNext.addClass('hidden');
           setOvertimeContent();
+          alert('De 10 minuten zijn om!')
           // show timer done screen
         }
       }, 1000);
