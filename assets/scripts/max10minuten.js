@@ -241,7 +241,7 @@ $(function(){
     } else if (min == 6) {
       $contentTimeLeftTip.html('Je kunt nog even je todo lijstje checken. Probeer dat lijstje zo nu en dan ook eens op te schonen.');
     } else if (min == 5) {
-      $contentTimeLeftTip.html('Je zou je bureau of de tafel nog even op kunnen ruimen');
+      $contentTimeLeftTip.html('Je zou je bureau of de tafel nog even op kunnen ruimen.');
     } else if (min == 4) {
       $contentTimeLeftTip.html('Werk nog even snel de notificaties op je mobiel weg, heb je dat ook weer gehad.');
     } else if (min == 3) {
