@@ -612,6 +612,9 @@ h2 {
   margin-bottom: 30px;
   position: relative;
 }
+.content.centered {
+  text-align: center;
+}
 @media all and (min-width: 1200px) {
   .content p {
     line-height: 29px;
