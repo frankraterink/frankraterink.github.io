@@ -29,12 +29,10 @@ $(function(){
 
 
   function toggleEdit() {
-    console.log('toggle');
     $urlCollector.toggleClass('hidden');
     $controlNext.toggleClass('hidden')
 
     if ($urlCollector.hasClass('hidden')) {
-      //console.log('change to invoeren/bewerken');
       $togglerEdit.html('websites invoeren/bewerken');
         removeEmptyInputs();
         $body.removeClass('editing');
@@ -46,7 +44,6 @@ $(function(){
       $controlNext.html('');
       $body.addClass('editing');
       var $emptyInputs = $urlCollector.find('input[type=text][value=]');
-      console.log('ss', $emptyInputs.length);
       if ($emptyInputs.length > 0) {
         $emptyInputs[0].focus();
       }
@@ -69,13 +66,10 @@ $(function(){
 
     if (countInput < 26) {
       if (countInput == 0) {
-        console.log('1');
         addInput("");
       } else if (countEmptyInputs < 2 && isEmptyInputInFocus) {
-        console.log('2');
         addInput("");
       } else if (countEmptyInputs == 0) {
-        console.log('3');
         addInput("");
       }
     }
@@ -170,9 +164,7 @@ $(function(){
   function startTimer() {
 
     if (typeof readTimeInterval === 'undefined') {
-      console.log('start');
 
-      console.log('starttimer', readTimeInterval);
       readTimeInterval = setInterval(function() {
         if (!everythingIsSet)
         {
