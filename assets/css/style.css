@@ -621,6 +621,9 @@ h2 {
   margin-bottom: 30px;
   position: relative;
 }
+.content p.footnote {
+  margin-top: 40px;
+}
 .content.centered {
   text-align: center;
 }
