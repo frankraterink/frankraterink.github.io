@@ -203,15 +203,52 @@ TG.Noise = function () {
 
 
 
+var texture3 = new TG.Texture( 1200, 300 )
+    //.add( new TG.XOR().color( 2, 1.3, 0.7 ) )
+    .add( new TG.SinX().frequency( 0.05 ).color( 1, 0, 0 ) )
+    //.add( new TG.SinX().frequency( 0.001 ).color( 1, 0, 0 ) )
+    .mul( new TG.SinY().frequency( 1.05 ).color( 1.6, 0, 0 ) )
+    //.add( new TG.SinX().frequency( 0.005 ).color( 0.1, 0.5, 0.2 ) )
+    //.add( new TG.SinY().frequency( 0.05 ).color( 0.5, 0.5, 0.5 ) )
+    //.add( new TG.SinY().frequency( 0.001 ).color( 3.1, 0.2, 3.5 ) )
+    .toCanvas();
 
+var texture2 = new TG.Texture( 1200, 300 )
+    //.add( new TG.XOR().color( 2, 1.3, 0.7 ) )
+    .add( new TG.SinX().frequency( 0.05 ).color( 1, 0, 0 ) )
+    //.mul( new TG.SinY().frequency( 0.02 ).color( 0.5, 0, 0 ) )
+    .add( new TG.SinX().frequency( 0.005 ).color( 0.1, 0.5, 0.2 ) )
+    .add( new TG.SinY().frequency( 0.05 ).color( 0.5, 0.5, 0.5 ) )
+    .toCanvas();
 
-var texture = new TG.Texture( 1500, 800 )
+var texture1 = new TG.Texture( 1200, 300 )
     //.add( new TG.XOR().color( 2, 1.3, 0.7 ) )
     .add( new TG.SinX().frequency( 0.001 ).color( 1, 0, 0 ) )
     //.mul( new TG.SinY().frequency( 0.02 ).color( 0.5, 0, 0 ) )
     //.add( new TG.SinX().frequency( 0.1 ).color( 0.1, 0.5, 0.2 ) )
     .add( new TG.SinY().frequency( 0.1 ).color( 0.5, 0.5, 0.5 ) )
-
     .toCanvas();
 
-document.body.appendChild( texture );
+
+document.body.appendChild( texture3 );
+document.body.appendChild( texture2 );
+document.body.appendChild( texture1 );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
