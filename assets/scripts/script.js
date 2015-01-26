@@ -25,7 +25,6 @@ $(function(){
 		addGalleryMapToPage();
 
     addControlsToGallery();
-    //logoHueRotateAnimation();
 	}
 
   function addControlsToGallery() {

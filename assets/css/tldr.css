@@ -163,6 +163,14 @@
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #e9e9e9, #007784 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #e9e9e9, #007784 100%);
 }
+.site-map .page.page-labjournal {
+  background-color: #dadada;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #dadada, #737578 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #dadada, #737578 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #dadada, #737578 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #dadada, #737578 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #dadada, #737578 100%);
+}
 .site-map .page-container {
   overflow: auto;
 }
