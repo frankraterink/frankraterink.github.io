@@ -84,6 +84,7 @@
 }
 .lab-journal .type {
   width: 20%;
+  text-align: right;
 }
 .lab-journal strong {
   background-color: #FCD4F7;
