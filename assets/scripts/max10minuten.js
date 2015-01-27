@@ -161,6 +161,8 @@ $(function(){
 
   var everythingIsSet = false;
 
+  var beginTime;
+
   function startTimer() {
 
     if (typeof readTimeInterval === 'undefined') {

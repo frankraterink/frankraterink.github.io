@@ -25,6 +25,8 @@ $(function(){
 		addGalleryMapToPage();
 
     addControlsToGallery();
+
+    addKonamiCode();
 	}
 
   function addControlsToGallery() {
@@ -141,25 +143,12 @@ $(function(){
   	$('[data-photoLink=' + nr + ']').addClass('active');
 	}
 
-  function logoHueRotateAnimation() {
-
-    //homepageLogoHue = homepageLogoHue + 80
-
-    homepageLogoHue = Math.floor(Math.random() * 360) + 1;
-
-    setTimeout(function() {
-      $homepageLogo.css({
-          'filter': 'hue-rotate(' + homepageLogoHue + 'deg)',
-          '-webkit-filter': 'hue-rotate(' + homepageLogoHue + 'deg)',
-          '-moz-filter': 'hue-rotate(' + homepageLogoHue + 'deg)',
-          '-o-filter': 'hue-rotate(' + homepageLogoHue + 'deg)',
-          '-ms-filter': 'hue-rotate(' + homepageLogoHue + 'deg)'
-      });
-      logoHueRotateAnimation();
-      console.log('hue ');
-    }, 2000);
-
-
+  function addKonamiCode() {
+    // Cheat.js
+    // http://namuol.github.io/cheet.js/
+    cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
+      console.log('konami to be implemented');
+    });
   }
 
 	init();
