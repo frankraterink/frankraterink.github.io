@@ -16,11 +16,11 @@ $(function(){
 
 		photoCount = $photos.length;
 
-		checkIfDeviceIsMobile();
+		// checkIfDeviceIsMobile();
 
-		if (!isMobile) {
-		  replaceLowResImages();
-		}
+		// if (!isMobile) {
+		//   replaceLowResImages();
+		// }
 
 		addGalleryMapToPage();
 
