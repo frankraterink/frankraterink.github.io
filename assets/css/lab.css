@@ -91,5 +91,7 @@
   font-weight: normal;
 }
 .lab-journal .double-underline {
-  text-decoration: underline;
+  border-bottom: 5px solid #7BE9F9;
+  line-height: 5px;
+  display: inline-block;
 }
