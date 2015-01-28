@@ -150,25 +150,25 @@ body {
   width: 100%;
   margin: 40px 0;
   opacity: 1;
-  -webkit-transition: opacity 0.6s;
-  transition: opacity 0.6s;
+  -webkit-transition: opacity 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: opacity 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 .content p {
   margin: 0 20% 20px;
   text-align: left;
   opacity: 1;
-  -webkit-transition: opacity 0.6s;
-  transition: opacity 0.6s;
+  -webkit-transition: opacity 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: opacity 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 .editing img,
 .reading img {
   opacity: .3;
-  -webkit-transition: opacity 0.6s;
-  transition: opacity 0.6s;
+  -webkit-transition: opacity 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: opacity 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 .editing p,
 .reading p {
   opacity: .3;
-  -webkit-transition: opacity 0.6s;
-  transition: opacity 0.6s;
+  -webkit-transition: opacity 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: opacity 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }

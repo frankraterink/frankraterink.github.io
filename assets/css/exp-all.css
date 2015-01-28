@@ -376,27 +376,27 @@
   float: left;
   width: 78%;
   margin-right: 2%;
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 .form-experiment form .address-number {
   width: 20%;
   float: left;
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 .form-experiment form .address-addition {
   visibility: hidden;
   width: 0%;
   overflow: hidden;
   float: left;
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 .form-experiment form .address-addition label {
   opacity: 0;
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 .form-experiment form .address-zip {
   float: left;
@@ -410,20 +410,20 @@
 .form-experiment form.both-visible .address-street {
   width: 56%;
   margin-right: 2%;
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 .form-experiment form.both-visible .address-number {
   width: 20%;
   margin-right: 2%;
   visibility: visible;
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 .form-experiment form.both-visible .address-number label {
   opacity: 1;
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 .form-experiment form.both-visible .address-addition {
   width: 20%;
@@ -432,8 +432,8 @@
 }
 .form-experiment form.both-visible .address-addition label {
   opacity: 1;
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 .form-experiment form.address-complete input[type=text] {
   margin-bottom: 0px;
@@ -469,8 +469,8 @@
   background-color: rgba(0, 0, 0, 0);
   margin-top: -6px;
   height: 37px;
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 .form-experiment .final-check .submit-button:focus,
 .form-experiment .final-check .submit-button:hover {
@@ -481,6 +481,6 @@
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #ffffff, #dddddd 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #ffffff, #dddddd 100%);
   border: 2px solid #484151;
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }

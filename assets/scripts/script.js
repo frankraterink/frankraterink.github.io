@@ -27,6 +27,10 @@ $(function(){
     addControlsToGallery();
 
     addKonamiCode();
+
+    addMotion();
+
+    setClassWhenLoaded();
 	}
 
   function addControlsToGallery() {
@@ -149,6 +153,66 @@ $(function(){
     cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
       console.log('konami to be implemented');
     });
+  }
+
+  function setClassWhenLoaded() {
+    $(document).ready(function(){
+      // your code here
+      $body.removeClass('loading');
+  });
+
+  }
+
+  function addMotion() {
+    var $motionMenuClickers = $('[data-role=motion-menu-click]');
+
+    console.log($motionMenuClickers);
+
+    $motionMenuClickers.each(function(index, el){
+      console.log('aa', el);
+      $(el).click(function(e){
+        e.preventDefault();
+        console.log('ennu', $(el).attr('href'));
+
+        var url = $(el).attr('href').substring(1, $(el).attr('href').length);
+
+
+
+
+        var width = $(el)[0].clientWidth;
+        var height = $(el)[0].clientHeight;
+
+
+
+        var elOffset = $(el).offset();
+        var elTop = elOffset.top;
+        var elLeft = elOffset.left;
+
+        var windowScrollTop = $(window).scrollTop();
+
+        console.log('pokpok', width, height, elTop, elLeft);
+
+        $('.ani').css('height', height);
+        $('.ani').css('width', width);
+        $('.ani').css('left', elLeft);
+        $('.ani').css('top', elTop - windowScrollTop);
+
+
+        setTimeout(function(){
+          $('.ani').addClass('shown');
+        }, 50);
+
+        setTimeout(function(){
+          window.location = window.location.href + url;
+        }, 600);
+
+
+
+      });
+
+    });
+
+
   }
 
 	init();
