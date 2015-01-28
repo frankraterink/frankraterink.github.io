@@ -123,12 +123,9 @@ $(function(){
 
   function fillInputs() {
 
-    var windowLocation = $(location).attr('href').split('?');
+    var querystring = $(location).attr('href').slice($(location).attr('href').indexOf('?') + 1)
 
-    if (windowLocation.length > 1) {
-
-      var querystring = windowLocation[1];
-
+    if (querystring.indexOf("|") >= 0) {
 
       var urls = querystring.substring(2, querystring.length).split('|');
       var firstIsSet = false;
