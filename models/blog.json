@@ -1,10 +1,16 @@
 {
   "blog": [
     {
+      "title": "Opslaan in Trello",
+      "url": "opslaan-in-trello",
+      "teaser": "Het is weer eens tijd voor een flinke lifehack. Trello is app waarop je lijstjes kunt maken. En op elk lijstje kun je briefjes hangen. Maar het liefst ben ik niet te lang bezig met trello zelf. Het liefst doe ik de dingen die op de lijstjes staan. De lifehack gaat over hoe je nu via je browser op je desktop zo snel mogelijk een webpagina op dat lijstje krijgt, omdat je er bijvoorbeeld later nog eens naar wilt kijken.",
+      "short-teaser": "Hoe zet je zo snel mogelijk via je browser iets op een Trellolijst?"
+    },
+    {
       "title": "Een vriendelijk formulier",
       "url": "een-vriendelijk-formulier",
-      "teaser": "Op het web kom je vaak formulieren tegen die niet goed werken. Dan heb je net je adres ingevuld, blijkt dat er een los veld is voor nummer. Moet je het nummer weer bij je straatnaam weghalen en in het andere veld toevoegen. Ik heb geprobeerd een eenvoudig formulier super vriendelijk te maken.",
-      "short-teaser": "Hoe vaak kom je op het web niet een formulier tegen dat gewoon niet lekker werkt. In deze post leg ik uit hoe ik tot een simpel, vriendelijk formulier ben gekomen."
+      "teaser": "",
+      "short-teaser": ""
     },
     {
       "title": "Feedback",
