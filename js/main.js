@@ -28,28 +28,27 @@ $(function(){
 		bindHeaderAnimation();	
 	}
 
-	isTouchDevice();
-
+	enhanceForNonTouchDevices();
 	$(window).resize(function() {
-
-		isTouchDevice();
-
-
-	  if ($body.hasClass('enhanceUIforNonTouch')) {
-			bindHeaderAnimation();
-		} else {
-			$body.unbind("mousemove");
-			resetHeader();
-		}
+		enhanceForNonTouchDevices();
 	});
 });
 
-function isTouchDevice() {
-  if ('ontouchstart' in window || 'onmsgesturechange' in window || $(window).width() < 600) {
-  	$body.removeClass('enhanceUIforNonTouch');
-  } else {
-  	$body.addClass('enhanceUIforNonTouch');
-  }
+function enhanceForNonTouchDevices() {
+	if (is_touch_device() || $(window).width() < 600) {
+		$body.removeClass('enhanceUIforNonTouch');
+		$body.unbind("mousemove");
+		resetHeader();
+	} else {
+		$body.addClass('enhanceUIforNonTouch');
+		bindHeaderAnimation();	
+	}
+}
+
+function is_touch_device() {
+	console.log('1frt');
+	return ((navigator.MaxTouchPoints > 0)
+      || (navigator.msMaxTouchPoints > 0));
 };
 
 function resetHeader() {
