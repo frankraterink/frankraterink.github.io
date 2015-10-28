@@ -17,7 +17,7 @@ $(function(){
 	// LAUNCH THE ENHANCEMENTS
 	
 	var gallery = $('.gallery').length;
-	if (gallery > 0) {
+	if (gallery > 0 && !is_touch_device()) {
 		headerAnimation = false;
 		launchGalleryIntroAnimation();
 		launchGalleryKeyboardNav();	
