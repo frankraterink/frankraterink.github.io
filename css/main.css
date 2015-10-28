@@ -507,7 +507,7 @@ html, body {
   transform: rotate(90deg); }
 
 @media only screen and (min-width: 600px) {
-  .site-header {
+  .enhanceUIforNonTouch .site-header {
     position: fixed;
     left: 5%;
     top: 10%;
@@ -520,17 +520,17 @@ html, body {
     background-color: white;
     opacity: 0;
     transition: .05s ease-out; }
-    .site-header .site-title {
+    .enhanceUIforNonTouch .site-header .site-title {
       width: 100%;
       margin-top: 62px; }
-    .site-header.visible {
+    .enhanceUIforNonTouch .site-header.visible {
       opacity: 1;
       transition: opacity .9s ease-out; }
-    .site-header nav a {
+    .enhanceUIforNonTouch .site-header nav a {
       padding: 0px 9px 2px;
       transition: .2s ease-out;
       border-radius: 12px; }
-      .site-header nav a:hover {
+      .enhanceUIforNonTouch .site-header nav a:hover {
         color: white;
         background-color: #646E77;
         text-decoration: none;

@@ -28,24 +28,28 @@ $(function(){
 		bindHeaderAnimation();	
 	}
 
-	alert(isTouchDevice());
+	isTouchDevice();
 
 	$(window).resize(function() {
-	  if ($(window).width() > 600) {
-			bindHeaderAnimation();	
+
+		isTouchDevice();
+
+
+	  if ($body.hasClass('enhanceUIforNonTouch')) {
+			bindHeaderAnimation();
 		} else {
 			$body.unbind("mousemove");
 			resetHeader();
 		}
 	});
-	
-	
 });
 
 function isTouchDevice() {
-	alert(1);
-  return 'ontouchstart' in window // works on most browsers 
-      || 'onmsgesturechange' in window; // works on ie10
+  if ('ontouchstart' in window || 'onmsgesturechange' in window || $(window).width() < 600) {
+  	$body.removeClass('enhanceUIforNonTouch');
+  } else {
+  	$body.addClass('enhanceUIforNonTouch');
+  }
 };
 
 function resetHeader() {
