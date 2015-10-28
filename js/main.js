@@ -18,6 +18,7 @@ $(function(){
 	
 	var gallery = $('.gallery').length;
 	if (gallery > 0 && !is_touch_device()) {
+		alert('ff');
 		headerAnimation = false;
 		launchGalleryIntroAnimation();
 		launchGalleryKeyboardNav();	
