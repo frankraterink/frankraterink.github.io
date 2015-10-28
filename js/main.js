@@ -35,8 +35,8 @@ $(function(){
 });
 
 function enhanceForNonTouchDevices() {
-	alert(is_touch_device());
-	alert($(window).width() < 600);
+	//alert(is_touch_device());
+	//alert($(window).width() < 600);
 	if (is_touch_device() || $(window).width() < 600) {
 		$body.removeClass('enhanceUIforNonTouch');
 		$body.unbind("mousemove");
@@ -48,7 +48,7 @@ function enhanceForNonTouchDevices() {
 }
 
 function is_touch_device() {
-	console.log('1frt');
+	//console.log('1frt');
 	return (('ontouchstart' in window)
       || (navigator.MaxTouchPoints > 0)
       || (navigator.msMaxTouchPoints > 0));
