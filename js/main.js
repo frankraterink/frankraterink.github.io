@@ -23,7 +23,11 @@ $(function(){
 		launchGalleryKeyboardNav();	
 	}
 
-	bindHeaderAnimation();
+	//console.log($(window).width());
+	if ($(window).width() > 600) {
+		bindHeaderAnimation();	
+	}
+	
 	
 });
 

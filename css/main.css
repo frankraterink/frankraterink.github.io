@@ -175,37 +175,6 @@ html, body {
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 5px; }
-  @media screen and (max-width: 600px) {
-    .site-nav {
-      position: absolute;
-      top: 9px;
-      right: 30px;
-      background-color: #fdfdfd;
-      border: 1px solid #e8e8e8;
-      border-radius: 5px;
-      text-align: right; }
-      .site-nav .menu-icon {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center; }
-        .site-nav .menu-icon > svg {
-          width: 18px;
-          height: 15px; }
-          .site-nav .menu-icon > svg path {
-            fill: #424242; }
-      .site-nav .trigger {
-        clear: both;
-        display: none; }
-      .site-nav:hover .trigger {
-        display: block;
-        padding-bottom: 5px; }
-      .site-nav .page-link {
-        display: block;
-        padding: 5px 10px; } }
 
 /**
  * Site footer
@@ -537,35 +506,35 @@ html, body {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg); }
 
-.site-header {
-  position: fixed;
-  left: 5%;
-  top: 10%;
-  z-index: 222;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  box-shadow: -6px 28px 37px -21px rgba(0, 0, 0, 0.2), 0px 27px 72px -12px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  background-color: white;
-  opacity: 0;
-  transition: .05s ease-out; }
-  .site-header .site-title {
-    width: 100%;
-    margin-top: 62px; }
-  .site-header.visible {
-    opacity: 1;
-    transition: opacity .9s ease-out; }
-  .site-header nav a {
-    padding: 0px 9px 2px;
-    transition: .2s ease-out;
-    border-radius: 12px; }
-    .site-header nav a:hover {
-      color: white;
-      background-color: #646E77;
-      text-decoration: none;
-      transition: .1s ease-out; }
-
+@media only screen and (min-width: 600px) {
+  .site-header {
+    position: fixed;
+    left: 5%;
+    top: 10%;
+    z-index: 222;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: -6px 28px 37px -21px rgba(0, 0, 0, 0.2), 0px 27px 72px -12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: white;
+    opacity: 0;
+    transition: .05s ease-out; }
+    .site-header .site-title {
+      width: 100%;
+      margin-top: 62px; }
+    .site-header.visible {
+      opacity: 1;
+      transition: opacity .9s ease-out; }
+    .site-header nav a {
+      padding: 0px 9px 2px;
+      transition: .2s ease-out;
+      border-radius: 12px; }
+      .site-header nav a:hover {
+        color: white;
+        background-color: #646E77;
+        text-decoration: none;
+        transition: .1s ease-out; } }
 .red-dot {
   height: 10px;
   width: 10px;
