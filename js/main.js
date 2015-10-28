@@ -28,6 +28,8 @@ $(function(){
 		bindHeaderAnimation();	
 	}
 
+	alert(isTouchDevice());
+
 	$(window).resize(function() {
 	  if ($(window).width() > 600) {
 			bindHeaderAnimation();	
@@ -40,7 +42,10 @@ $(function(){
 	
 });
 
-
+function isTouchDevice() {
+  return 'ontouchstart' in window // works on most browsers 
+      || 'onmsgesturechange' in window; // works on ie10
+};
 
 function resetHeader() {
 	var translate = 'translate(0px, 0px)';
