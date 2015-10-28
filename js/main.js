@@ -27,13 +27,30 @@ $(function(){
 	if ($(window).width() > 600) {
 		bindHeaderAnimation();	
 	}
+
+	$(window).resize(function() {
+	  if ($(window).width() > 600) {
+			bindHeaderAnimation();	
+		} else {
+			$body.unbind("mousemove");
+			resetHeader();
+		}
+	});
 	
 	
 });
 
 
 
+function resetHeader() {
+	var translate = 'translate(0px, 0px)';
 
+  $header.css({
+    '-webkit-transform' : translate,
+    '-ms-transform'     : translate,
+    'transform'         : translate
+  });
+}
 
 
 function launchLazyLoading() {
