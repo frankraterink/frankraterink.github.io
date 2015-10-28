@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- GENERAL -->
+    <title>Frank labs blog - Een vriendelijk formulier</title>
+
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Frank labs is een plek waarin leuke dingen gebeuren, gewerkt en gespeeld wordt. Tegelijk is het ook een plek die openstaat voor nieuwe dingen, voor probeersels. Lekker ontdekken.">
+<meta name="keywords" content="Frank,lab,labs,laboratorium,q42,glinsterendeogen,treinontmoeting,experimenten,html,html5,javascript,css,less,blog,ontdekken,spelen,werken">
+<meta name="author" content="Frank Raterink">
+
+<meta property="og:image" content="/static/img/frank-labs-logo.jpg">
+
+<meta name="twitter:site" content="@frankraterink">
+<meta name="twitter:domain" content="franklabs.nl">
+
+<meta name="theme-color" content="#456B24">
+
+
+<!-- FAVICONS -->
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+
+<!-- GOOGLE WEBFONTS -->
+<link href='http://fonts.googleapis.com/css?family=Merriweather:300,700|Lato:300' rel='stylesheet' type='text/css'>
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+<!-- JS -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="/assets/scripts/script.min.js"> </script>
+
+<script src="//cdn.rawgit.com/namuol/cheet.js/master/cheet.min.js" type="text/javascript"></script>
+
+<!-- ICON FONT -->
+<link rel="stylesheet" href="/assets/css/fontello.css">
+
+
+    
+<link rel="stylesheet" href="/assets/css/exp-all.css">
+
+
+  </head>
+  <body class="plain-page blog-page">
+
+    
+
+
+    <!-- CONTENT -->
+    <article class="content">
+
+      <header>
+        <h1 class="main-title">Een vriendelijk formulier</h1>
+      </header>
+
+      <p><strong>Formulieren op het web invullen gaat zelden echt lekker. Daarom vond ik het eens leuk om een simpel naw-gegevens formulier te bouwen en daarbij opletten wat relaxt zou werken.</strong></p>
+
+      <p>Goed, uitgangspunt is dus dat het fijn moet werken. Maar hoe werkt het nu dan op het net? Het komt nogal eens voor dat ik op de volgende manier een formulier invul:</p>
+
+      <ul>
+        <li><strong>Naam</strong>, ok, Frank Raterink</li>
+        <li><strong>Straat</strong>. Waldorpstraat 17f</li>
+        <li><strong>Huisnummer</strong>. Oh ja, had het kunnen weten.</li>
+        <li>Terug naar Straat, huisnummer + toevoeging weghalen en 17 invullen bij huisnummer</li>
+        <li><strong>Toevoeging</strong>. F. Check.</li>
+        <li><strong>Postcode</strong>. 2521ca.</li>
+        <li>Melding: vul postcode in als volgt: 1234 AB.</li>
+        <li>Dus, spatie toevoegen en ca vervangen met CA.</li>
+        <li><strong>Woonplaats</strong>. Den Haag.</li>
+        <li>Check.</li>
+      </ul>
+
+      <p>Natuurlijk kun je ook even heel goed een formulier bekijken voordat je het invult, maar 9 van de 10 keer begin ik gewoon met invullen. En dan wil ik dat het gewoon fijn werkt. Dus geen geneuzel over m’n naam, adres gewoon in één keer in kunnen vullen en zorg dat postcode ook netjes afgehandeld wordt. Na wat denk-, bouw- en testwerk ben ik uitgekomen op het volgende formulier. Tab er maar ’ns doorheen.</p>
+
+      <!-- BEGIN FORM -->
+      <div class="experiment-block form-experiment">
+        <form data-role="testform" class="testform">
+          <div class="form-inputs-container">
+            <label for="name">Naam</label>
+            <input data-role="name" id="name" type="text" value="Frank Raterink" />
+
+            <div class="address-street">
+              <label for="address">Adres</label>
+              <input data-role="address" id="address" class="address-input" type="text" value="Waldorpstraat 17f"/>
+            </div>
+
+            <div class="address-number">
+              <label for="address-number" class="number-label">Nummer</label>
+              <input data-role="address-number" id="address-number" class="number-input" type="text" />
+            </div>
+
+            <div class="address-addition">
+              <label for="address-addition" class="addition-label">Toevoeging</label>
+              <input data-role="address-addition" id="address-addition" class="addition-input" type="text" />
+            </div>
+
+            <div class="address-zip">
+              <label for="zip">Postcode</label>
+              <input data-role="zip" id="zip" type="text" maxlength="7" value="2521ca" />
+            </div>
+
+            <div class="address-city">
+              <label for="city">Woonplaats</label>
+              <input data-role="city" id="city" type="text" value="'s gravenhage" />
+            </div>
+
+            <div class="final-check">
+              <input class="submit-button" data-role="submit" type="submit" value="Verstuur" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- END FORM -->
+
+      <h2>Flow</h2>
+
+      <p>Ik heb gelet op een relaxte flow tijdens het invullen van dit formulier. Er worden daarom bijvoorbeeld geen foutmeldingen getoond die eerst goed gelezen moeten worden. En wordt de focus na het invullen van het formulier verplaatst naar nog ontbrekende velden als die er nog zijn</p>
+
+      <h2>Slimme velden</h2>
+
+      <p>Waneer je je straatnaam + huisnummer (+ eventueel een toevoeging) invult in het adresveld zorgt het formulier automatisch voor een juiste invulling van deze velden. Ook wanneer je later nog een toevoeging wilt toevoegen aan het huisnummer wordt deze daarna netjes in het toevoeging veld geplaatst. En, wanneer je je toevoeging weer weghaalt, verdwijnt het veld ook. Dat heb je dan toch niet meer nodig.</p>
+
+      <p>Ook bij het invoeren van de postcode wordt niet moeilijk gedaan. Zo wordt 2521ca automatisch omgezet naar 2521 CA. Een postcodecheck zou trouwens ook nog een goede toevoeging zijn, maar aangezien dit een prototype is, zit dat er niet in.</p>
+
+      <h2>Checken van je gegevens</h2>
+
+      <p>Wanneer je klaar bent met het formulier en je tabt door naar de verstuurknop of je focust buiten het formulier, dan verandert de vormgeving van het formulier. Door deze verandering kun je makkelijker je gegevens checken op juistheid doordat overbodigheden als invoervelden niet meer als zodanig zichtbaar zijn. Als je nog iets wilt aanpassen, klik je gewoon op dat wat je wilt aanpassen en je krijgt het formulier terug.</p>
+
+      <h2>Bouw vanuit de gebruiker</h2>
+
+      <p>In plaats van alle velden zomaar neer te zetten zou het mooi zijn dat wanneer je een formulier bouwt je de volgende vraag in je brein prent:</p>
+
+      <p><strong>“Deze set aan gegevens heb ik minimaal nodig, hoe kan ik ervoor zorgen dat de gebruiker deze zo soepel mogelijk in kan vullen?”</strong></p>
+
+      <p>Waarom? Simpelweg omdat je met moeilijk, grote of onoverzichtelijke formulieren mensen wegjaagt. En dat is natuurlijk het laatste wat je wilt.</p>
+
+      <p>Goed, je weet het adres van Q42 nu. Stuur je me een leuk kaartje? :)</p>
+
+      <p>19 januari 2015</p>
+
+      <a href="/blog">Naar het blog</a>
+
+    </article>
+
+    <!-- BACK TO HOMEPAGE LINK -->
+<div class="back-tag-homepage">
+  <a href="/">
+    <h1>Terug</h1>
+    <span>naar de homepage</span>
+   </a>
+</div>
+
+
+
+
+    
+<script language="javascript" type="text/javascript" src="/assets/scripts/formexperiment.js"> </script>
+
+
+    <!-- GOOGLE ANALYTICS -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-57560852-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>
