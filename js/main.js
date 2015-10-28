@@ -49,7 +49,8 @@ function enhanceForNonTouchDevices() {
 
 function is_touch_device() {
 	console.log('1frt');
-	return ((navigator.MaxTouchPoints > 0)
+	return (('ontouchstart' in window)
+      || (navigator.MaxTouchPoints > 0)
       || (navigator.msMaxTouchPoints > 0));
 };
 
