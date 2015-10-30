@@ -249,7 +249,7 @@ html, body {
 .post-title {
   font-size: 42px;
   letter-spacing: -1px;
-  line-height: 1; }
+  line-height: 52px; }
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
@@ -278,28 +278,40 @@ html, body {
  * Photos
  */
 .gallery .photo-frame {
-  padding: 50px 20px 120px;
+  box-sizing: border-box;
+  height: 90vh;
+  padding: 50px 20px 50px;
+  max-width: 100%;
   -webkit-transition: all 600ms ease-out; }
   .gallery .photo-frame figure {
     width: 740px;
-    max-height: 100%;
-    max-width: 100%;
     margin: 0px auto;
+    height: 100%;
+    position: relative;
+    max-width: 65%;
     -webkit-transition: all 600ms ease-out; }
     .gallery .photo-frame figure img {
-      margin: 10px auto 0;
-      xbox-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 1px 0px 0px rgba(255, 255, 255, 0.4), -1px 0px 0px 0px rgba(214, 210, 136, 0.4), 0px -1px 0px 0px rgba(214, 210, 136, 0.4), 0px 31px 26px -20px rgba(0, 0, 0, 0.5);
+      margin: 0px auto 0;
       box-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 1px 0px 0px rgba(255, 255, 255, 0.4), -1px 0px 0px 0px rgba(214, 210, 136, 0.4), 0px -1px 0px 0px rgba(214, 210, 136, 0.4), 0px 6px 9px 0px rgba(0, 0, 0, 0.5), 0px 20px 30px 7px rgba(0, 0, 0, 0.3); }
     .gallery .photo-frame figure figcaption {
       margin-top: 30px;
       min-height: 50px;
       text-align: center; }
 
+@media only screen and (min-width: 1281px) {
+  .gallery .photo-frame {
+    height: 85vh; }
+    .gallery .photo-frame figure {
+      max-width: 85%; } }
 .enhanceUIforNonTouch .photo-frame {
-  padding: 5vh 20px;
-  height: 70vh; }
-  .enhanceUIforNonTouch .photo-frame figure img {
-    margin: 5vh auto 0; }
+  xheight: 107vh;
+  xheight: 70vh;
+  xpadding: 5vh 20px;
+  xmin-height: 500px; }
+  .enhanceUIforNonTouch .photo-frame figure {
+    xwidth: 1057px; }
+    .enhanceUIforNonTouch .photo-frame figure img {
+      xmargin: 5vh auto 0; }
 
 .wall-marrakesh {
   background-color: #584932;

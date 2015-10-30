@@ -78,8 +78,7 @@ function launchLazyLoading() {
 function launchGalleryIntroAnimation() {
 	var photoFrameTween = new ui.Tween({
     values: {
-    	height: '103vh',
-    	minHeight: '830px'
+    	height: '107vh'
     },
     duration: 1200
 	});
