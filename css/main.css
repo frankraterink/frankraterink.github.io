@@ -196,14 +196,14 @@ html, body {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 5px; }
-  .site-nav a:hover {
-    background-color: transparent;
-    color: #828282;
-    box-shadow: none; }
+  .site-nav a {
+    color: #828282; }
+    .site-nav a:hover {
+      background-color: transparent;
+      box-shadow: none; }
 
 /**
  * Page content
@@ -249,7 +249,7 @@ html, body {
 .post-title {
   font-size: 42px;
   letter-spacing: -1px;
-  line-height: 52px; }
+  line-height: 48px; }
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
