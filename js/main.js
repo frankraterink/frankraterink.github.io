@@ -42,7 +42,7 @@ function resizeBackground() {
 }
 
 function enhanceForNonTouchDevices() {
-	if (is_touch_device() || $(window).width() < 600) {
+	if (is_touch_device() || $(window).width() < 1150) {
 		$body.removeClass('enhanceUIforNonTouch');
 		$body.unbind("mousemove");
 		resetHeader();
