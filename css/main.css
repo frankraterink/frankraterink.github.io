@@ -280,6 +280,7 @@ html, body {
 .gallery .photo-frame {
   box-sizing: border-box;
   height: 90vh;
+  /**/
   padding: 50px 20px 50px;
   max-width: 100%;
   -webkit-transition: all 600ms ease-out; }
@@ -288,7 +289,8 @@ html, body {
     margin: 0px auto;
     height: 100%;
     position: relative;
-    max-width: 65%;
+    max-width: 95%;
+    /**/
     -webkit-transition: all 600ms ease-out; }
     .gallery .photo-frame figure img {
       margin: 0px auto 0;
@@ -298,11 +300,21 @@ html, body {
       min-height: 50px;
       text-align: center; }
 
+@media only screen and (min-width: 900px) {
+  .gallery .photo-frame {
+    height: 90vh; }
+    .gallery .photo-frame figure {
+      max-width: 65%; } }
 @media only screen and (min-width: 1281px) {
   .gallery .photo-frame {
     height: 85vh; }
     .gallery .photo-frame figure {
       max-width: 85%; } }
+@media only screen and (max-height: 450px) and (max-width: 1000px) {
+  .gallery .photo-frame {
+    height: 85vh; }
+    .gallery .photo-frame figure {
+      max-width: 40%; } }
 .enhanceUIforNonTouch .photo-frame {
   xheight: 107vh;
   xheight: 70vh;
