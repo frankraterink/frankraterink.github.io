@@ -6,8 +6,8 @@
 </description>
     <link>http://franklabs.nl/</link>
     <atom:link href="http://franklabs.nl/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Oct 2015 22:28:18 +0100</pubDate>
-    <lastBuildDate>Fri, 30 Oct 2015 22:28:18 +0100</lastBuildDate>
+    <pubDate>Fri, 30 Oct 2015 22:39:21 +0100</pubDate>
+    <lastBuildDate>Fri, 30 Oct 2015 22:39:21 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -17,6 +17,21 @@
         <pubDate>Fri, 16 Jan 2015 13:00:00 +0100</pubDate>
         <link>http://franklabs.nl/tijdlijn/franklabs-launch.html</link>
         <guid isPermaLink="true">http://franklabs.nl/tijdlijn/franklabs-launch.html</guid>
+        
+        
+        <category>tijdlijn</category>
+        
+      </item>
+    
+      <item>
+        <title>Foto&#39;s maken, filmen en meehelpen lesgeven bij een CodeUur in Monnickendam</title>
+        <description>&lt;p&gt;CodeUur is een initiatief van onder andere Q42 dat programmeren in de klas wil krijgen. Dus 1 uur les geven in programmeren op een basisschool. Daar heb ik bij geholpen. Naast het beeldmateriaal dat ik gemaakt heb, heb ik ook de kids geholpen met hun programmeerwerk. Super awesome om te zien hoe slim die kids zijn en hoe leuk ze het vinden. Daar krijg je echt energie van joh ;-)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.codeuur.nl/&quot; class=&quot;extern&quot;&gt;Stichting CodeUur&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Nov 2014 13:00:00 +0100</pubDate>
+        <link>http://franklabs.nl/tijdlijn/codeuur-monnickendam.html</link>
+        <guid isPermaLink="true">http://franklabs.nl/tijdlijn/codeuur-monnickendam.html</guid>
         
         
         <category>tijdlijn</category>
