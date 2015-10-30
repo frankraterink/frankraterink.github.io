@@ -18,10 +18,9 @@ $(function(){
 	
 	var gallery = $('.gallery').length;
 	if (gallery > 0 && !is_touch_device()) {
-		alert('ff');
 		headerAnimation = false;
 		launchGalleryIntroAnimation();
-		launchGalleryKeyboardNav();	
+		launchGalleryKeyboardNav();
 	}
 
 	//console.log($(window).width());
@@ -33,11 +32,16 @@ $(function(){
 	$(window).resize(function() {
 		enhanceForNonTouchDevices();
 	});
+
+
+
 });
 
+function resizeBackground() {
+  bg.height(jQuery(window).height() + 60);
+}
+
 function enhanceForNonTouchDevices() {
-	//alert(is_touch_device());
-	//alert($(window).width() < 600);
 	if (is_touch_device() || $(window).width() < 600) {
 		$body.removeClass('enhanceUIforNonTouch');
 		$body.unbind("mousemove");
@@ -49,7 +53,6 @@ function enhanceForNonTouchDevices() {
 }
 
 function is_touch_device() {
-	//console.log('1frt');
 	return (('ontouchstart' in window)
       || (navigator.MaxTouchPoints > 0)
       || (navigator.msMaxTouchPoints > 0));

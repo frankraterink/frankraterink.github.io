@@ -306,23 +306,28 @@ html, body {
  * Photos
  */
 .gallery .photo-frame {
-  height: 70vh;
-  padding: 5vh 20px;
-  min-height: 500px;
+  padding: 50px 20px 120px;
   -webkit-transition: all 600ms ease-out; }
   .gallery .photo-frame figure {
     width: 740px;
+    max-height: 100%;
     max-width: 100%;
     margin: 0px auto;
     -webkit-transition: all 600ms ease-out; }
     .gallery .photo-frame figure img {
-      margin: 5vh auto 0;
+      margin: 10px auto 0;
       xbox-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 1px 0px 0px rgba(255, 255, 255, 0.4), -1px 0px 0px 0px rgba(214, 210, 136, 0.4), 0px -1px 0px 0px rgba(214, 210, 136, 0.4), 0px 31px 26px -20px rgba(0, 0, 0, 0.5);
       box-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 1px 0px 0px rgba(255, 255, 255, 0.4), -1px 0px 0px 0px rgba(214, 210, 136, 0.4), 0px -1px 0px 0px rgba(214, 210, 136, 0.4), 0px 6px 9px 0px rgba(0, 0, 0, 0.5), 0px 20px 30px 7px rgba(0, 0, 0, 0.3); }
     .gallery .photo-frame figure figcaption {
       margin-top: 30px;
       min-height: 50px;
       text-align: center; }
+
+.enhanceUIforNonTouch .photo-frame {
+  padding: 5vh 20px;
+  height: 70vh; }
+  .enhanceUIforNonTouch .photo-frame figure img {
+    margin: 5vh auto 0; }
 
 .wall-marrakesh {
   background-color: #584932;
