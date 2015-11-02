@@ -342,28 +342,28 @@ html, body {
   background-image: radial-gradient(50% -10%, ellipse cover, #FBEFDF, #1F0E03 100%); }
 
 .wall-waldorpstraat {
-  background-color: #09071d;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #6d6d6d, #09071d 100%);
-  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #6d6d6d, #09071d 100%);
-  background-image: -o-radial-gradient(50% -10%, ellipse cover, #6d6d6d, #09071d 100%);
-  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #6d6d6d, #09071d 100%);
-  background-image: radial-gradient(50% -10%, ellipse cover, #6d6d6d, #09071d 100%); }
+  background-color: #282533;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #FFFFFF, #282533 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #FFFFFF, #282533 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #FFFFFF, #282533 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #FFFFFF, #282533 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #FFFFFF, #282533 100%); }
 
 .wall-scotland {
-  background-color: #6e762c;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #6e762c, #000000 100%);
-  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #6e762c, #000000 100%);
-  background-image: -o-radial-gradient(50% -10%, ellipse cover, #6e762c, #000000 100%);
-  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #6e762c, #000000 100%);
-  background-image: radial-gradient(50% -10%, ellipse cover, #6e762c, #000000 100%); }
+  background-color: #312A1B;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #EDD9C0, #312A1B 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #EDD9C0, #312A1B 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #EDD9C0, #312A1B 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #EDD9C0, #312A1B 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #EDD9C0, #312A1B 100%); }
 
 .wall-monumentvalley {
-  background-color: #0a0608;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #466a8e, #0a0608 100%);
-  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #466a8e, #0a0608 100%);
-  background-image: -o-radial-gradient(50% -10%, ellipse cover, #466a8e, #0a0608 100%);
-  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #466a8e, #0a0608 100%);
-  background-image: radial-gradient(50% -10%, ellipse cover, #466a8e, #0a0608 100%); }
+  background-color: #224A72;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #FFFADC, #224A72 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #FFFADC, #224A72 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #FFFADC, #224A72 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #FFFADC, #224A72 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #FFFADC, #224A72 100%); }
 
 .wall-gouda {
   background-color: #5f6c75;
@@ -446,12 +446,12 @@ html, body {
   background-image: radial-gradient(50% -10%, ellipse cover, #cdac9c, #836940 100%); }
 
 .wall-vuurwerk {
-  background-color: #63002f;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #63002f, #000000 100%);
-  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #63002f, #000000 100%);
-  background-image: -o-radial-gradient(50% -10%, ellipse cover, #63002f, #000000 100%);
-  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #63002f, #000000 100%);
-  background-image: radial-gradient(50% -10%, ellipse cover, #63002f, #000000 100%); }
+  background-color: #3A0328;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #D6D1F3, #3A0328 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #D6D1F3, #3A0328 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #D6D1F3, #3A0328 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #D6D1F3, #3A0328 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #D6D1F3, #3A0328 100%); }
 
 .wall-onweer {
   background-color: #625370;
@@ -489,6 +489,8 @@ html, body {
     top: 0px;
     font-size: 10px;
     color: #7D7D7D; }
+  .play-paper h2 {
+    margin-top: -10px; }
 
 .page-content, .site-header, .site-footer {
   position: relative;
