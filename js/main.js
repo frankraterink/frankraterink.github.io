@@ -56,7 +56,7 @@ Franklabs.prototype = {
 	},
 
 	resetHeader: function() {
-		this.setTranslate(this.$header, 0, 0, 0);
+		this.setTranslate(0, 0);
 	},
 
 	launchLazyLoading: function() {
@@ -149,12 +149,11 @@ Franklabs.prototype = {
 		if (this.windowScrollTop > 0) {
 			movedY += this.windowScrollTop;
 		}
-		this.setTranslate(this.$header, movedX, movedY, 0);
+		this.setTranslate(movedX, movedY);
 	},
 
-	setTranslate: function(el, x, y, z)
-	{
-		var translate = 'translate3d(' + x + 'px, ' + y + 'px, ' + z + 'px)';
+	setTranslate: function(x, y) {
+		var translate = 'translate3d(' + x + 'px, ' + y + 'px, 0px)';
 		this.$header.css({
 			'-webkit-transform' : translate,
 			'-ms-transform'     : translate,
