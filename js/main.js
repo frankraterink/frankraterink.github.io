@@ -56,13 +56,7 @@ Franklabs.prototype = {
 	},
 
 	resetHeader: function() {
-		var translate = 'translate(0px, 0px)';
-
-		this.$header.css({
-			'-webkit-transform' : translate,
-			'-ms-transform'     : translate,
-			'transform'         : translate
-		});
+		this.setTranslate(this.$header, 0, 0, 0);
 	},
 
 	launchLazyLoading: function() {
@@ -155,14 +149,19 @@ Franklabs.prototype = {
 		if (this.windowScrollTop > 0) {
 			movedY += this.windowScrollTop;
 		}
+		this.setTranslate(this.$header, movedX, movedY, 0);
+	},
 
-		var translate = 'translate(' + movedX + 'px, ' + movedY + 'px)';
+	setTranslate: function(el, x, y, z)
+	{
+		var translate = 'translate3d(' + x + 'px, ' + y + 'px, ' + z + 'px)';
 		this.$header.css({
 			'-webkit-transform' : translate,
 			'-ms-transform'     : translate,
 			'transform'         : translate
 		});
 	}
+
 }
 
 franklabs = new Franklabs();
