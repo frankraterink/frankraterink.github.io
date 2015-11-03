@@ -118,7 +118,7 @@ Franklabs.prototype = {
 					this.$window.scrollTop($photos.eq(this.gotoPhoto).offset().top);
 				}			
 			}
-		});
+		}.bind(this));
 	},
 
 	bindHeaderAnimation: function() {
