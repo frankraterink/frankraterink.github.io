@@ -315,16 +315,21 @@ html, body {
 
 .flee {
   position: fixed;
-  bottom: 100px;
+  top: 60vh;
   left: 100px;
   width: 30px;
   overflow: hidden;
-  z-index: 99997;
+  z-index: 9999999;
   height: 28px;
   padding: 3px; }
-  .flee:hover .moving-flee {
-    top: -32px;
-    position: absolute; }
+  .flee:hover .trollface {
+    opacity: 0.5;
+    transition: 2s ease-out; }
+  .flee .trollface {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: .3s ease-out; }
 
 @media only screen and (min-width: 900px) {
   .gallery .photo-frame {
