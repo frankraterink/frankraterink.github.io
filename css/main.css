@@ -315,7 +315,7 @@ html, body {
 
 .flee {
   position: fixed;
-  top: 60vh;
+  bottom: 10vh;
   left: 100px;
   width: 30px;
   overflow: hidden;
