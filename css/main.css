@@ -543,7 +543,7 @@ html, body {
 @media only screen and (min-width: 600px) {
   .enhanceUIforNonTouch .site-header {
     position: fixed;
-    left: 5%;
+    left: -100%;
     top: 10%;
     z-index: 222;
     height: 300px;
@@ -553,7 +553,7 @@ html, body {
     text-align: center;
     background-color: white;
     opacity: 0;
-    transition: .05s ease-out; }
+    transition: opacity .05s ease-out; }
     .enhanceUIforNonTouch .site-header .site-title {
       width: 100%;
       margin-top: 62px;
@@ -562,6 +562,7 @@ html, body {
         background-color: transparent;
         text-decoration: underline; }
     .enhanceUIforNonTouch .site-header.visible {
+      left: 5%;
       opacity: 1;
       transition: opacity .9s ease-out; }
     .enhanceUIforNonTouch .site-header nav a {
