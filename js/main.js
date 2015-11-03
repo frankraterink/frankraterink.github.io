@@ -51,18 +51,18 @@ Franklabs.prototype = {
 
 	is_touch_device: function() {
 		return (('ontouchstart' in window)
-	    || (navigator.MaxTouchPoints > 0)
-	    || (navigator.msMaxTouchPoints > 0));
+			|| (navigator.MaxTouchPoints > 0)
+			|| (navigator.msMaxTouchPoints > 0));
 	},
 
 	resetHeader: function() {
 		var translate = 'translate(0px, 0px)';
 
-	  this.$header.css({
-	    '-webkit-transform' : translate,
-	    '-ms-transform'     : translate,
-	    'transform'         : translate
-	  });
+		this.$header.css({
+			'-webkit-transform' : translate,
+			'-ms-transform'     : translate,
+			'transform'         : translate
+		});
 	},
 
 	launchLazyLoading: function() {
@@ -73,17 +73,17 @@ Franklabs.prototype = {
 
 	launchGalleryIntroAnimation: function () {
 		var photoFrameTween = new ui.Tween({
-	    values: {
-	    	height: '107vh'
-	    },
-	    duration: 1200
+			values: {
+				height: '107vh'
+			},
+			duration: 1200
 		});
 
 		var photoFrameFigureTween = new ui.Tween({
-	    values: {
-	    	width: '1057px'
-	    },
-	    duration: 1200
+			values: {
+				width: '1057px'
+			},
+			duration: 1200
 		});
 
 		$("html, body").animate({ scrollTop: 0 }, 800, function(){
@@ -129,20 +129,20 @@ Franklabs.prototype = {
 
 	bindHeaderAnimation: function() {
 		this.$body.on('mousemove', this.onMouseMove);
-	  this.$window.on('scroll', this.onScroll);
+		this.$window.on('scroll', this.onScroll);
 	},
 
 	unbindHeaderAnimation: function() {
 		this.$body.off('mousemove', this.onMouseMove);
-	  this.$window.off('scroll', this.onScroll);
+		this.$window.off('scroll', this.onScroll);
 	},
 
 	onMouseMove: function() {
 		this.$header.addClass('visible');
 
-    if (this.headerAnimation) {
-    	this.setHeaderLocation(event.pageX, event.pageY);	
-    }
+		if (this.headerAnimation) {
+			this.setHeaderLocation(event.pageX, event.pageY);	
+		}
 	},
 
 	onScroll: function() {
@@ -151,66 +151,18 @@ Franklabs.prototype = {
 
 	setHeaderLocation: function(x, y) {
 		var movedX = (x * -1 + 300)/1.5;
-	  var movedY = (y * -1 + 300)/1;
-	  if (this.windowScrollTop > 0) {
-	  	movedY += this.windowScrollTop;
-	  }
+		var movedY = (y * -1 + 300)/1;
+		if (this.windowScrollTop > 0) {
+			movedY += this.windowScrollTop;
+		}
 
-	  var translate = 'translate(' + movedX + 'px, ' + movedY + 'px)';
-	  this.$header.css({
-	    '-webkit-transform' : translate,
-	    '-ms-transform'     : translate,
-	    'transform'         : translate
-	  });
+		var translate = 'translate(' + movedX + 'px, ' + movedY + 'px)';
+		this.$header.css({
+			'-webkit-transform' : translate,
+			'-ms-transform'     : translate,
+			'transform'         : translate
+		});
 	}
 }
 
 franklabs = new Franklabs();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
