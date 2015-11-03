@@ -1,4 +1,4 @@
-function Franksite() {
+function Franklabs() {
 
 	this.gotoPhoto = 0;
 	this.windowScrollTop = 0;
@@ -9,7 +9,7 @@ function Franksite() {
 	$(this.init.bind(this)); //set franksite as this
 }
 
-Franksite.prototype = {
+Franklabs.prototype = {
 	init: function() {
 		
 		this.$body = $('body');
@@ -165,7 +165,7 @@ Franksite.prototype = {
 	}
 }
 
-franksite = new Franksite();
+franklabs = new Franklabs();
 
 
 
