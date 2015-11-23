@@ -6,9 +6,36 @@
 </description>
     <link>http://franklabs.nl/</link>
     <atom:link href="http://franklabs.nl/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Nov 2015 14:08:05 +0100</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2015 14:08:05 +0100</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2015 10:51:12 +0100</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2015 10:51:12 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Artikel: &#39;Buy Experiences, Not Things&#39;</title>
+        <description>&lt;p&gt;Mooi leesvoer over het kopen van ervaringen versus dingen:&lt;br /&gt;
+&lt;a href=&quot;http://www.theatlantic.com/business/archive/2014/10/buy-experiences/381132/&quot; class=&quot;extern&quot;&gt;theatlantic.com/business/archive/2014/10/buy-experiences/381132/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;tl;dr:&lt;/h2&gt;
+&lt;p&gt;“Waiting for an experience apparently elicits more happiness and excitement than waiting for a material good.”&lt;/p&gt;
+
+&lt;p&gt;“Reasonable people are just more likely to talk about their experiential purchases than their material purchases.”&lt;/p&gt;
+
+&lt;p&gt;“It involved analysis of news stories about people waiting in long lines to make a consumer transaction. Those waiting for experiences were in better moods than those waiting for material goods.”&lt;/p&gt;
+
+&lt;p&gt;“… social interaction is one of the most important determinants of human happiness, …”&lt;/p&gt;
+
+&lt;p&gt;Waarom doen we een tshirt eigenlijk altijd op dezelfde manier binnenstebuiten? Ik probeerde uit hoe je het nog meer kunt doen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/tijdlijn-experience.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Nov 2015 11:45:00 +0100</pubDate>
+        <link>http://franklabs.nl/tijdlijn/artikel-experiences-vs-material.html</link>
+        <guid isPermaLink="true">http://franklabs.nl/tijdlijn/artikel-experiences-vs-material.html</guid>
+        
+        
+        <category>tijdlijn</category>
+        
+      </item>
     
       <item>
         <title>Nieuw speledingetje: Binnenstebuiten</title>
@@ -21,6 +48,23 @@
         <pubDate>Mon, 02 Nov 2015 09:26:00 +0100</pubDate>
         <link>http://franklabs.nl/tijdlijn/nieuw-speledingetje.html</link>
         <guid isPermaLink="true">http://franklabs.nl/tijdlijn/nieuw-speledingetje.html</guid>
+        
+        
+        <category>tijdlijn</category>
+        
+      </item>
+    
+      <item>
+        <title>Nieuw speledingetje: Binnenstebuiten</title>
+        <description>&lt;p&gt;Waarom doen we een tshirt eigenlijk altijd op dezelfde manier binnenstebuiten? Ik probeerde uit hoe je het nog meer kunt doen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/spelen-tshirt.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hoe dat nog meer kan, zie je op m’n &lt;a href=&quot;/spelen#binnenstebuiten&quot;&gt;speelpagina&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Nov 2015 09:26:00 +0100</pubDate>
+        <link>http://franklabs.nl/tijdlijn/artikel-buy-experiences-not-things.html</link>
+        <guid isPermaLink="true">http://franklabs.nl/tijdlijn/artikel-buy-experiences-not-things.html</guid>
         
         
         <category>tijdlijn</category>
@@ -162,55 +206,6 @@
         <pubDate>Fri, 23 Apr 2010 14:00:00 +0200</pubDate>
         <link>http://franklabs.nl/tijdlijn/frank-raterink-over-treinontmoetingnl.html</link>
         <guid isPermaLink="true">http://franklabs.nl/tijdlijn/frank-raterink-over-treinontmoetingnl.html</guid>
-        
-        
-        <category>tijdlijn</category>
-        
-      </item>
-    
-      <item>
-        <title>Treinontmoeting</title>
-        <description>&lt;p&gt;Treinontmoeting is een project dat ik in juni 2010 gestart ben. Het begon eigenlijk met een als de oplossing op een vraag waar ik al een tijdje op zat te broeden. Hoe kunnen twee mensen met elkaar afspreken terwijl ze onderweg zijn met de trein? GPS locatie? Kan. Stationsnamen? Kan ook. Maar ik dacht ineens aan de treinstelnummers. Als je elkaars treinstelnummer weet en deze is hetzelfde, dan kun je met elkaar afspreken. Dat was de basis van het idee.&lt;/p&gt;
-
-&lt;figure class=&quot;left-aligned&quot;&gt;
-	&lt;img class=&quot;lazy&quot; data-original=&quot;/img/handleiding-treinontmoeting.jpg&quot; width=&quot;400&quot; height=&quot;259&quot; /&gt;
-	&lt;figcaption&gt;Monument Valley - USA&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Het idee dat zette ik op Twitter. Daar werd enorm enthousiast gereageerd op het idee. “Waarom doe je er niks mee?” was de vraag. Dus ik deed er iets mee. Ik tuigde een Wordpress siteje op met daarop het idee uitgelegd en met wat tips over hoe je nu daadwerkelijk met elkaar in contact kan komen. Tweet je treinstelnummer en gebruik de #treinontmoeting tag en dan komt het goed. De eenvoudige site en de aandacht die ik het gaf en kreeg via Facebook zorgde ervoor dat Radio 1 mij belde. Ze wilde een interview voorbereiden. Nou, leuk! Een half uur later werd ik teruggebeld en deed ik een live interview op de Radio. Ehhhh… Dat had ik even niet voorzien. Maar op de een of andere manier voelde het super tof. Dat ik op zo’n klein ideetje zoveel reactie kreeg.&lt;/p&gt;
-
-&lt;p&gt;Toen ik bij Stand Up Inspiration in Amsterdam was, dacht ik “ok, ik ga Treinontmoeting gewoon uitleggen hier op stage tegenover ruim 120 man bij de one minute of fame”. Het publiek was super enthousiast. En ineens wilde allerlei creatieve, out of the box mensen mij helpen met het idee groter laten worden. Het voelde alsof ik uit een vliegtuig gesprongen was en niet meer te stoppen was.&lt;/p&gt;
-
-&lt;p&gt;De tijd die volgde was gevuld met media-aandacht. Buiten verwachting, vond ik het. 538 belde en wilde mij live in de uitzending, BNN wilde mij op de radio, in Gelderland ben ik op een locale omroep live in de uitzending geweest, bij Gouwestad Radio heb ik in de studio een interview gedaan, samen met campusTV hebben we een kort filmpje gemaakt waarin ik zelfs nog moest acteren, treinontmoeting stond in de Intermediair en in de Sprout, en natuurlijk waren er nog de talloze nieuwssites en blogs als ZDnet en Bright.&lt;/p&gt;
-
-&lt;p&gt;Ik heb zelfs een persbericht geschreven naar een aantal instanties. Dat vond ik super spannend. Maar de grap was, de instanties die aandacht gaven aan het idee die heb ik nooit hoeven benaderen. En andersom, de bedrijven die ik benaderde hebben nooit aandacht gegeven aan het idee. Eigenlijk ging het allemaal zo vanzelf. Super interessant om mee te maken.&lt;/p&gt;
-
-&lt;p&gt;Ook Martijn van Osch, verhalenverteller en filmpjesmaker, wilde een filmpje maken waarin hij mij zou interviewen. Ook weer leuk om te doen. Onwijs buiten mijn comfortzone, dat wel. Ik hou eigenlijk helemaal niet zo van de spotlights. Maar goed, het filmje bracht de boodschap aardig over. Zo goed, dat een maatje van mij die avond belde “Gast! Je bent op het NOS journaal”. Niet te geloven, hoe dingen kunnen lopen. Met je kop op landelijke TV.&lt;/p&gt;
-
-&lt;p&gt;Het succes van Treinontmoeting was duidelijk. Een simpel, krachtig idee krijg je zo de wereld in en aandacht daarvoor krijgen werkt dan blijkbaar super goed. Aan de andere kant was daar het idee zelf. Hebben mensen elkaar üperhaubt wel eens ontmoet in de trein. NEE. Merkwaardig toch? In de tijd die volgde zag ik een aantal vergelijkbare ideeën het levenslicht zoeken. Allen gericht op ontmoetingen in het OV. Sommigen kwamen ook verder dan Treinontmoeting. Een initiatief had het zelfs voor elkaar dat zo nu en dan eens coupé’s speciaal ingericht waren als ontmoetingscoupé’s. Maar geen enkel initiatief is echt groot geworden.&lt;/p&gt;
-
-&lt;p&gt;Qua initiatieven dus geen gebrek. Successen wel. En ik denk dat we daar niet veel aan kunnen doen. Nederlanders zijn volgens mij over het algemeen niet zulke praters in het ov. Niet met vreemde althans, want stiltecoupé’s zijn blijkbaar wel noodzakelijk en een succes. Initiatieven als Treinontmoeting heeft dus eigenlijk maar een kleine doelgroep. Men moet open staan voor ontmoetingen, dat kenbaar maken en ook nog eens in hetzelfde treinstel of op hetzelfde station staan. Die kans is, realistisch gezien, gewoon niet zo erg groot.&lt;/p&gt;
-
-&lt;p&gt;Treinontmoeting krijgt inmiddels nog maar minimale aandacht. En dat is prima. Wat wel leuk is, dat ik nog steeds benaderd wordt door studenten aan universiteiten of hoge scholen. Ze studeren sociale wetenschappen of doen een communicatieve opleiding en willen dan weten wat mijn plan achter Treinontmoeting was, hoe ik het zo succesvol heb weten te krijgen. Ik moet dan altijd even lachen. Eigenlijk heb ik het hele project gevaren op m’n eigen intuïtie. Wat goed voelde deed ik, en wat niet deed ik niet. Zo heb ik goed nee leren zeggen tegen mensen en bedrijven. Ook heb ik heel veel nieuwe dingen geleerd. Dingen over sponsorships, over interviewtechnieken, over concurenten, en veel meer. Dus was dat betreft was Treinontmoeting heeeel succesvol ;-)&lt;/p&gt;
-</description>
-        <pubDate>Sat, 10 Apr 2010 14:00:00 +0200</pubDate>
-        <link>http://franklabs.nl/tijdlijn/treinontmoeting.html</link>
-        <guid isPermaLink="true">http://franklabs.nl/tijdlijn/treinontmoeting.html</guid>
-        
-        
-        <category>tijdlijn</category>
-        
-      </item>
-    
-      <item>
-        <title>Gaan werken bij Q42</title>
-        <description>&lt;p&gt;Gaan werken bij Q42.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.q42.nl&quot; class=&quot;extern&quot;&gt;q42.nl website&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 01 Sep 2007 14:00:00 +0200</pubDate>
-        <link>http://franklabs.nl/tijdlijn/q42.html</link>
-        <guid isPermaLink="true">http://franklabs.nl/tijdlijn/q42.html</guid>
         
         
         <category>tijdlijn</category>
