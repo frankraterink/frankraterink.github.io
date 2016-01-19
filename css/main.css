@@ -492,6 +492,14 @@ html, body {
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #625370, #010000 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #625370, #010000 100%); }
 
+.wall-gallup {
+  background-color: #404040;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #404040, #000000 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #404040, #000000 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #404040, #000000 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #404040, #000000 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #404040, #000000 100%); }
+
 /* SPELEN */
 .light-wall {
   position: fixed;
