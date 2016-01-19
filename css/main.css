@@ -500,6 +500,22 @@ html, body {
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #404040, #000000 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #404040, #000000 100%); }
 
+.wall-london {
+  background-color: #01003E;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #885B7A, #01003E 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #885B7A, #01003E 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #885B7A, #01003E 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #885B7A, #01003E 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #885B7A, #01003E 100%); }
+
+.wall-sand-dunes {
+  background-color: #01003E;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #CDB694, #251C15 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #CDB694, #251C15 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #CDB694, #251C15 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #CDB694, #251C15 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #CDB694, #251C15 100%); }
+
 /* SPELEN */
 .light-wall {
   position: fixed;
