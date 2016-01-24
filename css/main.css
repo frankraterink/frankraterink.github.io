@@ -589,18 +589,20 @@ html, body {
       left: 5%;
       opacity: 1;
       transition: opacity .9s ease-out; }
-    .enhanceUIforNonTouch .site-header nav a {
-      padding: 0px 9px 2px;
-      transition: .2s ease-out;
-      border-radius: 12px;
-      margin-left: 0px;
-      text-decoration: none;
-      box-shadow: none; }
-      .enhanceUIforNonTouch .site-header nav a:hover {
-        color: white;
-        background-color: #646E77;
+    .enhanceUIforNonTouch .site-header nav {
+      float: none; }
+      .enhanceUIforNonTouch .site-header nav a {
+        padding: 0px 9px 2px;
+        transition: .2s ease-out;
+        border-radius: 12px;
+        margin-left: 0px;
         text-decoration: none;
-        transition: .1s ease-out; } }
+        box-shadow: none; }
+        .enhanceUIforNonTouch .site-header nav a:hover {
+          color: white;
+          background-color: #646E77;
+          text-decoration: none;
+          transition: .1s ease-out; } }
 @keyframes pulse {
   from {
     opacity: 1;
