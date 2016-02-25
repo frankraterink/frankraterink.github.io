@@ -238,7 +238,7 @@ html, body {
   @media only screen and (min-width: 900px) {
     .post-content:hover p {
       transition: opacity .3s ease-in-out;
-      opacity: 0.2; }
+      opacity: 0.25; }
       .post-content:hover p:hover {
         opacity: 1; } }
   .post-content h2 {
