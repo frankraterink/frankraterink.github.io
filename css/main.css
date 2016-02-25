@@ -314,24 +314,6 @@ html, body {
       min-height: 50px;
       text-align: center; }
 
-.flee {
-  position: fixed;
-  bottom: 10vh;
-  left: 100px;
-  width: 30px;
-  overflow: hidden;
-  z-index: 9999999;
-  height: 28px;
-  padding: 3px; }
-  .flee:hover .trollface {
-    opacity: 0.5;
-    transition: 2s ease-out; }
-  .flee .trollface {
-    position: absolute;
-    top: 0;
-    opacity: 0;
-    transition: .3s ease-out; }
-
 @media only screen and (min-width: 900px) {
   .gallery .photo-frame {
     height: 90vh; }
