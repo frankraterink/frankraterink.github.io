@@ -564,45 +564,6 @@ html, body {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg); }
 
-@media only screen and (min-width: 600px) {
-  .enhanceUIforNonTouch .site-header {
-    position: fixed;
-    left: -100%;
-    top: 10%;
-    z-index: 222;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    box-shadow: -6px 28px 37px -21px rgba(0, 0, 0, 0.2), 0px 27px 72px -12px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    background-color: white;
-    opacity: 0;
-    transition: opacity .05s ease-out; }
-    .enhanceUIforNonTouch .site-header .site-title {
-      width: 100%;
-      margin-top: 62px;
-      box-shadow: none; }
-      .enhanceUIforNonTouch .site-header .site-title:hover {
-        background-color: transparent;
-        text-decoration: underline; }
-    .enhanceUIforNonTouch .site-header.visible {
-      left: 5%;
-      opacity: 1;
-      transition: opacity .9s ease-out; }
-    .enhanceUIforNonTouch .site-header nav {
-      float: none; }
-      .enhanceUIforNonTouch .site-header nav a {
-        padding: 0px 9px 2px;
-        transition: .2s ease-out;
-        border-radius: 12px;
-        margin-left: 0px;
-        text-decoration: none;
-        box-shadow: none; }
-        .enhanceUIforNonTouch .site-header nav a:hover {
-          color: white;
-          background-color: #646E77;
-          text-decoration: none;
-          transition: .1s ease-out; } }
 @keyframes pulse {
   from {
     opacity: 1;
