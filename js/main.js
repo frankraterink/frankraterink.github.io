@@ -39,7 +39,6 @@ Franklabs.prototype = {
 
 		if (this.is_touch_device() || innerWidth < 1150) {
 			this.$body.removeClass('enhanceUIforNonTouch');
-			this.resetHeader();
 			this.$header.removeClass('hidden');
 		} else {
 			this.$body.addClass('enhanceUIforNonTouch');
@@ -51,10 +50,6 @@ Franklabs.prototype = {
 		return (('ontouchstart' in window)
 			|| (navigator.MaxTouchPoints > 0)
 			|| (navigator.msMaxTouchPoints > 0));
-	},
-
-	resetHeader: function() {
-		this.setTranslate(0, 0);
 	},
 
 	launchLazyLoading: function() {
