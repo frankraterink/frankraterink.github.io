@@ -233,6 +233,12 @@ html, body {
   list-style: none; }
   .post-list li {
     margin-bottom: 20px; }
+    .post-list li a {
+      width: 100%;
+      display: block;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden; }
   .post-list .post-meta {
     display: block; }
 
@@ -248,8 +254,6 @@ html, body {
   .post-list {
     margin-left: 0;
     list-style: none; }
-    .post-list li {
-      margin-bottom: 0px; }
     .post-list .post-meta {
       display: inline-block;
       width: 120px; } }
