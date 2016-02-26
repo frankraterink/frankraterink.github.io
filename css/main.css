@@ -114,7 +114,7 @@ html, body {
   font-size: 20px; }
 
 .post-list {
-  margin-left: 0;
+  margin: 0 0 90px 0;
   list-style: none; }
   .post-list li {
     margin-bottom: 20px; }
