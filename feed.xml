@@ -5,9 +5,26 @@
     <description>Fotografie, korte verhalen en minimalisme.</description>
     <link>http://franklabs.nl/</link>
     <atom:link href="http://franklabs.nl/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Feb 2016 10:15:21 +0100</pubDate>
-    <lastBuildDate>Sat, 27 Feb 2016 10:15:21 +0100</lastBuildDate>
+    <pubDate>Mon, 29 Feb 2016 08:33:26 +0100</pubDate>
+    <lastBuildDate>Mon, 29 Feb 2016 08:33:26 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Verhaal zonder woorden</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/img/verhaalzonderwoorden1.jpg&quot; /&gt;
+&lt;img src=&quot;/img/verhaalzonderwoorden2.jpg&quot; /&gt;
+&lt;img src=&quot;/img/verhaalzonderwoorden3.jpg&quot; /&gt;
+&lt;img src=&quot;/img/verhaalzonderwoorden4.jpg&quot; /&gt;
+&lt;img src=&quot;/img/verhaalzonderwoorden5.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 28 Feb 2016 21:11:00 +0100</pubDate>
+        <link>http://franklabs.nl/blog/verhaal-zonder-woorden</link>
+        <guid isPermaLink="true">http://franklabs.nl/blog/verhaal-zonder-woorden</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>In de winkel</title>
@@ -226,23 +243,6 @@ Ik kijk naar buiten. De lucht begint zacht paarsblauw te worden. Mooi. Wat rando
         <pubDate>Fri, 16 Jan 2015 13:00:00 +0100</pubDate>
         <link>http://franklabs.nl/blog/franklabs-launch</link>
         <guid isPermaLink="true">http://franklabs.nl/blog/franklabs-launch</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Foto&#39;s maken, filmen en meehelpen lesgeven bij een CodeUur in Monnickendam</title>
-        <description>&lt;p&gt;CodeUur is een initiatief van onder andere Q42 dat programmeren in de klas wil krijgen. Dus 1 uur les geven in programmeren op een basisschool. Daar heb ik bij geholpen. Naast het beeldmateriaal dat ik gemaakt heb, heb ik ook de kids geholpen met hun programmeerwerk. Super awesome om te zien hoe slim die kids zijn en hoe leuk ze het vinden. Daar krijg je echt energie van joh ;-)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/tijdlijn-codeuur-monnickendam.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.codeuur.nl/&quot; class=&quot;extern&quot;&gt;Stichting CodeUur&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 27 Nov 2014 13:00:00 +0100</pubDate>
-        <link>http://franklabs.nl/blog/codeuur-monnickendam</link>
-        <guid isPermaLink="true">http://franklabs.nl/blog/codeuur-monnickendam</guid>
         
         
         <category>blog</category>
