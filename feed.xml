@@ -5,9 +5,22 @@
     <description>Fotografie, korte verhalen en minimalisme.</description>
     <link>http://franklabs.nl/</link>
     <atom:link href="http://franklabs.nl/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Feb 2016 08:42:22 +0100</pubDate>
-    <lastBuildDate>Mon, 29 Feb 2016 08:42:22 +0100</lastBuildDate>
+    <pubDate>Fri, 11 Mar 2016 10:27:43 +0100</pubDate>
+    <lastBuildDate>Fri, 11 Mar 2016 10:27:43 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Broccoli</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/img/broccoli.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Mar 2016 11:27:00 +0100</pubDate>
+        <link>http://franklabs.nl/blog/broccoli</link>
+        <guid isPermaLink="true">http://franklabs.nl/blog/broccoli</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Verhaal zonder woorden</title>
@@ -228,21 +241,6 @@ Ik kijk naar buiten. De lucht begint zacht paarsblauw te worden. Mooi. Wat rando
         <pubDate>Fri, 06 Mar 2015 13:00:00 +0100</pubDate>
         <link>http://franklabs.nl/blog/codeuur-nemo</link>
         <guid isPermaLink="true">http://franklabs.nl/blog/codeuur-nemo</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Franklabs launch</title>
-        <description>&lt;p&gt;Franklabs ziet het daglicht! Franklabs wordt een speelplek voor webexperimentjes en een plek om leuke dingen te delen.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/tijdlijn-franklabs-launch.png&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 16 Jan 2015 13:00:00 +0100</pubDate>
-        <link>http://franklabs.nl/blog/franklabs-launch</link>
-        <guid isPermaLink="true">http://franklabs.nl/blog/franklabs-launch</guid>
         
         
         <category>blog</category>
