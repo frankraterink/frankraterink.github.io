@@ -171,13 +171,13 @@ h4 {
 
 .gallery .photo-frame {
   box-sizing: border-box;
-  height: 90vh;
+  height: 105vh;
   /**/
-  padding: 50px 20px 50px;
+  padding: 100px 20px 50px;
   max-width: 100%;
   -webkit-transition: all 600ms ease-out; }
   .gallery .photo-frame figure {
-    width: 740px;
+    width: 100%;
     margin: 0px auto;
     height: 100%;
     position: relative;
@@ -193,20 +193,14 @@ h4 {
       text-align: center; }
 
 @media only screen and (min-width: 900px) {
-  .gallery .photo-frame {
-    height: 90vh; }
-    .gallery .photo-frame figure {
-      max-width: 65%; } }
+  .gallery .photo-frame figure {
+    max-width: 65%; } }
 @media only screen and (min-width: 1281px) {
-  .gallery .photo-frame {
-    height: 85vh; }
-    .gallery .photo-frame figure {
-      max-width: 85%; } }
+  .gallery .photo-frame figure {
+    max-width: 60%; } }
 @media only screen and (max-height: 450px) and (max-width: 1000px) {
-  .gallery .photo-frame {
-    height: 85vh; }
-    .gallery .photo-frame figure {
-      max-width: 40%; } }
+  .gallery .photo-frame figure {
+    max-width: 40%; } }
 .wall-marrakesh {
   background-color: #584932;
   background-image: -moz-radial-gradient(50% -10%, ellipse cover, #F8F5F0, #584932 100%);

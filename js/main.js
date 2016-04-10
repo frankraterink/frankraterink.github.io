@@ -19,7 +19,7 @@ Franklabs.prototype = {
 		var gallery = $('.gallery').length;
 		if (gallery && !this.is_touch_device()) {
 			this.headerAnimation = false;
-			this.launchGalleryIntroAnimation();
+			//this.launchGalleryIntroAnimation();
 			this.launchGalleryKeyboardNav();
 		}
 
@@ -56,41 +56,6 @@ Franklabs.prototype = {
 		$("img.lazy").lazyload({
 			threshold : 1500
 		});
-	},
-
-	launchGalleryIntroAnimation: function () {
-		var photoFrameTween = new ui.Tween({
-			values: {
-				height: '107vh'
-			},
-			duration: 1200
-		});
-
-		var photoFrameFigureTween = new ui.Tween({
-			values: {
-				width: '1057px'
-			},
-			duration: 1200
-		});
-
-		$("html, body").animate({ scrollTop: 0 }, 800, function(){
-
-			var photoFrames = ui.select('.photo-frame'); // select returns Iterator
-			photoFrames.stagger('start', {
-				interval: 5,
-				ease: 'easeOut'
-			}, photoFrameTween);
-
-			var photoFramesFigure = ui.select('.photo-frame figure'); // select returns Iterator
-			photoFramesFigure.stagger('start', {
-				interval: 5,
-				ease: 'easeOut'
-			}, photoFrameFigureTween);
-		});
-
-		setTimeout(function(){
-			this.headerAnimation = true;
-		}.bind(this), 3000);
 	},
 
 	launchGalleryKeyboardNav: function() {
