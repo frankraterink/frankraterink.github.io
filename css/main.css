@@ -63,6 +63,13 @@ blockquote {
   blockquote > :last-child {
     margin-bottom: 0; }
 
+.post-content blockquote {
+  margin: inherit;
+  margin-bottom: 15px;
+  max-width: none;
+  padding-left: 20px;
+  border-left: 1px solid #5d5d5d; }
+
 .wrapper {
   max-width: 35em;
   margin: 0 auto;
