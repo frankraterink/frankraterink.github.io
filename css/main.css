@@ -272,7 +272,7 @@ h4 {
     /**/
     padding: 100px 20px 50px;
     max-width: 100%;
-    -webkit-transition: all 600ms ease-out; }
+    -webkit-transition: all 600000ms ease-in-out; }
     .gallery .photo-frame figure {
       width: 100%;
       margin: 0px auto;
