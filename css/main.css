@@ -172,7 +172,14 @@ html, body {
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%); }
   .pieterpadpaden .page-content h1, .pieterpadpaden .page-content .post-title, .pieterpadpaden .page-content h2, .pieterpadpaden .page-content h3, .pieterpadpaden .page-content p, .pieterpadpaden .page-content a, .pieterpadpaden .page-content figcaption, .pieterpadpaden .page-content .post-meta {
-    color: #fff; }
+    color: #fff;
+    text-shadow: 0px 0px 0px #fff; }
+  .pieterpadpaden .page-content a {
+    color: #dcdcde;
+    border-color: #dcdcde; }
+    .pieterpadpaden .page-content a:hover {
+      color: #fff;
+      border-color: #fff; }
 
 .eveningdark .page-content {
   background-color: #01003E;
