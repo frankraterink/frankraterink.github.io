@@ -264,28 +264,30 @@ h4 {
     h4 {
       font-size: 16px; } }
 
-.gallery .photo-frame {
-  box-sizing: border-box;
-  height: 105vh;
-  /**/
-  padding: 100px 20px 50px;
-  max-width: 100%;
-  -webkit-transition: all 600ms ease-out; }
-  .gallery .photo-frame figure {
-    width: 100%;
-    margin: 0px auto;
-    height: 100%;
-    position: relative;
-    max-width: 95%;
+.gallery {
+  height: 100%; }
+  .gallery .photo-frame {
+    box-sizing: border-box;
+    height: 97%;
     /**/
+    padding: 100px 20px 50px;
+    max-width: 100%;
     -webkit-transition: all 600ms ease-out; }
-    .gallery .photo-frame figure img {
-      margin: 0px auto 0;
-      box-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 1px 0px 0px rgba(255, 255, 255, 0.4), -1px 0px 0px 0px rgba(214, 210, 136, 0.4), 0px -1px 0px 0px rgba(214, 210, 136, 0.4), 0px 6px 9px 0px rgba(0, 0, 0, 0.5), 0px 20px 30px 7px rgba(0, 0, 0, 0.3); }
-    .gallery .photo-frame figure figcaption {
-      margin-top: 30px;
-      min-height: 50px;
-      text-align: center; }
+    .gallery .photo-frame figure {
+      width: 100%;
+      margin: 0px auto;
+      height: 100%;
+      position: relative;
+      max-width: 95%;
+      /**/
+      -webkit-transition: all 600ms ease-out; }
+      .gallery .photo-frame figure img {
+        margin: 0px auto 0;
+        box-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 1px 0px 0px rgba(255, 255, 255, 0.4), -1px 0px 0px 0px rgba(214, 210, 136, 0.4), 0px -1px 0px 0px rgba(214, 210, 136, 0.4), 0px 6px 9px 0px rgba(0, 0, 0, 0.5), 0px 20px 30px 7px rgba(0, 0, 0, 0.3); }
+      .gallery .photo-frame figure figcaption {
+        margin-top: 30px;
+        min-height: 50px;
+        text-align: center; }
 
 @media only screen and (min-width: 900px) {
   .gallery .photo-frame figure {
