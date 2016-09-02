@@ -159,7 +159,7 @@ html, body {
 
 .pureblack .page-content {
   background-color: #000;
-  height: 100%; }
+  min-height: 100%; }
   .pureblack .page-content h1, .pureblack .page-content .post-title, .pureblack .page-content h2, .pureblack .page-content h3, .pureblack .page-content p, .pureblack .page-content a, .pureblack .page-content ul, .pureblack .page-content ol, .pureblack .page-content figcaption, .pureblack .page-content .post-meta {
     color: #fff;
     text-shadow: 0px 0px 0px #4a4a4a; }
