@@ -189,7 +189,8 @@ html, body {
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%); }
   .eveningdark .page-content h1, .eveningdark .page-content .post-title, .eveningdark .page-content h2, .eveningdark .page-content h3, .eveningdark .page-content p, .eveningdark .page-content a, .eveningdark .page-content figcaption, .eveningdark .page-content .post-meta {
-    color: #fff; }
+    color: #fff;
+    text-shadow: 0px 0px 0px #fff; }
   .eveningdark .page-content a {
     color: #bba298;
     border-color: #bba298; }
