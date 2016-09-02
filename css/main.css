@@ -157,6 +157,13 @@ html, body {
     .post-content img.photo {
       box-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 1px 0px 0px rgba(255, 255, 255, 0.4), -1px 0px 0px 0px rgba(214, 210, 136, 0.4), 0px -1px 0px 0px rgba(214, 210, 136, 0.4), 0px 6px 9px 0px rgba(0, 0, 0, 0.5), 0px 20px 30px 7px rgba(0, 0, 0, 0.3); }
 
+.pureblack .page-content {
+  background-color: #000;
+  height: 100%; }
+  .pureblack .page-content h1, .pureblack .page-content .post-title, .pureblack .page-content h2, .pureblack .page-content h3, .pureblack .page-content p, .pureblack .page-content a, .pureblack .page-content figcaption, .pureblack .page-content .post-meta {
+    color: #fff;
+    text-shadow: 0px 0px 0px #4a4a4a; }
+
 .pieterpadpaden .page-content {
   background-color: #01003E;
   background-image: -moz-radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
