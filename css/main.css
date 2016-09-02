@@ -157,6 +157,16 @@ html, body {
     .post-content img.photo {
       box-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 1px 0px 0px rgba(255, 255, 255, 0.4), -1px 0px 0px 0px rgba(214, 210, 136, 0.4), 0px -1px 0px 0px rgba(214, 210, 136, 0.4), 0px 6px 9px 0px rgba(0, 0, 0, 0.5), 0px 20px 30px 7px rgba(0, 0, 0, 0.3); }
 
+.pieterpadpaden .page-content {
+  background-color: #01003E;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%); }
+  .pieterpadpaden .page-content h1, .pieterpadpaden .page-content .post-title, .pieterpadpaden .page-content h2, .pieterpadpaden .page-content h3, .pieterpadpaden .page-content p, .pieterpadpaden .page-content a, .pieterpadpaden .page-content figcaption, .pieterpadpaden .page-content .post-meta {
+    color: #fff; }
+
 .eveningdark .page-content {
   background-color: #01003E;
   background-image: -moz-radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%);
