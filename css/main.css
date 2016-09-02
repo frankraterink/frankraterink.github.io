@@ -160,9 +160,26 @@ html, body {
 .pureblack .page-content {
   background-color: #000;
   height: 100%; }
-  .pureblack .page-content h1, .pureblack .page-content .post-title, .pureblack .page-content h2, .pureblack .page-content h3, .pureblack .page-content p, .pureblack .page-content a, .pureblack .page-content figcaption, .pureblack .page-content .post-meta {
+  .pureblack .page-content h1, .pureblack .page-content .post-title, .pureblack .page-content h2, .pureblack .page-content h3, .pureblack .page-content p, .pureblack .page-content a, .pureblack .page-content ul, .pureblack .page-content ol, .pureblack .page-content figcaption, .pureblack .page-content .post-meta {
     color: #fff;
     text-shadow: 0px 0px 0px #4a4a4a; }
+
+.pieterpadeerstepost .page-content {
+  background-color: #01003E;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #928d96, #232323 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #928d96, #232323 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #928d96, #232323 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #928d96, #232323 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #928d96, #232323 100%); }
+  .pieterpadeerstepost .page-content h1, .pieterpadeerstepost .page-content .post-title, .pieterpadeerstepost .page-content h2, .pieterpadeerstepost .page-content h3, .pieterpadeerstepost .page-content p, .pieterpadeerstepost .page-content a, .pieterpadeerstepost .page-content ul, .pieterpadeerstepost .page-content ol, .pieterpadeerstepost .page-content figcaption, .pieterpadeerstepost .page-content .post-meta {
+    color: #fff;
+    text-shadow: 0px 0px 0px #fff; }
+  .pieterpadeerstepost .page-content a {
+    color: #dcdcde;
+    border-color: #dcdcde; }
+    .pieterpadeerstepost .page-content a:hover {
+      color: #fff;
+      border-color: #fff; }
 
 .pieterpadpaden .page-content {
   background-color: #01003E;
@@ -171,7 +188,7 @@ html, body {
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%); }
-  .pieterpadpaden .page-content h1, .pieterpadpaden .page-content .post-title, .pieterpadpaden .page-content h2, .pieterpadpaden .page-content h3, .pieterpadpaden .page-content p, .pieterpadpaden .page-content a, .pieterpadpaden .page-content figcaption, .pieterpadpaden .page-content .post-meta {
+  .pieterpadpaden .page-content h1, .pieterpadpaden .page-content .post-title, .pieterpadpaden .page-content h2, .pieterpadpaden .page-content h3, .pieterpadpaden .page-content p, .pieterpadpaden .page-content a, .pieterpadpaden .page-content ul, .pieterpadpaden .page-content ol, .pieterpadpaden .page-content figcaption, .pieterpadpaden .page-content .post-meta {
     color: #fff;
     text-shadow: 0px 0px 0px #fff; }
   .pieterpadpaden .page-content a {
@@ -188,7 +205,7 @@ html, body {
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%); }
-  .eveningdark .page-content h1, .eveningdark .page-content .post-title, .eveningdark .page-content h2, .eveningdark .page-content h3, .eveningdark .page-content p, .eveningdark .page-content a, .eveningdark .page-content figcaption, .eveningdark .page-content .post-meta {
+  .eveningdark .page-content h1, .eveningdark .page-content .post-title, .eveningdark .page-content h2, .eveningdark .page-content h3, .eveningdark .page-content p, .eveningdark .page-content a, .eveningdark .page-content ul, .eveningdark .page-content ol, .eveningdark .page-content figcaption, .eveningdark .page-content .post-meta {
     color: #fff;
     text-shadow: 0px 0px 0px #fff; }
   .eveningdark .page-content a {
@@ -229,7 +246,8 @@ h1, .post-title {
       font-size: 33.6px; } }
 
 h2 {
-  font-size: 32px; }
+  font-size: 32px;
+  margin-top: 40px; }
   @media screen and (max-width: 800px) {
     h2 {
       font-size: 25.6px; } }
