@@ -165,7 +165,7 @@ html, body {
     text-shadow: 0px 0px 0px #4a4a4a; }
 
 .pieterpadeerstepost .page-content {
-  background-color: #01003E;
+  background-color: #232323;
   background-image: -moz-radial-gradient(50% -10%, ellipse cover, #928d96, #232323 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #928d96, #232323 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #928d96, #232323 100%);
@@ -181,25 +181,25 @@ html, body {
       color: #fff;
       border-color: #fff; }
 
-.pieterpadpaden .page-content {
-  background-color: #01003E;
+.bkgrnd_gray .page-content {
+  background-color: #5a4c49;
   background-image: -moz-radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
   background-image: radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%); }
-  .pieterpadpaden .page-content h1, .pieterpadpaden .page-content .post-title, .pieterpadpaden .page-content h2, .pieterpadpaden .page-content h3, .pieterpadpaden .page-content p, .pieterpadpaden .page-content a, .pieterpadpaden .page-content ul, .pieterpadpaden .page-content ol, .pieterpadpaden .page-content figcaption, .pieterpadpaden .page-content .post-meta {
+  .bkgrnd_gray .page-content h1, .bkgrnd_gray .page-content .post-title, .bkgrnd_gray .page-content h2, .bkgrnd_gray .page-content h3, .bkgrnd_gray .page-content p, .bkgrnd_gray .page-content a, .bkgrnd_gray .page-content ul, .bkgrnd_gray .page-content ol, .bkgrnd_gray .page-content figcaption, .bkgrnd_gray .page-content .post-meta {
     color: #fff;
     text-shadow: 0px 0px 0px #fff; }
-  .pieterpadpaden .page-content a {
+  .bkgrnd_gray .page-content a {
     color: #dcdcde;
     border-color: #dcdcde; }
-    .pieterpadpaden .page-content a:hover {
+    .bkgrnd_gray .page-content a:hover {
       color: #fff;
       border-color: #fff; }
 
 .eveningdark .page-content {
-  background-color: #01003E;
+  background-color: #1f0701;
   background-image: -moz-radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%);
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%);
@@ -239,6 +239,14 @@ html, body {
   .larger-images .post-content figcaption {
     margin-top: -120px;
     margin-bottom: 150px; } }
+@media only screen and (min-width: 1900px) {
+  .larger-images .post-content img.panorama {
+    width: 114em;
+    margin: 40px 0 150px -39em; } }
+@media only screen and (min-width: 2200px) {
+  .larger-images .post-content img.panorama {
+    width: 129em;
+    margin: 40px 0 150px -47em; } }
 h1, .post-title {
   font-size: 42px; }
   @media screen and (max-width: 800px) {
