@@ -174,7 +174,8 @@ html, body {
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #928d96, #232323 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #928d96, #232323 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #928d96, #232323 100%);
-  background-image: radial-gradient(50% -10%, ellipse cover, #928d96, #232323 100%); }
+  background-image: radial-gradient(50% -10%, ellipse cover, #928d96, #232323 100%);
+  background-attachment: fixed; }
   .pieterpadeerstepost .page-content h1, .pieterpadeerstepost .page-content .post-title, .pieterpadeerstepost .page-content h2, .pieterpadeerstepost .page-content h3, .pieterpadeerstepost .page-content p, .pieterpadeerstepost .page-content a, .pieterpadeerstepost .page-content ul, .pieterpadeerstepost .page-content ol, .pieterpadeerstepost .page-content figcaption, .pieterpadeerstepost .page-content .post-meta {
     color: #fff;
     text-shadow: 0px 0px 0px #fff; }
@@ -191,7 +192,8 @@ html, body {
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
-  background-image: radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%); }
+  background-image: radial-gradient(50% -10%, ellipse cover, #a7a9af, #5a4c49 100%);
+  background-attachment: fixed; }
   .bkgrnd_gray .page-content h1, .bkgrnd_gray .page-content .post-title, .bkgrnd_gray .page-content h2, .bkgrnd_gray .page-content h3, .bkgrnd_gray .page-content p, .bkgrnd_gray .page-content a, .bkgrnd_gray .page-content ul, .bkgrnd_gray .page-content ol, .bkgrnd_gray .page-content figcaption, .bkgrnd_gray .page-content .post-meta {
     color: #fff;
     text-shadow: 0px 0px 0px #fff; }
@@ -208,7 +210,8 @@ html, body {
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #aba59a, #060503 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #aba59a, #060503 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #aba59a, #060503 100%);
-  background-image: radial-gradient(50% -10%, ellipse cover, #aba59a, #060503 100%); }
+  background-image: radial-gradient(50% -10%, ellipse cover, #aba59a, #060503 100%);
+  background-attachment: fixed; }
   .bkgrnd_praag .page-content h1, .bkgrnd_praag .page-content .post-title, .bkgrnd_praag .page-content h2, .bkgrnd_praag .page-content h3, .bkgrnd_praag .page-content p, .bkgrnd_praag .page-content a, .bkgrnd_praag .page-content ul, .bkgrnd_praag .page-content ol, .bkgrnd_praag .page-content figcaption, .bkgrnd_praag .page-content .post-meta {
     color: #fff;
     text-shadow: 0px 0px 0px #fff; }
@@ -225,7 +228,8 @@ html, body {
   background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%);
   background-image: -o-radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%);
   background-image: -ms-radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%);
-  background-image: radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%); }
+  background-image: radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%);
+  background-attachment: fixed; }
   .eveningdark .page-content h1, .eveningdark .page-content .post-title, .eveningdark .page-content h2, .eveningdark .page-content h3, .eveningdark .page-content p, .eveningdark .page-content a, .eveningdark .page-content ul, .eveningdark .page-content ol, .eveningdark .page-content figcaption, .eveningdark .page-content .post-meta {
     color: #fff;
     text-shadow: 0px 0px 0px #fff; }
