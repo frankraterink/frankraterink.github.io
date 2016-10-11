@@ -7,6 +7,7 @@ function Franklabs() {
 	this.launchLazyLoading();
 
 	$(this.init.bind(this)); //set franksite as this
+
 }
 
 Franklabs.prototype = {
@@ -30,9 +31,10 @@ Franklabs.prototype = {
 
 		this.enhanceForNonTouchDevices();
 
+
+
 		this.$window.resize(this.enhanceForNonTouchDevices.bind(this));
 	},
-
 
 	enhanceForNonTouchDevices: function () {
 		// unbind previous bind
