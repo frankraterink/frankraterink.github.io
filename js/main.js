@@ -62,6 +62,7 @@ Franklabs.prototype = {
     var focusstart = timer.find('#focusstart');
     var focusdone = timer.find('#focusdone');
     var tasklist = timer.find('#tasklist');
+    var comments = timer.find('#comments p');
     var timer;
     var timerIsOn = false;
     var s;
@@ -91,6 +92,20 @@ Franklabs.prototype = {
           focustask.focus();
           return;
         }
+
+        if (s > 360) {
+          comments.text('Iets minder hooi op de vork is ook prima.');
+          focusminutes.focus();
+          return;
+        }
+
+        if (s < 0) {
+          comments.text('Probeer te focussen op de toekomstige tijd.');
+          focusminutes.focus();
+          return;
+        }
+
+        comments.text('');
 
         clearInterval(timer);
         timerIsOn = true;

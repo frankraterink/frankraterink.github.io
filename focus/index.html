@@ -55,12 +55,16 @@
 
   <div class="col">
     <p>Voor hoeveel minuten?</p>
-    <input type="number" id="focusminutes" />
+    <input type="number" id="focusminutes" min="0" max="360" />
     <a id="focusstart">start</a>
     <a id="focusdone">klaar</a>
   </div>
 
+  <div class="clear"></div>
 
+  <div id="comments">
+    <p class="center"></p>
+  </div>
 
   <div class="divider center">☯</div>
   <p class="center" id="countdown"></p>
