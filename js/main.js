@@ -31,7 +31,10 @@ Franklabs.prototype = {
 
 		this.enhanceForNonTouchDevices();
 
-
+    var timer = $('#timer');
+    if (timer) {
+      this.startTimer(timer);
+    }
 
 		this.$window.resize(this.enhanceForNonTouchDevices.bind(this));
 	},
@@ -47,6 +50,96 @@ Franklabs.prototype = {
 
 		}
 	},
+
+  startTimer: function(timer){
+
+    if (Notification.permission !== "granted")
+      Notification.requestPermission();
+
+    console.log('start timer', timer);
+    var countdown = timer.find('#countdown');
+    var focustask = timer.find('#focustask');
+    var focusminutes = timer.find('#focusminutes');
+    var focusstart = timer.find('#focusstart');
+    var focusdone = timer.find('#focusdone');
+    var timer;
+    var timerIsOn = false;
+    var s;
+    var s = 60;
+
+    focusminutes.change(function(){
+      s = parseInt(focusminutes.val()) * 60
+    });
+    focusstart.click(function(){
+      if (s == null) {
+        focusminutes.focus();
+        return;
+      }
+
+
+      if (timerIsOn) {
+        timerIsOn = false;
+        focusstart.text('start');
+        var secOnPause = s;
+        clearInterval(timer);
+      } else {
+        clearInterval(timer);
+        timerIsOn = true;
+        focusstart.text('pause');
+
+        if (s == null || s == 0) {
+          s = parseInt(focusminutes.val()) * 60
+        }
+        timer = setInterval(function() {
+          s--;
+
+          d = Number(s);
+          var th = Math.floor(d / 3600);
+          var tm = Math.floor(d % 3600 / 60);
+          var ts = Math.floor(d % 3600 % 60);
+
+          var countdowntext = (th == 0 ? '' : (th + ":")) + (tm < 10 && th > 0 ? '0' + tm : tm) + ":" + (ts < 10 ? '0' + ts : ts); //zero padding on minutes and seconds
+
+          countdown.text(focustask.val() + ' · ' + countdowntext);
+
+
+          document.title = 'focus  ☯  ' + countdowntext;
+
+          if (s == 0) {
+            clearInterval(timer);
+            timerIsOn = false;
+            focusstart.text('start');
+            focusminutes.val('');
+            s = 0;
+            document.title = 'focus  ☯  done';
+
+            if (Notification.permission !== "granted")
+              alert('Goed dat je je tijd hebt genomen om te focussen.');
+            else {
+              var notification = new Notification('focus', {
+                body: 'Goed dat je je tijd hebt genomen om te focussen.'
+              });
+
+              notification.onclick = function () {
+                window.open("http://franklabs.nl/focus");
+              };
+            }
+          }
+        }, 1000);
+      }
+
+    });
+    focusdone.click(function(){
+      clearInterval(timer);
+      timerIsOn = false;
+      focusstart.text('start');
+      focusminutes.val('');
+      s = 0;
+      focustask.val('').focus();
+    });
+
+
+  },
 
 	is_touch_device: function() {
 		return (('ontouchstart' in window)

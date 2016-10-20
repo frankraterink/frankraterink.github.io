@@ -744,6 +744,38 @@ h4 {
   margin: 0px auto;
   list-style-type: none; }
 
+#timer .col {
+  width: 50%;
+  float: left;
+  height: 100px; }
+  #timer .col #focustask {
+    width: 90%; }
+  #timer .col #focusminutes {
+    width: 130px; }
+  #timer .col input[type=text], #timer .col input[type=number] {
+    height: 23px;
+    font-size: 14px; }
+  #timer .col a {
+    height: 20px;
+    border: 1px solid #fff;
+    padding: 1px 10px 6px 10px;
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    opacity: .65; }
+    #timer .col a:hover {
+      opacity: 1;
+      cursor: pointer; }
+    #timer .col a#focusstart {
+      margin-left: 10px; }
+#timer p {
+  color: #fff; }
+#timer .divider {
+  font-size: 36px;
+  color: rgba(255, 255, 255, 0.27);
+  padding-top: 140px; }
+#timer #countdown {
+  font-size: 20px; }
+
 /**
  * Syntax highlighting styles
  */
