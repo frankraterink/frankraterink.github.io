@@ -56,16 +56,17 @@ Franklabs.prototype = {
     if (Notification.permission !== "granted")
       Notification.requestPermission();
 
-    console.log('start timer', timer);
     var countdown = timer.find('#countdown');
     var focustask = timer.find('#focustask');
     var focusminutes = timer.find('#focusminutes');
     var focusstart = timer.find('#focusstart');
     var focusdone = timer.find('#focusdone');
+    var tasklist = timer.find('#tasklist');
     var timer;
     var timerIsOn = false;
     var s;
-    var s = 60;
+    var defaultTime = 120;
+    var s = defaultTime;
 
     focusminutes.change(function(){
       s = parseInt(focusminutes.val()) * 60
@@ -78,14 +79,25 @@ Franklabs.prototype = {
 
 
       if (timerIsOn) {
+        // PAUSE
         timerIsOn = false;
         focusstart.text('start');
         var secOnPause = s;
         clearInterval(timer);
       } else {
+        // START
+
+        if (focustask.val() == '') {
+          focustask.focus();
+          return;
+        }
+
         clearInterval(timer);
         timerIsOn = true;
         focusstart.text('pause');
+
+        focustask.prop('disabled', true);
+        focusminutes.prop('disabled', true);
 
         if (s == null || s == 0) {
           s = parseInt(focusminutes.val()) * 60
@@ -106,12 +118,20 @@ Franklabs.prototype = {
           document.title = 'focus  ☯  ' + countdowntext;
 
           if (s == 0) {
+            // KLAAR
             clearInterval(timer);
             timerIsOn = false;
             focusstart.text('start');
             focusminutes.val('');
-            s = 0;
+            focustask.prop('disabled', false);
+            focusminutes.prop('disabled', false);
+            s = defaultTime;
             document.title = 'focus  ☯  done';
+
+            var newTask = $('<li>' + focustask.val() + '</li>');
+            tasklist.find('ul').prepend(newTask);
+
+
 
             if (Notification.permission !== "granted")
               alert('Goed dat je je tijd hebt genomen om te focussen.');
@@ -131,11 +151,24 @@ Franklabs.prototype = {
     });
     focusdone.click(function(){
       clearInterval(timer);
+
+      if (timerIsOn) {
+        var newTask = $('<li>' + focustask.val() + '</li>');
+        tasklist.find('ul').prepend(newTask);
+      }
+
       timerIsOn = false;
+
+      focustask.prop('disabled', false);
+      focusminutes.prop('disabled', false);
+
+
       focusstart.text('start');
       focusminutes.val('');
-      s = 0;
+      s = defaultTime;
       focustask.val('').focus();
+
+
     });
 
 

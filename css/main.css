@@ -775,6 +775,8 @@ h4 {
   padding-top: 140px; }
 #timer #countdown {
   font-size: 20px; }
+#timer #tasklist li {
+  color: rgba(255, 255, 255, 0.3); }
 
 /**
  * Syntax highlighting styles
