@@ -154,20 +154,10 @@ Franklabs.prototype = {
 
           document.title = 'focus  ☯  ' + countdowntext;
 
-          if (sec == 0) {
+          if (sec == 0 || sec < 0) {
             // KLAAR
             var newTask = $('<li>' + focustask.val() + '</li>');
             tasklist.find('ul').prepend(newTask);
-
-            clearInterval(timer);
-            timerIsOn = false;
-            focusstart.text('start');
-            focustask.val('');
-            focusminutes.val('');
-            focustask.prop('disabled', false);
-            focusminutes.prop('disabled', false);
-            s = defaultTime;
-            document.title = 'focus  ☯  done';
 
             if (Notification.permission !== "granted")
               alert('Goed dat je je tijd hebt genomen om te focussen.');
@@ -180,8 +170,20 @@ Franklabs.prototype = {
                 window.open("http://franklabs.nl/focus");
               };
             }
+
+            clearInterval(timer);
+            timerIsOn = false;
+            focusstart.text('start');
+            focustask.val('');
+            focusminutes.val('');
+            focustask.prop('disabled', false);
+            focusminutes.prop('disabled', false);
+            s = defaultTime;
+            document.title = 'focus  ☯  done';
+
+
           }
-        }, 1000);
+        }, 300);
       }
 
     });
