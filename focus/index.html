@@ -48,16 +48,15 @@
   <article class="post-content">
     <div id="timer">
 
-  <div class="col">
+  <div class="col col-left">
     <p>Waar wil je je op focussen?</p>
     <input type="text" id="focustask" />
   </div>
 
-  <div class="col">
+  <div class="col col-right">
     <p>Voor hoeveel minuten?</p>
-    <input type="number" id="focusminutes" min="0" max="360" />
-    <a id="focusstart">start</a>
-    <a id="focusdone">klaar</a>
+    <input type="number" id="focusminutes" min="0" max="360" step="1" pattern="[0-9]" />
+    <a href="#" id="focusstart">start</a>
   </div>
 
   <div class="clear"></div>

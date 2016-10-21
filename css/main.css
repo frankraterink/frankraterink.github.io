@@ -748,13 +748,16 @@ h4 {
   clear: both; }
 
 #timer .col {
-  width: 50%;
   float: left;
   height: 100px; }
+  #timer .col.col-left {
+    width: 70%; }
+  #timer .col.col-right {
+    width: 30%; }
   #timer .col #focustask {
     width: 90%; }
   #timer .col #focusminutes {
-    width: 130px; }
+    width: 85px; }
   #timer .col input[type=text], #timer .col input[type=number] {
     height: 23px;
     font-size: 14px; }
@@ -765,11 +768,15 @@ h4 {
     margin: 0px 0px 0px 0px;
     display: inline-block;
     opacity: .65; }
-    #timer .col a:hover {
+    #timer .col a:active {
+      background-color: rgba(255, 255, 255, 0.26); }
+    #timer .col a:hover, #timer .col a:focus {
       opacity: 1;
       cursor: pointer; }
     #timer .col a#focusstart {
-      margin-left: 10px; }
+      margin-left: 10px;
+      width: 40px;
+      text-align: center; }
 #timer p {
   color: #fff; }
 #timer .divider {

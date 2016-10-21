@@ -68,23 +68,36 @@ Franklabs.prototype = {
     var s;
     var defaultTime = 120;
     var s = defaultTime;
+    var startTime;
+    var now;
 
     focusminutes.change(function(){
       s = parseInt(focusminutes.val()) * 60
     });
-    focusstart.click(function(){
-      if (s == null) {
-        focusminutes.focus();
-        return;
-      }
-
+    focusstart.click(function(e){
+      e.preventDefault();
 
       if (timerIsOn) {
-        // PAUSE
-        timerIsOn = false;
-        focusstart.text('start');
-        var secOnPause = s;
+        // KLAAR
         clearInterval(timer);
+
+        if (timerIsOn) {
+          var newTask = $('<li>' + focustask.val() + '</li>');
+          tasklist.find('ul').prepend(newTask);
+        }
+
+        timerIsOn = false;
+
+        focustask.prop('disabled', false);
+        focusminutes.prop('disabled', false);
+
+
+        focusstart.text('start');
+        focusminutes.val('');
+        s = defaultTime;
+        focustask.val('').focus();
+
+
       } else {
         // START
 
@@ -93,7 +106,11 @@ Franklabs.prototype = {
           return;
         }
 
-        if (s > 360) {
+        if (s == null || isNaN(s)) {
+          s = defaultTime;
+        }
+
+        if (s > 2400) {
           comments.text('Iets minder hooi op de vork is ook prima.');
           focusminutes.focus();
           return;
@@ -105,11 +122,13 @@ Franklabs.prototype = {
           return;
         }
 
+        startTime = new Date();
+
         comments.text('');
 
         clearInterval(timer);
         timerIsOn = true;
-        focusstart.text('pause');
+        focusstart.text('klaar');
 
         focustask.prop('disabled', true);
         focusminutes.prop('disabled', true);
@@ -118,9 +137,12 @@ Franklabs.prototype = {
           s = parseInt(focusminutes.val()) * 60
         }
         timer = setInterval(function() {
-          s--;
 
-          d = Number(s);
+          now = new Date();
+
+          var sec = s - Math.floor((now - startTime)/1000);
+
+          d = Number(sec);
           var th = Math.floor(d / 3600);
           var tm = Math.floor(d % 3600 / 60);
           var ts = Math.floor(d % 3600 % 60);
@@ -132,21 +154,20 @@ Franklabs.prototype = {
 
           document.title = 'focus  ☯  ' + countdowntext;
 
-          if (s == 0) {
+          if (sec == 0) {
             // KLAAR
+            var newTask = $('<li>' + focustask.val() + '</li>');
+            tasklist.find('ul').prepend(newTask);
+
             clearInterval(timer);
             timerIsOn = false;
             focusstart.text('start');
+            focustask.val('');
             focusminutes.val('');
             focustask.prop('disabled', false);
             focusminutes.prop('disabled', false);
             s = defaultTime;
             document.title = 'focus  ☯  done';
-
-            var newTask = $('<li>' + focustask.val() + '</li>');
-            tasklist.find('ul').prepend(newTask);
-
-
 
             if (Notification.permission !== "granted")
               alert('Goed dat je je tijd hebt genomen om te focussen.');
@@ -162,27 +183,6 @@ Franklabs.prototype = {
           }
         }, 1000);
       }
-
-    });
-    focusdone.click(function(){
-      clearInterval(timer);
-
-      if (timerIsOn) {
-        var newTask = $('<li>' + focustask.val() + '</li>');
-        tasklist.find('ul').prepend(newTask);
-      }
-
-      timerIsOn = false;
-
-      focustask.prop('disabled', false);
-      focusminutes.prop('disabled', false);
-
-
-      focusstart.text('start');
-      focusminutes.val('');
-      s = defaultTime;
-      focustask.val('').focus();
-
 
     });
 
