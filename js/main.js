@@ -97,6 +97,8 @@ Franklabs.prototype = {
         s = defaultTime;
         focustask.val('').focus();
 
+        document.title = 'focus  ☯  done';
+
 
       } else {
         // START
