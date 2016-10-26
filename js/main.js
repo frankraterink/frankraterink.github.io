@@ -53,8 +53,6 @@ Franklabs.prototype = {
 
   startTimer: function(timer){
 
-    if (Notification.permission !== "granted")
-      Notification.requestPermission();
 
     var countdown = timer.find('#countdown');
     var focustask = timer.find('#focustask');
@@ -75,6 +73,10 @@ Franklabs.prototype = {
       s = parseInt(focusminutes.val()) * 60
     });
     focusstart.click(function(e){
+
+      if (Notification.permission !== "granted")
+        Notification.requestPermission();
+
       e.preventDefault();
 
       if (timerIsOn) {
