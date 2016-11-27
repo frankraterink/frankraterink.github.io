@@ -240,6 +240,24 @@ html, body {
       color: #fff;
       border-color: #fff; }
 
+.bkgrnd_london .page-content {
+  background-color: #5a4c49;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #c7c7c7, #584535 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #c7c7c7, #584535 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #c7c7c7, #584535 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #c7c7c7, #584535 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #c7c7c7, #584535 100%);
+  background-attachment: fixed; }
+  .bkgrnd_london .page-content h1, .bkgrnd_london .page-content .post-title, .bkgrnd_london .page-content h2, .bkgrnd_london .page-content h3, .bkgrnd_london .page-content p, .bkgrnd_london .page-content a, .bkgrnd_london .page-content ul, .bkgrnd_london .page-content ol, .bkgrnd_london .page-content figcaption, .bkgrnd_london .page-content .post-meta {
+    color: #fff;
+    text-shadow: 0px 0px 0px #fff; }
+  .bkgrnd_london .page-content a {
+    color: #dcdcde;
+    border-color: #dcdcde; }
+    .bkgrnd_london .page-content a:hover {
+      color: #fff;
+      border-color: #fff; }
+
 .eveningdark .page-content {
   background-color: #1f0701;
   background-image: -moz-radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%);
