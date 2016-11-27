@@ -222,6 +222,24 @@ html, body {
       color: #fff;
       border-color: #fff; }
 
+.bkgrnd_w00tcamp .page-content {
+  background-color: #5a4c49;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #c7c7c7, #584535 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #c7c7c7, #584535 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #c7c7c7, #584535 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #c7c7c7, #584535 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #c7c7c7, #584535 100%);
+  background-attachment: fixed; }
+  .bkgrnd_w00tcamp .page-content h1, .bkgrnd_w00tcamp .page-content .post-title, .bkgrnd_w00tcamp .page-content h2, .bkgrnd_w00tcamp .page-content h3, .bkgrnd_w00tcamp .page-content p, .bkgrnd_w00tcamp .page-content a, .bkgrnd_w00tcamp .page-content ul, .bkgrnd_w00tcamp .page-content ol, .bkgrnd_w00tcamp .page-content figcaption, .bkgrnd_w00tcamp .page-content .post-meta {
+    color: #fff;
+    text-shadow: 0px 0px 0px #fff; }
+  .bkgrnd_w00tcamp .page-content a {
+    color: #dcdcde;
+    border-color: #dcdcde; }
+    .bkgrnd_w00tcamp .page-content a:hover {
+      color: #fff;
+      border-color: #fff; }
+
 .eveningdark .page-content {
   background-color: #1f0701;
   background-image: -moz-radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%);
