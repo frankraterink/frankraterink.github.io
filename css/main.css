@@ -837,7 +837,7 @@ h4 {
     background-size: cover;
     clear: both; }
     .news-items li.half {
-      width: 275px;
+      width: 274px;
       float: left;
       clear: initial; }
       .news-items li.half + .half {
