@@ -378,6 +378,10 @@ html, body {
   color: white;
   position: relative;
   text-align: center; }
+  .storytelling-title-div.dark {
+    color: #000; }
+    .storytelling-title-div.dark:after, .storytelling-title-div.dark:before {
+      border-bottom: 3px solid rgba(0, 0, 0, 0.3); }
   .storytelling-title-div:after, .storytelling-title-div:before {
     border-bottom: 3px solid rgba(255, 255, 255, 0.3);
     content: "";
@@ -830,22 +834,37 @@ h4 {
     color: rgba(255, 255, 255, 0.3); }
 
 .news-items {
-  margin: 0;
-  list-style-type: none; }
-  .news-items li {
+  margin: 0 0 100px 0;
+  list-style-type: none;
+  clear: both; }
+  .news-items:after {
+    content: "";
+    display: block;
+    clear: both; }
+  .news-items .news-block {
     height: 200px;
     background-size: cover;
-    clear: both; }
-    .news-items li.half {
-      width: 274px;
+    clear: both;
+    margin-bottom: 10px;
+    background-color: #57626d; }
+    .news-items .news-block.half {
+      width: 275px;
       float: left;
       clear: initial; }
-      .news-items li.half + .half {
+      .news-items .news-block.half + .half {
         margin-left: 10px; }
-      .news-items li.half.high {
-        height: 500px; }
-    .news-items li a {
+      .news-items .news-block.half.high {
+        height: 620px;
+        overflow: scroll; }
+    .news-items .news-block.reset-margin {
+      margin-left: 0px !important; }
+    .news-items .news-block .link-list {
+      padding: 12px 11px; }
+    .news-items .news-block li, .news-items .news-block a {
       color: white;
+      font-size: 18px;
+      line-height: 1.9em; }
+    .news-items .news-block > a {
       display: block;
       height: 100%;
       width: 100%;
@@ -853,13 +872,13 @@ h4 {
       line-height: 1.2em;
       box-sizing: border-box;
       font-size: 40px;
-      border-bottom: 10px solid white;
-      background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.44) 0%, transparent 100%);
-      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.44) 0%, transparent 100%);
-      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.44) 0%, transparent 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70000000', endColorstr='#00000000',GradientType=0 ); }
-      .news-items li a:hover {
-        border-bottom: 10px solid white; }
+      border-bottom: none;
+      background-color: rgba(0, 0, 0, 0.15);
+      -webkit-transition: all 0.5s ease; }
+      .news-items .news-block > a:hover {
+        border-bottom: none;
+        background-color: rgba(0, 0, 0, 0.6);
+        -webkit-transition: all 0.5s ease; }
 
 /**
  * Syntax highlighting styles
