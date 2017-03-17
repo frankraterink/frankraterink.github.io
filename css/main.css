@@ -851,11 +851,20 @@ h4 {
       width: 275px;
       float: left;
       clear: initial; }
+      @media only screen and (max-width: 600px) {
+        .news-items .news-block.half {
+          width: 100%;
+          margin-left: 0px !important; }
+          .news-items .news-block.half.tweets {
+            width: 70%; } }
       .news-items .news-block.half + .half {
         margin-left: 10px; }
       .news-items .news-block.half.high {
         height: 620px;
         overflow: scroll; }
+        @media only screen and (max-width: 600px) {
+          .news-items .news-block.half.high {
+            height: 420px; } }
     .news-items .news-block.reset-margin {
       margin-left: 0px !important; }
     .news-items .news-block .link-list {
