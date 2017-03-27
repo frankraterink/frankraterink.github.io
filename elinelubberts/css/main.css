@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+html,
+body {
+  height: 100%; }
+
+@font-face {
+  font-family: 'WhoopAss';
+  src: url("http://franklabs.nl/elinelubberts/assets/whoopass.eot");
+  src: local("WhoopAss"), url("http://franklabs.nl/elinelubberts/assets/whoopass.ttf") format("truetype"); }
+code, pre {
+  font-family: Consolas, "Consolas for Powerline", "Courier New", Courier, monospace;
+  color: green; }
+
+@media screen and (max-width: 900px) {
+  .mobile-hidden {
+    display: none !important; } }
+.max-width, p, li, a, .like-normal, h3, .col-container {
+  max-width: 700px; }
+
+h1, h2 {
+  font-family: 'WhoopAss', sans-serif; }
+
+h1, .like-h1 {
+  color: #b9007f;
+  font-size: 2.7em;
+  letter-spacing: 0.06em; }
+
+h2 {
+  font-size: 1.7em; }
+
+h3 {
+  display: inline-block;
+  position: relative; }
+  h3 .bar {
+    height: 1.6em;
+    display: block;
+    position: absolute;
+    z-index: 0;
+    left: -30px;
+    top: -4px; }
+    h3 .bar.bar-pink {
+      width: 233%;
+      background-color: #b9007f;
+      -ms-transform: rotate(-3deg);
+      -webkit-transform: rotate(-3deg);
+      transform: rotate(-3deg); }
+    h3 .bar.bar-green {
+      width: 143%;
+      background-color: #40F200;
+      -ms-transform: rotate(-3deg);
+      -webkit-transform: rotate(-3deg);
+      transform: rotate(2deg); }
+  h3 .text {
+    position: relative;
+    z-index: 1;
+    color: #fff; }
+
+.text-default, p, li, a, .like-normal, h3, .footer {
+  font-family: 'Sanchez', serif;
+  font-size: 1.1em;
+  color: #000; }
+  @media screen and (max-width: 900px) {
+    .text-default, p, li, a, .like-normal, h3, .footer {
+      font-size: 1.0em; } }
+
+.text-white, .footer {
+  color: #fff; }
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1; }
+  @media screen and (max-width: 900px) {
+    .content {
+      width: 80%; } }
+
+.narrow {
+  max-width: 430px; }
+
+.gutter-top-small {
+  margin-top: 20px; }
+
+.gutter-top-large, .col-container {
+  margin-top: 80px; }
+
+.gutter-bottom-small, .page p.gutter-bottom-small, .page ul.gutter-bottom-small, .portfolio-image {
+  margin-bottom: 20px; }
+
+.gutter-bottom-large {
+  margin-bottom: 80px; }
+
+.menu {
+  width: 350px;
+  z-index: 999;
+  height: 250px;
+  position: absolute;
+  top: 0px;
+  padding-top: 30px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+56,0+100 */
+  background: -moz-linear-gradient(142deg, white 0%, white 36%, rgba(255, 255, 255, 0) 50%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(142deg, white 0%, white 36%, rgba(255, 255, 255, 0) 50%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(142deg, white 0%, white 36%, rgba(255, 255, 255, 0) 50%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  .menu ul {
+    list-style-type: none; }
+    .menu ul li {
+      margin: 0; }
+  @media screen and (max-width: 900px) {
+    .menu {
+      position: relative;
+      background: none;
+      width: 100%;
+      height: auto;
+      padding-top: 0; }
+      .menu ul {
+        text-align: center;
+        padding: 0; }
+        .menu ul li {
+          display: inline-block;
+          margin: 0;
+          margin-right: 20px; }
+          .menu ul li:last-of-type {
+            margin-right: 0; } }
+
+.intro {
+  width: 340px;
+  text-align: center;
+  margin: 50px auto 0;
+  position: relative;
+  z-index: 999; }
+  @media screen and (max-width: 900px) {
+    .intro {
+      width: 300px;
+      margin: 0 0 0 5px; } }
+
+.page {
+  padding: 80px 0;
+  min-height: 600px; }
+  .page h2 {
+    margin: 50px 0px 0px; }
+    @media screen and (max-width: 900px) {
+      .page h2 {
+        margin: 0 5px; } }
+  .page p, .page ul {
+    margin-top: 0;
+    margin-bottom: 0; }
+  .page .intro h1 {
+    margin: 0px;
+    font-size: 2.5em; }
+  .page .intro h2 {
+    margin-top: 0px;
+    font-size: 1.5em; }
+
+.contact {
+  background-color: #b9007f;
+  padding: 26px 10px;
+  position: absolute;
+  width: 300px;
+  right: 0px;
+  top: 200px; }
+  .contact ul {
+    list-style-type: none; }
+    .contact ul li {
+      margin-left: 0; }
+
+.footer {
+  background-color: #000;
+  font-family: 'Sanchez', serif;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999; }
+  @media screen and (max-width: 900px) {
+    .footer {
+      display: none; } }
+
+.col-container .col {
+  float: left; }
+.col-container.col-3 .col {
+  width: 30%; }
+.col-container:after {
+  content: "";
+  display: block;
+  clear: both; }
+@media screen and (max-width: 900px) {
+  .col-container .col {
+    float: none; }
+  .col-container.col-3 .col {
+    width: 100%; } }
+
+.portfolio-image {
+  width: 80%;
+  box-shadow: 8px 8px 7px 0px rgba(0, 0, 0, 0.65); }
+
+.page-image {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  right: 0px;
+  z-index: 0;
+  bottom: 0px; }
+  .page-image.page-image-mobile {
+    display: none; }
+  .page-image.page-image-home {
+    background: url(http://franklabs.nl/elinelubberts/assets/p1.jpg) no-repeat 14% bottom;
+    background-size: cover; }
+  .page-image.page-image-wat-doe-ik {
+    background: url(http://franklabs.nl/elinelubberts/assets/p2.jpg) no-repeat right bottom;
+    background-size: contain; }
+  .page-image.page-image-over-eline {
+    background: url(http://franklabs.nl/elinelubberts/assets/p3.jpg) no-repeat right bottom;
+    background-size: contain; }
+  .page-image.page-image-contact {
+    background: url(http://franklabs.nl/elinelubberts/assets/p4.jpg) no-repeat 14% bottom;
+    background-size: cover; }
+  @media screen and (max-width: 900px) {
+    .page-image {
+      opacity: .3; }
+      .page-image.page-image-mobile {
+        display: block; }
+        .page-image.page-image-mobile.page-image-home {
+          background: url(http://franklabs.nl/elinelubberts/assets/p1-mobile.jpg) no-repeat 14% bottom;
+          background-size: cover; }
+        .page-image.page-image-mobile.page-image-wat-doe-ik {
+          background: url(http://franklabs.nl/elinelubberts/assets/p2-mobile.jpg) no-repeat right bottom;
+          background-size: contain; }
+        .page-image.page-image-mobile.page-image-over-eline {
+          background: url(http://franklabs.nl/elinelubberts/assets/p3-mobile.jpg) no-repeat right bottom;
+          background-size: contain; }
+        .page-image.page-image-mobile.page-image-contact {
+          background: url(http://franklabs.nl/elinelubberts/assets/p4-mobile.jpg) no-repeat 14% bottom;
+          background-size: cover; }
+      .page-image.page-image-desktop {
+        display: none; } }
