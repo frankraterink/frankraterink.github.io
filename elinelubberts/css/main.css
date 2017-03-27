@@ -244,3 +244,18 @@ h3 {
           background-size: cover; }
       .page-image.page-image-desktop {
         display: none; } }
+
+.movie-banner {
+  width: 330px;
+  position: absolute;
+  right: 0px;
+  top: 30%;
+  z-index: 999; }
+  @media screen and (max-width: 900px) {
+    .movie-banner {
+      top: 70%; } }
+  .movie-banner a {
+    display: block; }
+    .movie-banner a img {
+      max-width: 100%;
+      border: none; }
