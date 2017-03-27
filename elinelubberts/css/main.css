@@ -19,7 +19,7 @@ code, pre {
 @media screen and (max-width: 900px) {
   .mobile-hidden {
     display: none !important; } }
-.max-width, p, li, a, .like-normal, h3, .col-container {
+.max-width, p, li, .like-normal, h3, .col-container {
   max-width: 700px; }
 
 h1, h2 {
@@ -60,16 +60,22 @@ h3 {
     z-index: 1;
     color: #fff; }
 
-.text-default, p, li, a, .like-normal, h3, .footer {
+.text-default, p, li, .like-normal, h3, .footer {
   font-family: 'Sanchez', serif;
   font-size: 1.1em;
   color: #000; }
   @media screen and (max-width: 900px) {
-    .text-default, p, li, a, .like-normal, h3, .footer {
+    .text-default, p, li, .like-normal, h3, .footer {
       font-size: 1.0em; } }
 
 .text-white, .footer {
   color: #fff; }
+
+a {
+  color: #000; }
+
+li {
+  font-size: initial; }
 
 .content {
   width: 50%;
@@ -115,6 +121,10 @@ h3 {
     list-style-type: none; }
     .menu ul li {
       margin: 0; }
+      .menu ul li a {
+        text-decoration: none; }
+        .menu ul li a:hover {
+          text-decoration: underline; }
   @media screen and (max-width: 900px) {
     .menu {
       position: relative;
