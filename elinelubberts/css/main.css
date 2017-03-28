@@ -19,6 +19,12 @@ code, pre {
 @media screen and (max-width: 900px) {
   .mobile-hidden {
     display: none !important; } }
+.mobile-visible {
+  display: none; }
+
+@media screen and (max-width: 900px) {
+  .mobile-visible {
+    display: block !important; } }
 .max-width, p, li, .like-normal, h3, .col-container {
   max-width: 700px; }
 
@@ -138,7 +144,7 @@ li {
         .menu ul li {
           display: inline-block;
           margin: 0;
-          margin-right: 20px; }
+          margin-right: 10px; }
           .menu ul li:last-of-type {
             margin-right: 0; } }
 
@@ -186,7 +192,7 @@ li {
 .footer {
   background-color: #000;
   font-family: 'Sanchez', serif;
-  padding: 10px 0;
+  padding: 10px;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -194,7 +200,7 @@ li {
   z-index: 999; }
   @media screen and (max-width: 900px) {
     .footer {
-      display: none; } }
+      font-size: .9em; } }
 
 .col-container .col {
   float: left; }
@@ -259,7 +265,7 @@ li {
   width: 330px;
   position: absolute;
   right: 0px;
-  top: 18%;
+  top: 40px;
   z-index: 999; }
   @media screen and (max-width: 900px) {
     .movie-banner {
