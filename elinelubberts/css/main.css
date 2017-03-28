@@ -10,8 +10,8 @@ body {
 
 @font-face {
   font-family: 'WhoopAss';
-  src: url("http://franklabs.nl/elinelubberts/assets/whoopass.eot");
-  src: local("WhoopAss"), url("http://franklabs.nl/elinelubberts/assets/whoopass.ttf") format("truetype"); }
+  src: url("/assets/whoopass.eot");
+  src: local("WhoopAss"), url("/assets/whoopass.ttf") format("truetype"); }
 code, pre {
   font-family: Consolas, "Consolas for Powerline", "Courier New", Courier, monospace;
   color: green; }
@@ -193,7 +193,7 @@ li {
 .footer {
   background-color: #000;
   font-family: 'Sanchez', serif;
-  padding: 10px;
+  padding: 10px 10px 10px 40px;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -201,6 +201,7 @@ li {
   z-index: 999; }
   @media screen and (max-width: 900px) {
     .footer {
+      padding: 10px;
       font-size: .83em;
       position: relative; } }
 
@@ -232,16 +233,16 @@ li {
   .page-image.page-image-mobile {
     display: none; }
   .page-image.page-image-home {
-    background: url(http://franklabs.nl/elinelubberts/assets/p1.jpg) no-repeat 14% bottom;
+    background: url(/assets/p1.jpg) no-repeat 14% bottom;
     background-size: cover; }
   .page-image.page-image-wat-doe-ik {
-    background: url(http://franklabs.nl/elinelubberts/assets/p2.jpg) no-repeat right bottom;
+    background: url(/assets/p2.jpg) no-repeat right bottom;
     background-size: contain; }
   .page-image.page-image-over-eline {
-    background: url(http://franklabs.nl/elinelubberts/assets/p3.jpg) no-repeat right bottom;
+    background: url(/assets/p3.jpg) no-repeat right bottom;
     background-size: contain; }
   .page-image.page-image-contact {
-    background: url(http://franklabs.nl/elinelubberts/assets/p4.jpg) no-repeat 14% bottom;
+    background: url(/assets/p4.jpg) no-repeat 14% bottom;
     background-size: cover; }
   @media screen and (max-width: 900px) {
     .page-image {
@@ -249,16 +250,16 @@ li {
       .page-image.page-image-mobile {
         display: block; }
         .page-image.page-image-mobile.page-image-home {
-          background: url(http://franklabs.nl/elinelubberts/assets/p1-mobile.jpg) no-repeat 14% bottom;
+          background: url(/assets/p1-mobile.jpg) no-repeat 14% bottom;
           background-size: cover; }
         .page-image.page-image-mobile.page-image-wat-doe-ik {
-          background: url(http://franklabs.nl/elinelubberts/assets/p2-mobile.jpg) no-repeat right bottom;
+          background: url(/assets/p2-mobile.jpg) no-repeat right bottom;
           background-size: contain; }
         .page-image.page-image-mobile.page-image-over-eline {
-          background: url(http://franklabs.nl/elinelubberts/assets/p3-mobile.jpg) no-repeat right bottom;
+          background: url(/assets/p3-mobile.jpg) no-repeat right bottom;
           background-size: contain; }
         .page-image.page-image-mobile.page-image-contact {
-          background: url(http://franklabs.nl/elinelubberts/assets/p4-mobile.jpg) no-repeat 14% bottom;
+          background: url(/assets/p4-mobile.jpg) no-repeat 14% bottom;
           background-size: cover; }
       .page-image.page-image-desktop {
         display: none; } }
