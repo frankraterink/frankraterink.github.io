@@ -26,7 +26,7 @@ h1, h2 {
   font-family: 'WhoopAss', sans-serif; }
 
 h1, .like-h1 {
-  color: #b9007f;
+  color: #ed028c;
   font-size: 2.7em;
   letter-spacing: 0.06em; }
 
@@ -45,13 +45,13 @@ h3 {
     top: -4px; }
     h3 .bar.bar-pink {
       width: 233%;
-      background-color: #b9007f;
+      background-color: #ed028c;
       -ms-transform: rotate(-3deg);
       -webkit-transform: rotate(-3deg);
       transform: rotate(-3deg); }
     h3 .bar.bar-green {
       width: 143%;
-      background-color: #40F200;
+      background-color: #40ae49;
       -ms-transform: rotate(-3deg);
       -webkit-transform: rotate(-3deg);
       transform: rotate(2deg); }
@@ -172,7 +172,7 @@ li {
     font-size: 1.5em; }
 
 .contact {
-  background-color: #b9007f;
+  background-color: #ed028c;
   padding: 26px 10px;
   position: absolute;
   width: 300px;
