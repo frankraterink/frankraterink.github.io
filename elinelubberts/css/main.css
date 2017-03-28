@@ -201,7 +201,7 @@ li {
   z-index: 999; }
   @media screen and (max-width: 900px) {
     .footer {
-      font-size: .85em;
+      font-size: .83em;
       position: relative; } }
 
 .col-container .col {
