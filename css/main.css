@@ -964,7 +964,9 @@ h4 {
     max-width: 38em; }
   @media only screen and (min-width: 1400px) {
     .home_content {
-      padding: 25px 40px; } }
+      padding: 25px 40px; }
+      .home_content p {
+        font-size: 21px; } }
 
 .home_pagelink {
   font-size: 90px;
