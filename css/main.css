@@ -57,6 +57,20 @@ a {
     color: #000;
     border-color: #000; }
 
+p.quote {
+  font-style: italic; }
+
+.align_right {
+  text-align: right; }
+
+.align_bottom {
+  position: absolute;
+  bottom: 0px; }
+
+.align_top_mobile {
+  position: relative;
+  bottom: auto; }
+
 blockquote {
   color: #5d5d5d;
   border: none;
@@ -900,6 +914,72 @@ h4 {
   @media only screen and (min-width: 600px) {
     .mobile-hide {
       display: block; } }
+
+.homepage_columns > .col {
+  position: relative;
+  width: 100%;
+  height: 65vw;
+  float: left; }
+  @media only screen and (min-width: 1090px) {
+    .homepage_columns > .col {
+      width: 50%;
+      height: 25vw; } }
+  .homepage_columns > .col:after {
+    content: "";
+    display: block;
+    clear: both; }
+  .homepage_columns > .col .row {
+    height: 50%; }
+  .homepage_columns > .col .col_50 {
+    width: 50%;
+    float: left;
+    height: 100%; }
+.homepage_columns h2 {
+  margin-top: 0; }
+
+.home_image_ava_1 {
+  background: url(/img/ava_1.jpg) 50% 57%;
+  background-size: cover; }
+
+.home_image_ava_2 {
+  background: url(/img/ava_2.jpg) 44% 48%;
+  background-size: cover; }
+
+.home_image_photo_1 {
+  background: url(/img/home_photo_1.jpg) 50% 56%;
+  background-size: cover; }
+
+.home_image_photo_2 {
+  background: url(/img/home_photo_2.jpg) 50% 56%;
+  background-size: cover; }
+
+.home_image_photo_3 {
+  background: url(/img/home_photo_3.jpg) 50% 56%;
+  background-size: cover; }
+
+.home_content {
+  box-sizing: border-box;
+  padding: 5px 20px; }
+  .home_content p {
+    max-width: 38em; }
+  @media only screen and (min-width: 1400px) {
+    .home_content {
+      padding: 25px 40px; } }
+
+.home_pagelink {
+  font-size: 90px;
+  line-height: 100px; }
+
+.text-over-photo a {
+  position: absolute;
+  color: white;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  opacity: .8; }
+  .text-over-photo a:hover {
+    border-bottom: 1px solid #fff;
+    opacity: 1; }
 
 /**
  * Syntax highlighting styles
