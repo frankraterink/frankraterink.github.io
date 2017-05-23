@@ -59,6 +59,8 @@ a {
 
 p.quote {
   font-style: italic; }
+p.gutter-bottom-l {
+  margin-bottom: 60px; }
 
 .align_right {
   text-align: right; }
@@ -961,12 +963,17 @@ h4 {
   box-sizing: border-box;
   padding: 5px 20px; }
   .home_content p {
-    max-width: 38em; }
+    max-width: 45em; }
   @media only screen and (min-width: 1400px) {
+    .home_content {
+      padding: 20px 30px; }
+      .home_content p {
+        xfont-size: 18px; } }
+  @media only screen and (min-width: 1700px) {
     .home_content {
       padding: 25px 40px; }
       .home_content p {
-        font-size: 21px; } }
+        font-size: 22px; } }
 
 .home_pagelink {
   font-size: 90px;
@@ -982,6 +989,18 @@ h4 {
   .text-over-photo a:hover {
     border-bottom: 1px solid #fff;
     opacity: 1; }
+
+.post-content .hs-photo {
+  margin: 0px 0px 50px;
+  max-width: 100%; }
+  @media only screen and (min-width: 900px) {
+    .post-content .hs-photo {
+      margin: 0px -25% 50px;
+      max-width: 150%; } }
+  @media only screen and (min-width: 1200px) {
+    .post-content .hs-photo {
+      margin: 0px -50% 50px;
+      max-width: 200%; } }
 
 /**
  * Syntax highlighting styles

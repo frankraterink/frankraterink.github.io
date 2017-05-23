@@ -4,7 +4,7 @@ function Franklabs() {
 	this.windowScrollTop = 0;
 	this.headerAnimation = true;
 
-	this.launchLazyLoading();
+	this.launchLazyLoading;
 
 	$(this.init.bind(this)); //set franksite as this
 
