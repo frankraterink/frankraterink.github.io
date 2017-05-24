@@ -995,18 +995,18 @@ h4 {
   max-width: 100%; }
   @media only screen and (min-width: 900px) {
     .post-content .hs-photo {
-      margin: 0px -25% 50px;
-      max-width: 150%; } }
-  @media only screen and (min-width: 1200px) {
+      margin: 0px -20% 50px;
+      max-width: 140%; } }
+  @media only screen and (min-width: 1100px) {
     .post-content .hs-photo {
-      margin: 0px -50% 50px;
-      max-width: 200%; } }
+      margin: 0px -40% 50px;
+      max-width: 180%; } }
   @media only screen and (min-width: 1400px) {
-    .post-content .hs-photo.hs-photo-large {
+    .post-content .hs-photo {
       margin: 0px -70% 50px;
       max-width: 240%; } }
   @media only screen and (min-width: 1600px) {
-    .post-content .hs-photo.hs-photo-large {
+    .post-content .hs-photo {
       margin: 0px -90% 50px;
       max-width: 280%; } }
 
