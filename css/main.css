@@ -274,6 +274,24 @@ html, body {
       color: #fff;
       border-color: #fff; }
 
+.bkgrnd_q42 .page-content {
+  background-color: #5a4c49;
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #9bc35d, #677157 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #9bc35d, #677157 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #9bc35d, #677157 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #9bc35d, #677157 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #9bc35d, #677157 100%);
+  background-attachment: fixed; }
+  .bkgrnd_q42 .page-content h1, .bkgrnd_q42 .page-content .post-title, .bkgrnd_q42 .page-content h2, .bkgrnd_q42 .page-content h3, .bkgrnd_q42 .page-content h4, .bkgrnd_q42 .page-content p, .bkgrnd_q42 .page-content a, .bkgrnd_q42 .page-content ul, .bkgrnd_q42 .page-content ol, .bkgrnd_q42 .page-content figcaption, .bkgrnd_q42 .page-content .post-meta {
+    color: #fff;
+    text-shadow: 0px 0px 0px #fff; }
+  .bkgrnd_q42 .page-content a {
+    color: #dcdcde;
+    border-color: #dcdcde; }
+    .bkgrnd_q42 .page-content a:hover {
+      color: #fff;
+      border-color: #fff; }
+
 .eveningdark .page-content {
   background-color: #1f0701;
   background-image: -moz-radial-gradient(50% -10%, ellipse cover, #8e6a54, #1f0701 100%);
@@ -993,10 +1011,10 @@ h4 {
 .post-content .hs-photo {
   margin: 0px 0px 50px;
   max-width: 100%; }
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 0px) {
     .post-content .hs-photo {
-      margin: 0px -20% 50px;
-      max-width: 140%; } }
+      margin: 0px -40% 50px;
+      max-width: 180%; } }
   @media only screen and (min-width: 1100px) {
     .post-content .hs-photo {
       margin: 0px -40% 50px;
