@@ -276,11 +276,11 @@ html, body {
 
 .bkgrnd_q42 .page-content {
   background-color: #5a4c49;
-  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #9bc35d, #677157 100%);
-  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #9bc35d, #677157 100%);
-  background-image: -o-radial-gradient(50% -10%, ellipse cover, #9bc35d, #677157 100%);
-  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #9bc35d, #677157 100%);
-  background-image: radial-gradient(50% -10%, ellipse cover, #9bc35d, #677157 100%);
+  background-image: -moz-radial-gradient(50% -10%, ellipse cover, #80ad39, #677157 100%);
+  background-image: -webkit-radial-gradient(50% -10%, ellipse cover, #80ad39, #677157 100%);
+  background-image: -o-radial-gradient(50% -10%, ellipse cover, #80ad39, #677157 100%);
+  background-image: -ms-radial-gradient(50% -10%, ellipse cover, #80ad39, #677157 100%);
+  background-image: radial-gradient(50% -10%, ellipse cover, #80ad39, #677157 100%);
   background-attachment: fixed; }
   .bkgrnd_q42 .page-content h1, .bkgrnd_q42 .page-content .post-title, .bkgrnd_q42 .page-content h2, .bkgrnd_q42 .page-content h3, .bkgrnd_q42 .page-content h4, .bkgrnd_q42 .page-content p, .bkgrnd_q42 .page-content a, .bkgrnd_q42 .page-content ul, .bkgrnd_q42 .page-content ol, .bkgrnd_q42 .page-content figcaption, .bkgrnd_q42 .page-content .post-meta {
     color: #fff;
