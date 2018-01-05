@@ -112,6 +112,18 @@ html, body {
 .center {
   text-align: center; }
 
+.gutter-bottom-s {
+  margin-bottom: 15px; }
+
+.gutter-bottom-l {
+  margin-bottom: 60px; }
+
+.gutter-bottom-xl {
+  margin-bottom: 90px; }
+
+.gutter-bottom-xxl {
+  margin-bottom: 120px; }
+
 /**
  * Site header
  */

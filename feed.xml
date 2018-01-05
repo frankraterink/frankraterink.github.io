@@ -3,10 +3,10 @@
   <channel>
     <title>franklabs</title>
     <description>Foto's, ervaringen en experimenten.</description>
-    <link>http://franklabs.nl/</link>
-    <atom:link href="http://franklabs.nl/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 13 Aug 2017 17:16:11 +0200</pubDate>
-    <lastBuildDate>Sun, 13 Aug 2017 17:16:11 +0200</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 05 Jan 2018 09:59:18 +0100</pubDate>
+    <lastBuildDate>Fri, 05 Jan 2018 09:59:18 +0100</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -200,8 +200,8 @@
 &lt;p&gt;Ben je nog niet uitgekeken? Op de &lt;a href=&quot;https://www.facebook.com/Q42w00tcamp2016&quot;&gt;w00tcamp Facebookpagina&lt;/a&gt; van Q42 hebben we nog wat leuke filmpjes staan ook over de hoogte- en dieptepunten per project en filmpjes waarin de teams zich voorstellen. En op Q's blog staat nog een &lt;a href=&quot;https://medium.com/q42bv/na-een-etmaal-w00tcampen-a0c1c42cab78&quot;&gt;leuk artikel&lt;/a&gt; waarin de projecten iets meer worden uitgelegd. &lt;/p&gt;
 </description>
         <pubDate>Sun, 27 Nov 2016 16:00:00 +0100</pubDate>
-        <link>http://franklabs.nl/blog/w00tcamp2016</link>
-        <guid isPermaLink="true">http://franklabs.nl/blog/w00tcamp2016</guid>
+        <link>http://localhost:4000/blog/w00tcamp2016</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/w00tcamp2016</guid>
         
         
         <category>blog</category>
@@ -248,8 +248,8 @@
 &lt;figcaption&gt;Op bezoek bij Google's nieuwe London office&lt;/figcaption&gt;
 </description>
         <pubDate>Sun, 13 Nov 2016 13:30:00 +0100</pubDate>
-        <link>http://franklabs.nl/blog/london</link>
-        <guid isPermaLink="true">http://franklabs.nl/blog/london</guid>
+        <link>http://localhost:4000/blog/london</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/london</guid>
         
         
         <category>blog</category>
@@ -321,8 +321,8 @@
 &lt;p&gt;&lt;img src=&quot;/img/budapest_31.jpg&quot; class=&quot;photo&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 02 Nov 2016 13:30:00 +0100</pubDate>
-        <link>http://franklabs.nl/blog/budapest</link>
-        <guid isPermaLink="true">http://franklabs.nl/blog/budapest</guid>
+        <link>http://localhost:4000/blog/budapest</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/budapest</guid>
         
         
         <category>blog</category>
@@ -366,8 +366,8 @@
 &lt;img src=&quot;/img/praag13.jpg&quot; class=&quot;photo&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 17 Sep 2016 14:30:00 +0200</pubDate>
-        <link>http://franklabs.nl/blog/praag</link>
-        <guid isPermaLink="true">http://franklabs.nl/blog/praag</guid>
+        <link>http://localhost:4000/blog/praag</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/praag</guid>
         
         
         <category>blog</category>
@@ -401,8 +401,8 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 &lt;figcaption&gt;Instellingen wijzigen&lt;/figcaption&gt;
 </description>
         <pubDate>Wed, 07 Sep 2016 14:30:00 +0200</pubDate>
-        <link>http://franklabs.nl/blog/protip-mailto-en-webcal</link>
-        <guid isPermaLink="true">http://franklabs.nl/blog/protip-mailto-en-webcal</guid>
+        <link>http://localhost:4000/blog/protip-mailto-en-webcal</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/protip-mailto-en-webcal</guid>
         
         
         <category>blog</category>
@@ -447,8 +447,8 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 06 Sep 2016 14:30:00 +0200</pubDate>
-        <link>http://franklabs.nl/blog/tiengemeten</link>
-        <guid isPermaLink="true">http://franklabs.nl/blog/tiengemeten</guid>
+        <link>http://localhost:4000/blog/tiengemeten</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/tiengemeten</guid>
         
         
         <category>blog</category>
@@ -500,8 +500,8 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 &lt;p&gt;&lt;img src=&quot;/img/pieterpad29.jpg&quot; class=&quot;photo&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Sep 2016 18:00:00 +0200</pubDate>
-        <link>http://franklabs.nl/blog/de-paden-van-het-pieterpad</link>
-        <guid isPermaLink="true">http://franklabs.nl/blog/de-paden-van-het-pieterpad</guid>
+        <link>http://localhost:4000/blog/de-paden-van-het-pieterpad</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/de-paden-van-het-pieterpad</guid>
         
         
         <category>blog</category>
@@ -527,8 +527,8 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 &lt;p&gt;&lt;img src=&quot;/img/denhaag5.jpg&quot; class=&quot;photo&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 30 Aug 2016 23:00:00 +0200</pubDate>
-        <link>http://franklabs.nl/blog/denhaag-avond</link>
-        <guid isPermaLink="true">http://franklabs.nl/blog/denhaag-avond</guid>
+        <link>http://localhost:4000/blog/denhaag-avond</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/denhaag-avond</guid>
         
         
         <category>blog</category>
@@ -543,7 +543,7 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 &lt;img src=&quot;/img/route.jpg&quot; class=&quot;photo&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;##Route&lt;/p&gt;
+&lt;h2 id=&quot;route&quot;&gt;Route&lt;/h2&gt;
 
 &lt;p&gt;Zelf heb ik het Pieterpad niet volgens de etappe’s gelopen zoals deze opgezet zijn. De route bestaat uit &lt;a href=&quot;http://www.pieterpad.nl/etappe.htm&quot;&gt;26 etappes&lt;/a&gt;. Ik heb het Pieterpad in 19 dagen gelopen, dus mijn planning zag er iets anders uit.&lt;/p&gt;
 
@@ -579,7 +579,7 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 
 &lt;p&gt;Soms, als je voeten pijn doen bijvoorbeeld, leek er geen einde aan de dag te komen. Motivatie was dan ver te zoeken. Ik ben dan zo dat ik ga kijken wat er helpt me daarbij te helpen. Dus niet naar het einde van de dag kijken bijvoorbeeld, maar alles per kleinere eenheid: per uur of soms per aantal meter, of tot de volgende wit/rood markering. Op een gegeven moment merk je dat dat verdwijnt. Ik vermoed omdat het lopen dan begint te wennen. Je loopt dan gewoon en de kilometers komen als vanzelf.&lt;/p&gt;
 
-&lt;p&gt;##Paklijst&lt;/p&gt;
+&lt;h2 id=&quot;paklijst&quot;&gt;Paklijst&lt;/h2&gt;
 
 &lt;p&gt;Omdat lopen met zo min mogelijk kilo op je rug nu eenmaal veel fijner is, heb ik van tevoren goed bekeken wat ik nodig zou hebben en wat niet. Ik wilde zo lichtgewicht en zo minimalistisch mogelijk inpakken. Natuurlijk kan het altijd met minder, maar dit voelde voor mij ok.&lt;/p&gt;
 
@@ -617,7 +617,7 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 
 &lt;p&gt;Mijn tas had ik gepakt in 3 lagen. Helemaal onderop plat op de bodem de packing cube met kleding. Daar bovenop de tent, lakenzak, slaapmat, organizer, brillenkoker, picknickkleed en zonnepaneel. Daar bovenop lag mijn eetzak en bord. Vest, bidon en carabiners hingen aan de buitenkant van m’n tas. De rest zat in het topvak.&lt;/p&gt;
 
-&lt;p&gt;##Slapen&lt;/p&gt;
+&lt;h2 id=&quot;slapen&quot;&gt;Slapen&lt;/h2&gt;
 
 &lt;p&gt;Slapen heb ik hoofdzakelijk in mijn tent gedaan. Een lichtgewicht 2-persoons tentje: &lt;a href=&quot;https://www.bever.nl/nordisk-tent-telemark-2-lw-maabc32003&quot;&gt;Nordisk Telemark LW2&lt;/a&gt;. Als 2-persoons zou ik ‘m echter niet aanraden. Hij is relaxt voor als je in je eentje gaat en je tas binnen wilt hebben liggen. Een slaapzak heb ik niet meegenomen. In plaats daarvan heb ik een lakenzak meegenomen. Maar qua temperatuur vielen de zomernachten toch wat tegen: 9-13˚C. Daarvoor had ik een hammamdoek (grote, dunne en lichte handdoek) meegenomen, om over me heen te leggen. Halverwege de week heb ik er toch voor gekozen de hammamdoek om te wisselen bij ouders van vrienden waar ik sliep voor een picknickkleed. Zelfde dubbele functies: relaxen op het gras en voor de nacht, maar warmer. Een nadeel: door de waterdichte zijde zweet je ‘s nachts best wel.&lt;/p&gt;
 
@@ -629,7 +629,7 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 
 &lt;p&gt;Voor de echte koude/natte nachten heb ik een hotel of bed &amp;amp; breakfast geboekt via de &lt;a href=&quot;http://www.booking.com/&quot;&gt;Booking.com&lt;/a&gt; app. Het had gekunt hoor, in de tent slapen, maar jezelf soms even verwennen is ook wel lekker! En geloof me, een echt bed voelt dan echt als verwennerij!&lt;/p&gt;
 
-&lt;p&gt;##Eten en drinken&lt;/p&gt;
+&lt;h2 id=&quot;eten-en-drinken&quot;&gt;Eten en drinken&lt;/h2&gt;
 
 &lt;p&gt;Krentenbollen en bananen. Ik kan ze niet meer zien, haha. Lekker makkelijk als ontbijt en lunch. Natuurlijk at ik ook andere dingen. Appels, bakjes met fruit, drinkyoghurt, smoothie, vruchtensap, dat soort dingen ging er meestal direct in na supermarktbezoek, zodat ik er niet mee hoefde te sjouwen. Oh, en koffie. Vergeet nooit het bakje gratis koffie bij de supermarkt! En voor de gevallen dat ik ‘s ochtends geen supermarkt in de buurt had, had ik een reep chocolade bij. Ging ook prima! (Nee nee, niet een hele reep per ochtend. 2 stukjes!)&lt;/p&gt;
 
@@ -637,7 +637,7 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 
 &lt;p&gt;Voor drinken onderweg had ik een 0,75l bidon bij me. Eerst had ik ook nog een volle 1l spafles bij me voor als de bidon leeg zou zijn, maar dat gebeurde eigenlijk niet. Ik kon ‘m altijd wel weer ergens bijvullen. Die fles heb ik na een week ook weg gedaan.&lt;/p&gt;
 
-&lt;p&gt;##Kleding en schoenen&lt;/p&gt;
+&lt;h2 id=&quot;kleding-en-schoenen&quot;&gt;Kleding en schoenen&lt;/h2&gt;
 
 &lt;p&gt;Kleding heb ik zo minimaal mogelijk gehouden. Naast wat ik aan had (&lt;a href=&quot;https://www.bever.nl/supernatural-base-tee-140-t-shirt-gobbd32001?id_colour=4246&quot;&gt;shirt&lt;/a&gt;, korte broek, &lt;a href=&quot;https://www.bever.nl/supernatural-boxer-base-175-heren-gobdd32001?id_colour=4246&quot;&gt;boxer&lt;/a&gt;, &lt;a href=&quot;https://www.bever.nl/smartwool-phd-outdoor-light-mini-sok-labbc42013?id_colour=4378&quot;&gt;sokken&lt;/a&gt;), had ik van alles 1 extra bij. Behalve de korte broek. In plaats daarvan een afritsbroek (niet gebruikt). Alles zat in een packing cube die ik ‘s nachts als hoofdkussen gebruikt heb. Shirt, boxer en sokken zijn allen van merino wol: licht, snel droog en neemt geen geur op. Korte broek is sneldrogend (O’neill).&lt;/p&gt;
 
@@ -651,11 +651,11 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 &lt;img src=&quot;/img/schoenen.jpg&quot; class=&quot;photo&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;##Verzorging&lt;/p&gt;
+&lt;h2 id=&quot;verzorging&quot;&gt;Verzorging&lt;/h2&gt;
 
 &lt;p&gt;In een Eagle Creek tasje had ik m’n tandenborstel en tandpasta, zonnebrand, kleintje deo, &lt;a href=&quot;https://www.bever.nl/sea-to-summit-pocket-wilderness-wash-zeep-obadc32003?&quot;&gt;zeep&lt;/a&gt;, &lt;a href=&quot;https://www.bever.nl/care-plus-deet-mini-spray-40percent-obaec52001?id_colour=5806&quot;&gt;Deet&lt;/a&gt;, &lt;a href=&quot;https://www.bever.nl/rubytec-texel-handdoek-obana82001?id_colour=2219&quot;&gt;handdoek&lt;/a&gt;, blaarpleisters en hygiënische handgel. De zeep was een probeersel omdat het lekker licht was. Maar het schuimde niet zo veel, dus ik zou een compact zeepblokje in een zakje meenemen. De Deet en zonnebrand heb ik niet gebruikt. M’n onderbenen waren wel lek geprikt. Eigen schuld, dikke muggebult!&lt;/p&gt;
 
-&lt;p&gt;##Electronica&lt;/p&gt;
+&lt;h2 id=&quot;electronica&quot;&gt;Electronica&lt;/h2&gt;
 
 &lt;p&gt;Qua electronica had ik alleen een telefoon bij me. En apparaten om die op te laden: een &lt;a href=&quot;https://www.solarpowersupply.nl/merken/goal-zero/goal-zero-nomad-7-solar-panel?gclid=Cj0KEQjw_9-9BRCqpZeZhLeOg68BEiQAOviWAgF_uJJow3PGOCaurNHabenYTXXHHSw9CJrMJidiCqcaArKy8P8HAQ&quot;&gt;GoalZero Nomad 7&lt;/a&gt; zonnepaneel en een &lt;a href=&quot;http://www.nkon.nl/powerradd-apollo2-solar-battery-charger.html&quot;&gt;PowerAdd Apollo 2&lt;/a&gt; accu (10000mah). Het zonnetje was niet altijd zo goed aanwezig om m’n telefoon met de zon op te laden helaas. Dus ik moest ‘m alsnog vaak aan het stopcontact hangen. De keren dat dat wel kon was super mooi. Binnen 2 uur volle zon was m’n telefoon weer op 100%.&lt;/p&gt;
 
@@ -663,7 +663,7 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 
 &lt;p&gt;Op mijn telefoon had ik de route bij me in Google Maps. Hierdoor hoefde ik de boekjes niet mee te nemen.&lt;/p&gt;
 
-&lt;p&gt;##Lichtgewicht, minimalistisch en dual purpose&lt;/p&gt;
+&lt;h2 id=&quot;lichtgewicht-minimalistisch-en-dual-purpose&quot;&gt;Lichtgewicht, minimalistisch en dual purpose&lt;/h2&gt;
 
 &lt;p&gt;Omdat ik lekker licht wilde lopen (ongeveer 10kg) heb ik erg gelet op wat ik wel en niet mee nam. En daarbij ook of een item meerdere doelen kan dienen. Zo gebruikte ik mijn carabiners om mijn zonnepaneel op mijn rugzak te bevestigen, maar ook om te gebruiken als handvat voor de groentetasjes van de supermarkt die ik als tas gebruikte voor avondeten, en om wat te doen hebben met mijn handen onderweg (ik dacht er eerst aan een stressballetje mee te nemen). Mijn hammamdoek (later picknickkleed) gebruikte ik als laken om op te liggen en als extra dekentje.&lt;/p&gt;
 
@@ -673,7 +673,7 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 
 &lt;p&gt;Bij de items waar het kon heb ik ook erg gelet op gewicht. De tent bijvoorbeeld weegt 950 gram, m’n regenjas 100 gram (regenbroek heb ik thuis gelaten, in plaats daarvan gekozen voor een sneldrogende korte broek), lakenzak weegt een kwart van een simpele slaapzak, zelfde geldt voor de slaapmat en de spork weegt nagenoeg niks.&lt;/p&gt;
 
-&lt;p&gt;##En verder…&lt;/p&gt;
+&lt;h2 id=&quot;en-verder&quot;&gt;En verder…&lt;/h2&gt;
 
 &lt;p&gt;Je ontmoet veel mensen onderweg. Ik heb de wandeling alleen gemaakt en dan merk je helemaal dat je snel aanspraak hebt. Mensen op campings die naar je toe komen met de vraag of je thee of koffie wilt. Mensen onderweg die even of voor een hele dag aanhaken bij je wandeling. Dat is erg leuk! Het Pieterpad verbindt op een bepaalde manier wel.&lt;/p&gt;
 
@@ -690,7 +690,7 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 
 &lt;p&gt;Tijdens mijn wandeling ben ik 8 kilo afgevallen. Blijkbaar is zo’n wandeling echt niet niks. Het vraagt wat van je lichaam. Achteraf gezien had ik meer moeten eten denk ik. Gedurende de dag at ik steeds kleine hoeveelheden en at avondeten gewoon normaal. Deze verdeling had beter gekund.&lt;/p&gt;
 
-&lt;p&gt;##Veel succes en geniet&lt;/p&gt;
+&lt;h2 id=&quot;veel-succes-en-geniet&quot;&gt;Veel succes en geniet&lt;/h2&gt;
 
 &lt;p&gt;Het kan zijn dat je dit hebt gelezen uit algehele interesse. Maar het zou ook zomaar eens zo kunnen zijn dat je het voornemen hebt het Pieterpad te gaan lopen. Gaaf! In dat geval: heel erg veel succes, veel plezier en geniet van al het moois dat je tegenkomt!&lt;/p&gt;
 
@@ -700,8 +700,8 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 &lt;/figure&gt;
 </description>
         <pubDate>Sat, 20 Aug 2016 14:04:00 +0200</pubDate>
-        <link>http://franklabs.nl/blog/pieterpad</link>
-        <guid isPermaLink="true">http://franklabs.nl/blog/pieterpad</guid>
+        <link>http://localhost:4000/blog/pieterpad</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/pieterpad</guid>
         
         
         <category>blog</category>
@@ -721,8 +721,8 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 &lt;p&gt;Bedankt voor je tijd in je interesse!&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Jul 2016 13:00:00 +0200</pubDate>
-        <link>http://franklabs.nl/blog/appartement-video</link>
-        <guid isPermaLink="true">http://franklabs.nl/blog/appartement-video</guid>
+        <link>http://localhost:4000/blog/appartement-video</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/appartement-video</guid>
         
         
         <category>blog</category>
