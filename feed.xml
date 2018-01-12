@@ -3,10 +3,10 @@
   <channel>
     <title>franklabs</title>
     <description>Foto's, ervaringen en experimenten.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Jan 2018 09:59:18 +0100</pubDate>
-    <lastBuildDate>Fri, 05 Jan 2018 09:59:18 +0100</lastBuildDate>
+    <link>http://franklabs.nl/</link>
+    <atom:link href="http://franklabs.nl/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 12 Jan 2018 09:03:30 +0100</pubDate>
+    <lastBuildDate>Fri, 12 Jan 2018 09:03:30 +0100</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -200,8 +200,8 @@
 &lt;p&gt;Ben je nog niet uitgekeken? Op de &lt;a href=&quot;https://www.facebook.com/Q42w00tcamp2016&quot;&gt;w00tcamp Facebookpagina&lt;/a&gt; van Q42 hebben we nog wat leuke filmpjes staan ook over de hoogte- en dieptepunten per project en filmpjes waarin de teams zich voorstellen. En op Q's blog staat nog een &lt;a href=&quot;https://medium.com/q42bv/na-een-etmaal-w00tcampen-a0c1c42cab78&quot;&gt;leuk artikel&lt;/a&gt; waarin de projecten iets meer worden uitgelegd. &lt;/p&gt;
 </description>
         <pubDate>Sun, 27 Nov 2016 16:00:00 +0100</pubDate>
-        <link>http://localhost:4000/blog/w00tcamp2016</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/w00tcamp2016</guid>
+        <link>http://franklabs.nl/blog/w00tcamp2016</link>
+        <guid isPermaLink="true">http://franklabs.nl/blog/w00tcamp2016</guid>
         
         
         <category>blog</category>
@@ -248,8 +248,8 @@
 &lt;figcaption&gt;Op bezoek bij Google's nieuwe London office&lt;/figcaption&gt;
 </description>
         <pubDate>Sun, 13 Nov 2016 13:30:00 +0100</pubDate>
-        <link>http://localhost:4000/blog/london</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/london</guid>
+        <link>http://franklabs.nl/blog/london</link>
+        <guid isPermaLink="true">http://franklabs.nl/blog/london</guid>
         
         
         <category>blog</category>
@@ -321,8 +321,8 @@
 &lt;p&gt;&lt;img src=&quot;/img/budapest_31.jpg&quot; class=&quot;photo&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 02 Nov 2016 13:30:00 +0100</pubDate>
-        <link>http://localhost:4000/blog/budapest</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/budapest</guid>
+        <link>http://franklabs.nl/blog/budapest</link>
+        <guid isPermaLink="true">http://franklabs.nl/blog/budapest</guid>
         
         
         <category>blog</category>
@@ -366,8 +366,8 @@
 &lt;img src=&quot;/img/praag13.jpg&quot; class=&quot;photo&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 17 Sep 2016 14:30:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/praag</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/praag</guid>
+        <link>http://franklabs.nl/blog/praag</link>
+        <guid isPermaLink="true">http://franklabs.nl/blog/praag</guid>
         
         
         <category>blog</category>
@@ -401,8 +401,8 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 &lt;figcaption&gt;Instellingen wijzigen&lt;/figcaption&gt;
 </description>
         <pubDate>Wed, 07 Sep 2016 14:30:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/protip-mailto-en-webcal</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/protip-mailto-en-webcal</guid>
+        <link>http://franklabs.nl/blog/protip-mailto-en-webcal</link>
+        <guid isPermaLink="true">http://franklabs.nl/blog/protip-mailto-en-webcal</guid>
         
         
         <category>blog</category>
@@ -447,8 +447,8 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 06 Sep 2016 14:30:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/tiengemeten</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/tiengemeten</guid>
+        <link>http://franklabs.nl/blog/tiengemeten</link>
+        <guid isPermaLink="true">http://franklabs.nl/blog/tiengemeten</guid>
         
         
         <category>blog</category>
@@ -500,8 +500,8 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 &lt;p&gt;&lt;img src=&quot;/img/pieterpad29.jpg&quot; class=&quot;photo&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Sep 2016 18:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/de-paden-van-het-pieterpad</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/de-paden-van-het-pieterpad</guid>
+        <link>http://franklabs.nl/blog/de-paden-van-het-pieterpad</link>
+        <guid isPermaLink="true">http://franklabs.nl/blog/de-paden-van-het-pieterpad</guid>
         
         
         <category>blog</category>
@@ -527,8 +527,8 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 &lt;p&gt;&lt;img src=&quot;/img/denhaag5.jpg&quot; class=&quot;photo&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 30 Aug 2016 23:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/denhaag-avond</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/denhaag-avond</guid>
+        <link>http://franklabs.nl/blog/denhaag-avond</link>
+        <guid isPermaLink="true">http://franklabs.nl/blog/denhaag-avond</guid>
         
         
         <category>blog</category>
@@ -700,8 +700,8 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 &lt;/figure&gt;
 </description>
         <pubDate>Sat, 20 Aug 2016 14:04:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/pieterpad</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/pieterpad</guid>
+        <link>http://franklabs.nl/blog/pieterpad</link>
+        <guid isPermaLink="true">http://franklabs.nl/blog/pieterpad</guid>
         
         
         <category>blog</category>
@@ -721,8 +721,8 @@ https://calendar.google.com/calendar/ical/example%40mail.com/public/basic.ics&lt
 &lt;p&gt;Bedankt voor je tijd in je interesse!&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Jul 2016 13:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/appartement-video</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/appartement-video</guid>
+        <link>http://franklabs.nl/blog/appartement-video</link>
+        <guid isPermaLink="true">http://franklabs.nl/blog/appartement-video</guid>
         
         
         <category>blog</category>
