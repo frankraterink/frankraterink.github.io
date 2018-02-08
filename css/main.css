@@ -1016,9 +1016,9 @@ h4 {
   0% {
     opacity: .8; }
   12% {
-    opacity: .9; }
+    opacity: .99; }
   19% {
-    opacity: .5; }
+    opacity: .78; }
   25% {
     opacity: .9; }
   30% {
@@ -1030,11 +1030,11 @@ h4 {
   56% {
     opacity: 1; }
   77% {
-    opacity: .5; }
-  82% {
     opacity: .8; }
+  82% {
+    opacity: .99; }
   91% {
-    opacity: .7; }
+    opacity: .85; }
   100% {
     opacity: .8; } }
 @keyframes animation-line-1 {
@@ -1104,8 +1104,8 @@ h4 {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url("/img/noise.png");
-    opacity: .8; }
+    background-image: url("/img/noise2.png");
+    opacity: .08; }
   .home .line-1 {
     position: absolute;
     top: 0;
