@@ -1012,6 +1012,39 @@ h4 {
   font-size: 90px;
   line-height: 100px; }
 
+.home {
+  color: white !important;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#059ca5+0,014668+94 */
+  background: #059ca5;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #059ca5 0%, #014668 94%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #059ca5 0%, #014668 94%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #059ca5 0%, #014668 94%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#059ca5', endColorstr='#014668',GradientType=1 );
+  /* IE6-9 */
+  height: 100%; }
+  .home .menu {
+    background-color: white;
+    position: absolute;
+    /* width: 70px; */
+    bottom: 0px;
+    top: 0px;
+    padding: 18px;
+    z-index: 999; }
+    .home .menu ul {
+      list-style-type: none;
+      margin: 0; }
+      .home .menu ul li {
+        margin: 0 0 8px 0; }
+        .home .menu ul li.home-link {
+          font-size: 50px;
+          margin-bottom: 9px; }
+          .home .menu ul li.home-link a {
+            border: none; }
+
 .text-over-photo a {
   position: absolute;
   color: white;
