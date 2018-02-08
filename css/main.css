@@ -1018,7 +1018,7 @@ h4 {
   12% {
     opacity: .9; }
   19% {
-    opacity: .8; }
+    opacity: .5; }
   25% {
     opacity: .9; }
   30% {
@@ -1030,7 +1030,7 @@ h4 {
   56% {
     opacity: 1; }
   77% {
-    opacity: .8; }
+    opacity: .5; }
   82% {
     opacity: .8; }
   91% {
@@ -1046,16 +1046,22 @@ h4 {
     opacity: .5; }
   30% {
     bottom: 22%;
-    opacity: .2; }
+    opacity: .7; }
   35% {
-    bottom: 64%;
+    bottom: 33%;
+    opacity: .1; }
+  42% {
+    bottom: 72%;
     opacity: .1; }
   65% {
-    bottom: 77%;
+    bottom: 92%;
     opacity: .3; }
   72% {
-    bottom: 64%;
-    opacity: 0; }
+    bottom: 24%;
+    opacity: .7; }
+  78% {
+    bottom: 80%;
+    opacity: .3; }
   90% {
     bottom: 89%;
     opacity: .35; }
@@ -1092,6 +1098,14 @@ h4 {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96000000', endColorstr='#38000000',GradientType=1 );
     /* IE6-9 fallback on horizontal gradient */ }
+  .home .noise {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("/img/noise.png");
+    opacity: .8; }
   .home .line-1 {
     position: absolute;
     top: 0;
@@ -1099,7 +1113,8 @@ h4 {
     bottom: 10%;
     left: 0;
     border-bottom: 1px solid #fff;
-    animation: animation-line-1 16s ease-in-out infinite; }
+    animation: animation-line-1 17s ease-in-out infinite;
+    z-index: 888; }
   .home .menu {
     background-color: white;
     position: absolute;
