@@ -129,7 +129,11 @@ html, body {
  */
 .site-header {
   min-height: 56px;
+  margin: 20px 0px;
   position: relative; }
+  .site-header .logo {
+    width: 177px;
+    margin-top: -3px; }
 
 .site-title {
   font-size: 26px;
@@ -141,11 +145,14 @@ html, body {
 
 .site-nav {
   float: right;
-  line-height: 56px; }
+  font-family: 'Teko', sans-serif;
+  line-height: 1em;
+  margin: 15px 0px 0px;
+  font-size: 2.6em; }
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    line-height: 1.5; }
+    border: none; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 5px; }
 
@@ -1122,17 +1129,23 @@ h4 {
     bottom: 0px;
     top: 0px;
     padding: 18px;
-    z-index: 999; }
+    z-index: 999;
+    font-family: 'Teko', sans-serif; }
+    .home .menu .logo {
+      width: 50px; }
     .home .menu ul {
       list-style-type: none;
       margin: 0; }
       .home .menu ul li {
-        margin: 0 0 8px 0; }
+        margin: 0 0 0px 0;
+        line-height: 2.6em; }
+        .home .menu ul li a {
+          border: none;
+          font-size: 2.6em; }
         .home .menu ul li.home-link {
           font-size: 50px;
-          margin-bottom: 9px; }
-          .home .menu ul li.home-link a {
-            border: none; }
+          margin-bottom: 30px;
+          font-size: 1em; }
 
 .text-over-photo a {
   position: absolute;
