@@ -350,7 +350,7 @@ header {
         position: absolute;
         right: -379px;
         width: 250px;
-        margin-top: -190px;
+        margin-top: 0px;
         padding: 1.4em 5% 1.0em; } }
     .content-wrapper .intermezzo h4 {
       margin-top: 0px; }
