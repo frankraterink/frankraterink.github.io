@@ -326,6 +326,14 @@ header {
       .content-wrapper figure {
         width: 152%;
         margin: 2.6em 0px 2.4em -26%; } }
+  .content-wrapper .intro {
+    border-bottom: 1px solid #9ba79d;
+    padding-bottom: 1em; }
+  .content-wrapper .dropcaps:first-letter {
+    float: left;
+    font-size: 3.23em;
+    line-height: .82em;
+    padding: 0px 8px 0 0; }
   .content-wrapper .intermezzo {
     border: 1px solid black;
     padding: 1em 5% 0.4em;
