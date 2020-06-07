@@ -274,20 +274,18 @@ header {
         bottom: 1px; } }
     @media screen and (min-width: 1200px) {
       header .menu {
-        color: red;
         position: absolute;
         right: -11px;
         bottom: 1px; } }
     @media screen and (min-width: 1600px) {
       header .menu {
-        color: blue;
         position: absolute;
         right: -11px;
         bottom: 1px; } }
 
 .content-wrapper {
   position: relative;
-  background-color: #bcc1bd;
+  background-color: #bcc1be;
   margin: 5% auto;
   max-width: 80%;
   padding: 5%; }
