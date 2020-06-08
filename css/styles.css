@@ -194,6 +194,9 @@ i, figcaption {
   line-height: .82em;
   padding: 0px 8px 0 0; }
 
+@-moz-document url-prefix() {
+  .dropcaps:first-letter {
+    padding: 9px 8px 0 0; } }
 figcaption {
   font-family: 'Playfair Display', serif;
   line-height: 1.5em;
@@ -307,7 +310,7 @@ header {
       header .menu {
         position: absolute;
         right: -11px;
-        bottom: 0px; } }
+        bottom: 5px; } }
 
 .content-wrapper {
   position: relative;
