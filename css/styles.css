@@ -60,7 +60,8 @@ h1 {
   margin-bottom: 0.97em;
   margin-left: 0;
   margin-right: 0;
-  font-weight: 400; }
+  font-weight: 400;
+  letter-spacing: -0.6px; }
   @media screen and (min-width: 600px) {
     h1 {
       font-size: 2.538em; } }
@@ -75,10 +76,11 @@ h2 {
   display: block;
   font-size: 1.828em;
   margin-top: 1.33em;
-  margin-bottom: 0.86em;
+  margin-bottom: 0.46em;
   margin-left: 0;
   margin-right: 0;
-  font-weight: 400; }
+  font-weight: 400;
+  letter-spacing: -0.6px; }
   @media screen and (min-width: 600px) {
     h2 {
       font-size: 2.031em; } }
@@ -96,7 +98,8 @@ h3 {
   margin-bottom: 0.7em;
   margin-left: 0;
   margin-right: 0;
-  font-weight: 400; }
+  font-weight: 400;
+  letter-spacing: -0.6px; }
   @media screen and (min-width: 600px) {
     h3 {
       font-size: 1.625em; } }
