@@ -30,10 +30,10 @@ h1 {
 h2 {
   font-family: $font-header;
   font-size: 2rem;
-  @media only screen and (min-width: $breakpoint-med) {
+  @media screen and (min-width: $breakpoint-med) {
     font-size: 2.5rem;
   }
-  @media only screen and (min-width: $breakpoint-large) {
+  @media screen and (min-width: $breakpoint-large) {
     font-size: 4rem;
   }
 }
@@ -111,11 +111,11 @@ p, a, li {
   margin-left: auto;
   margin-right: auto;
 
-  @media only screen and (min-width: $breakpoint-small) {
+  @media screen and (min-width: $breakpoint-small) {
     width: 80%;
   }
 
-  @media only screen and (min-width: $breakpoint-large) {
+  @media screen and (min-width: $breakpoint-large) {
     width: 75%;
     max-width: 80rem;
   }
@@ -166,7 +166,7 @@ p, a, li {
 .col-11-sm { width: ($width / (12 / 11)) - ($gutter * 1 / 12); }
 .col-12-sm { width: $width; }
 
-@media only screen and (min-width: $breakpoint-med) {
+@media screen and (min-width: $breakpoint-med) {
   .col-1 { width:($width / 12) - ($gutter * 11 / 12); }
   .col-2 { width: ($width / 6) - ($gutter * 10 / 12); }
   .col-3 { width: ($width / 4) - ($gutter * 9 / 12); }
