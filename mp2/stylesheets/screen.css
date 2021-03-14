@@ -3,98 +3,98 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@600&display=swap");
-/* line 28, ../sass/variables.scss */
+/* line 31, ../sass/variables.scss */
 .rotated, .slanted-divider .slanted-thing {
   -webkit-transform: rotate(-4deg);
   transform: rotate(-4deg);
 }
 
-/* line 51, ../sass/variables.scss */
+/* line 54, ../sass/variables.scss */
 .p1 {
   background-color: #ececec;
 }
-/* line 51, ../sass/variables.scss */
+/* line 54, ../sass/variables.scss */
 .p1 h2, .p1 h3, .p1 p, .p1 a, .p1 li {
   color: #404040;
 }
 
-/* line 52, ../sass/variables.scss */
+/* line 55, ../sass/variables.scss */
 .p2 {
   background-color: #262626;
 }
-/* line 52, ../sass/variables.scss */
+/* line 55, ../sass/variables.scss */
 .p2 h2, .p2 h3, .p2 p, .p2 a, .p2 li {
   color: #ececec;
 }
 
-/* line 53, ../sass/variables.scss */
+/* line 56, ../sass/variables.scss */
 .p3 {
   background-color: #ececec;
 }
-/* line 53, ../sass/variables.scss */
+/* line 56, ../sass/variables.scss */
 .p3 h2, .p3 h3, .p3 p, .p3 a, .p3 li {
   color: #404040;
 }
 
-/* line 54, ../sass/variables.scss */
+/* line 57, ../sass/variables.scss */
 .s1 {
   background-color: #262626;
 }
-/* line 54, ../sass/variables.scss */
+/* line 57, ../sass/variables.scss */
 .s1 h2, .s1 h3, .s1 p, .s1 a, .s1 li {
   color: #ececec;
 }
 
-/* line 55, ../sass/variables.scss */
+/* line 58, ../sass/variables.scss */
 .s2 {
   background-color: #ececec;
 }
-/* line 55, ../sass/variables.scss */
+/* line 58, ../sass/variables.scss */
 .s2 h2, .s2 h3, .s2 p, .s2 a, .s2 li {
   color: #404040;
 }
 
-/* line 65, ../sass/variables.scss */
+/* line 68, ../sass/variables.scss */
 .p1 {
   background-color: #ffffff;
 }
-/* line 65, ../sass/variables.scss */
+/* line 68, ../sass/variables.scss */
 .p1 h2, .p1 h3, .p1 p, .p1 a, .p1 li {
   color: #404040;
 }
 
-/* line 66, ../sass/variables.scss */
+/* line 69, ../sass/variables.scss */
 .p2 {
   background-color: #ffac00;
 }
-/* line 66, ../sass/variables.scss */
+/* line 69, ../sass/variables.scss */
 .p2 h2, .p2 h3, .p2 p, .p2 a, .p2 li {
   color: #404040;
 }
 
-/* line 67, ../sass/variables.scss */
+/* line 70, ../sass/variables.scss */
 .p3 {
   background-color: #ad3118;
 }
-/* line 67, ../sass/variables.scss */
+/* line 70, ../sass/variables.scss */
 .p3 h2, .p3 h3, .p3 p, .p3 a, .p3 li {
   color: #ececec;
 }
 
-/* line 68, ../sass/variables.scss */
+/* line 71, ../sass/variables.scss */
 .s1 {
   background-color: #ffffff;
 }
-/* line 68, ../sass/variables.scss */
+/* line 71, ../sass/variables.scss */
 .s1 h2, .s1 h3, .s1 p, .s1 a, .s1 li {
   color: #404040;
 }
 
-/* line 69, ../sass/variables.scss */
+/* line 72, ../sass/variables.scss */
 .s2 {
   background-color: #2b2323;
 }
-/* line 69, ../sass/variables.scss */
+/* line 72, ../sass/variables.scss */
 .s2 h2, .s2 h3, .s2 p, .s2 a, .s2 li {
   color: #ececec;
 }
