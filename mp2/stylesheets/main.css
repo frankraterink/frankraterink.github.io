@@ -107,6 +107,7 @@ body {
   width: 100%;
   position: relative;
   z-index: 0;
+  overflow: initial;
 }
 @media only screen and (min-width: 600px) {
   /* line 7, ../sass/main.scss */
@@ -120,7 +121,7 @@ body {
     height: 260px;
   }
 }
-/* line 19, ../sass/main.scss */
+/* line 20, ../sass/main.scss */
 .slanted-divider .slanted-thing {
   top: 60px;
   left: 0;
@@ -131,36 +132,36 @@ body {
   position: absolute;
 }
 @media only screen and (min-width: 600px) {
-  /* line 19, ../sass/main.scss */
+  /* line 20, ../sass/main.scss */
   .slanted-divider .slanted-thing {
     top: 160px;
   }
 }
 @media only screen and (min-width: 900px) {
-  /* line 19, ../sass/main.scss */
+  /* line 20, ../sass/main.scss */
   .slanted-divider .slanted-thing {
     top: 250px;
   }
 }
 
-/* line 37, ../sass/main.scss */
+/* line 38, ../sass/main.scss */
 .header {
   height: 323px;
   text-align: center;
 }
-/* line 40, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 .header .logo {
   width: 100%;
   margin-top: 110px;
   position: relative;
 }
 @media screen and (min-width: 900px) {
-  /* line 40, ../sass/main.scss */
+  /* line 41, ../sass/main.scss */
   .header .logo {
     width: 500px;
   }
 }
-/* line 48, ../sass/main.scss */
+/* line 49, ../sass/main.scss */
 .header h1 {
   font-family: "Kanit", sans-serif;
   color: #404040;
@@ -168,7 +169,7 @@ body {
   position: relative;
 }
 
-/* line 55, ../sass/main.scss */
+/* line 56, ../sass/main.scss */
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -178,115 +179,115 @@ body {
   padding: .375rem .75rem;
   text-decoration: none;
 }
-/* line 63, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 .btn:hover {
   background-color: #2b2323;
 }
-/* line 66, ../sass/main.scss */
+/* line 67, ../sass/main.scss */
 .btn a {
   color: #ececec;
 }
-/* line 69, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
 .btn ~ .btn {
   margin-left: 0.5rem;
 }
-/* line 72, ../sass/main.scss */
+/* line 73, ../sass/main.scss */
 .btn.p3 {
   color: #ececec;
 }
 
-/* line 77, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 .c1 {
   background-color: #1c2726;
 }
-/* line 79, ../sass/main.scss */
+/* line 80, ../sass/main.scss */
 .c1 h3, .c1 p {
   color: #ececec;
 }
 
-/* line 83, ../sass/main.scss */
+/* line 84, ../sass/main.scss */
 .c2 {
   background-color: #b8c0b1;
 }
-/* line 85, ../sass/main.scss */
+/* line 86, ../sass/main.scss */
 .c2 h3, .c2 p {
   color: #404040;
 }
 
-/* line 91, ../sass/main.scss */
+/* line 92, ../sass/main.scss */
 .games img {
   color: blue;
 }
 
-/* line 97, ../sass/main.scss */
+/* line 98, ../sass/main.scss */
 .game {
   position: relative;
   margin-bottom: 10px;
 }
-/* line 101, ../sass/main.scss */
+/* line 102, ../sass/main.scss */
 .game.col-6 h3 {
   font-size: 3em;
 }
-/* line 105, ../sass/main.scss */
+/* line 106, ../sass/main.scss */
 .game h3 {
   margin: 0 0 0 0;
   text-align: center;
 }
-/* line 109, ../sass/main.scss */
+/* line 110, ../sass/main.scss */
 .game p {
   text-align: center;
 }
-/* line 112, ../sass/main.scss */
+/* line 113, ../sass/main.scss */
 .game .logo-container {
   position: absolute;
   bottom: 207px;
   width: 100%;
   left: 0;
 }
-/* line 117, ../sass/main.scss */
+/* line 118, ../sass/main.scss */
 .game .logo-container .game-logo-large {
   position: relative;
   width: 47%;
   margin: 0px auto 0px;
   display: block;
 }
-/* line 124, ../sass/main.scss */
+/* line 125, ../sass/main.scss */
 .game img {
   width: 100%;
 }
-/* line 128, ../sass/main.scss */
+/* line 129, ../sass/main.scss */
 .game h3 ~ p {
   margin-top: 0px;
 }
 
-/* line 133, ../sass/main.scss */
+/* line 134, ../sass/main.scss */
 .footer {
   padding-bottom: 160px;
 }
-/* line 134, ../sass/main.scss */
+/* line 135, ../sass/main.scss */
 .footer .container {
   padding-top: 100px;
 }
-/* line 138, ../sass/main.scss */
+/* line 139, ../sass/main.scss */
 .footer img {
   width: 100%;
   margin: 16px 0 0 0;
 }
-/* line 142, ../sass/main.scss */
+/* line 143, ../sass/main.scss */
 .footer h2 {
   margin: -10px 0 -10px 0;
 }
 @media only screen and (min-width: 2000px) {
-  /* line 146, ../sass/main.scss */
+  /* line 147, ../sass/main.scss */
   .footer img ~ p {
     margin-top: 10px;
   }
-  /* line 149, ../sass/main.scss */
+  /* line 150, ../sass/main.scss */
   .footer h2 ~ p, .footer h2 ~ ul {
     margin-top: 0px;
   }
 }
-/* line 153, ../sass/main.scss */
+/* line 154, ../sass/main.scss */
 .footer ul {
   list-style-type: none;
   padding: 0;
