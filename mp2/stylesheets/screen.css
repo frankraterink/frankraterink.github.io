@@ -60,7 +60,7 @@
 }
 /* line 68, ../sass/variables.scss */
 .p1 h2, .p1 h3, .p1 p, .p1 a, .p1 li {
-  color: #404040;
+  color: rgba(64, 64, 64, 0.95);
 }
 
 /* line 69, ../sass/variables.scss */
@@ -69,7 +69,7 @@
 }
 /* line 69, ../sass/variables.scss */
 .p2 h2, .p2 h3, .p2 p, .p2 a, .p2 li {
-  color: #404040;
+  color: rgba(64, 64, 64, 0.95);
 }
 
 /* line 70, ../sass/variables.scss */
@@ -78,7 +78,7 @@
 }
 /* line 70, ../sass/variables.scss */
 .p3 h2, .p3 h3, .p3 p, .p3 a, .p3 li {
-  color: #ececec;
+  color: rgba(236, 236, 236, 0.95);
 }
 
 /* line 71, ../sass/variables.scss */
@@ -87,7 +87,7 @@
 }
 /* line 71, ../sass/variables.scss */
 .s1 h2, .s1 h3, .s1 p, .s1 a, .s1 li {
-  color: #404040;
+  color: rgba(64, 64, 64, 0.95);
 }
 
 /* line 72, ../sass/variables.scss */
@@ -96,7 +96,7 @@
 }
 /* line 72, ../sass/variables.scss */
 .s2 h2, .s2 h3, .s2 p, .s2 a, .s2 li {
-  color: #ececec;
+  color: rgba(236, 236, 236, 0.95);
 }
 
 /**/
@@ -467,7 +467,7 @@ body {
 /* line 49, ../sass/main.scss */
 .header h1 {
   font-family: "Kanit", sans-serif;
-  color: #404040;
+  color: rgba(64, 64, 64, 0.95);
   font-size: 1.8em;
   position: relative;
 }
@@ -488,7 +488,7 @@ body {
 }
 /* line 67, ../sass/main.scss */
 .btn a {
-  color: #ececec;
+  color: rgba(236, 236, 236, 0.95);
 }
 /* line 70, ../sass/main.scss */
 .btn ~ .btn {
@@ -496,7 +496,7 @@ body {
 }
 /* line 73, ../sass/main.scss */
 .btn.p3 {
-  color: #ececec;
+  color: rgba(236, 236, 236, 0.95);
 }
 
 /* line 78, ../sass/main.scss */
@@ -505,7 +505,7 @@ body {
 }
 /* line 80, ../sass/main.scss */
 .c1 h3, .c1 p {
-  color: #ececec;
+  color: rgba(236, 236, 236, 0.95);
 }
 
 /* line 84, ../sass/main.scss */
@@ -514,7 +514,7 @@ body {
 }
 /* line 86, ../sass/main.scss */
 .c2 h3, .c2 p {
-  color: #404040;
+  color: rgba(64, 64, 64, 0.95);
 }
 
 /* line 92, ../sass/main.scss */
@@ -574,23 +574,34 @@ body {
 /* line 139, ../sass/main.scss */
 .footer img {
   width: 100%;
-  margin: 16px 0 0 0;
 }
-/* line 143, ../sass/main.scss */
+@media only screen and (min-width: 900px) {
+  /* line 139, ../sass/main.scss */
+  .footer img {
+    margin: 7px 0 0 0;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  /* line 139, ../sass/main.scss */
+  .footer img {
+    margin: 16px 0 0 0;
+  }
+}
+/* line 148, ../sass/main.scss */
 .footer h2 {
   margin: -10px 0 -10px 0;
 }
 @media only screen and (min-width: 2000px) {
-  /* line 147, ../sass/main.scss */
+  /* line 152, ../sass/main.scss */
   .footer img ~ p {
     margin-top: 10px;
   }
-  /* line 150, ../sass/main.scss */
+  /* line 155, ../sass/main.scss */
   .footer h2 ~ p, .footer h2 ~ ul {
     margin-top: 0px;
   }
 }
-/* line 154, ../sass/main.scss */
+/* line 159, ../sass/main.scss */
 .footer ul {
   list-style-type: none;
   padding: 0;

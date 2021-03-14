@@ -63,8 +63,8 @@ $color-p2: #ffac00;
 $color-p3: #ad3118;
 $color-s1: #ffffff;
 $color-s2: #2b2323;
-$color-t: #404040;  // text
-$color-ti: #ececec; // text inverse
+$color-t: rgba(64,64,64,0.95);  // text
+$color-ti: rgba(236,236,236,0.95); // text inverse
 .p1 { background-color: $color-p1; h2, h3, p, a, li { color: $color-t; } }
 .p2 { background-color: $color-p2; h2, h3, p, a, li { color: $color-t; } }
 .p3 { background-color: $color-p3; h2, h3, p, a, li { color: $color-ti; } }
