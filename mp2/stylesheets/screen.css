@@ -525,82 +525,89 @@ body {
 /* line 98, ../sass/main.scss */
 .game {
   position: relative;
+  padding-bottom: 30px;
 }
-/* line 101, ../sass/main.scss */
+/* line 102, ../sass/main.scss */
 .game.col-6 h3 {
   font-size: 3em;
+  line-height: 1em;
+  margin-top: 6px;
 }
-/* line 105, ../sass/main.scss */
+/* line 107, ../sass/main.scss */
+.game.col-6 h3 ~ p {
+  margin-top: 9px;
+}
+/* line 111, ../sass/main.scss */
 .game h3 {
   margin: 0 0 0 0;
   text-align: center;
 }
-/* line 109, ../sass/main.scss */
+/* line 115, ../sass/main.scss */
 .game p {
   text-align: center;
 }
-/* line 112, ../sass/main.scss */
+/* line 118, ../sass/main.scss */
 .game .logo-container {
   position: absolute;
   bottom: 207px;
   width: 100%;
   left: 0;
 }
-/* line 117, ../sass/main.scss */
+/* line 123, ../sass/main.scss */
 .game .logo-container .game-logo-large {
   position: relative;
   width: 47%;
   margin: 0px auto 0px;
   display: block;
 }
-/* line 124, ../sass/main.scss */
+/* line 130, ../sass/main.scss */
 .game img {
   width: 100%;
 }
-/* line 128, ../sass/main.scss */
+/* line 134, ../sass/main.scss */
 .game h3 ~ p {
   margin-top: 0px;
 }
 
-/* line 133, ../sass/main.scss */
+/* line 139, ../sass/main.scss */
 .footer {
   padding-bottom: 160px;
 }
-/* line 134, ../sass/main.scss */
+/* line 140, ../sass/main.scss */
 .footer .container {
   padding-top: 100px;
 }
-/* line 138, ../sass/main.scss */
+/* line 144, ../sass/main.scss */
 .footer img {
   width: 100%;
 }
 @media only screen and (min-width: 900px) {
-  /* line 138, ../sass/main.scss */
+  /* line 144, ../sass/main.scss */
   .footer img {
     margin: 7px 0 0 0;
   }
 }
 @media only screen and (min-width: 2000px) {
-  /* line 138, ../sass/main.scss */
+  /* line 144, ../sass/main.scss */
   .footer img {
     margin: 16px 0 0 0;
   }
 }
-/* line 147, ../sass/main.scss */
+/* line 153, ../sass/main.scss */
 .footer h2 {
   margin: -10px 0 -10px 0;
 }
 @media only screen and (min-width: 2000px) {
-  /* line 151, ../sass/main.scss */
+  /* line 157, ../sass/main.scss */
   .footer img ~ p {
     margin-top: 10px;
   }
-  /* line 154, ../sass/main.scss */
+  /* line 160, ../sass/main.scss */
   .footer h2 ~ p, .footer h2 ~ ul {
     margin-top: 0px;
   }
 }
-/* line 158, ../sass/main.scss */
+/* line 164, ../sass/main.scss */
 .footer ul {
   list-style-type: none;
   padding: 0;
