@@ -78,7 +78,7 @@ h1 {
 h2 {
   font-family: "Kanit", sans-serif;
   font-size: 2rem;
-  text-shadow: 0px 1px 2px rgba(4, 4, 4, 0.2);
+  text-shadow: 0px 1px 1px rgba(4, 4, 4, 0.2);
 }
 @media only screen and (min-width: 900px) {
   /* line 30, ../sass/simple-grid.scss */
