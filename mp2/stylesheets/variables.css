@@ -4,49 +4,100 @@
   transform: rotate(-4deg);
 }
 
-/* line 54, ../sass/variables.scss */
+/* line 35, ../sass/variables.scss */
+.rotated-inverse {
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+
+/* line 58, ../sass/variables.scss */
 .p1 {
   background-color: #ececec;
 }
-/* line 54, ../sass/variables.scss */
+/* line 58, ../sass/variables.scss */
 .p1 h2, .p1 h3, .p1 p, .p1 a, .p1 li {
   color: #404040;
 }
 
-/* line 55, ../sass/variables.scss */
+/* line 59, ../sass/variables.scss */
 .p2 {
   background-color: #262626;
 }
-/* line 55, ../sass/variables.scss */
+/* line 59, ../sass/variables.scss */
 .p2 h2, .p2 h3, .p2 p, .p2 a, .p2 li {
   color: #ececec;
 }
 
-/* line 56, ../sass/variables.scss */
+/* line 60, ../sass/variables.scss */
 .p3 {
   background-color: #ececec;
 }
-/* line 56, ../sass/variables.scss */
+/* line 60, ../sass/variables.scss */
 .p3 h2, .p3 h3, .p3 p, .p3 a, .p3 li {
   color: #404040;
 }
 
-/* line 57, ../sass/variables.scss */
+/* line 61, ../sass/variables.scss */
 .s1 {
   background-color: #b8b8b9;
 }
-/* line 57, ../sass/variables.scss */
+/* line 61, ../sass/variables.scss */
 .s1 h2, .s1 h3, .s1 p, .s1 a, .s1 li {
   color: #404040;
 }
 
-/* line 58, ../sass/variables.scss */
+/* line 62, ../sass/variables.scss */
 .s2 {
   background-color: #ececec;
 }
-/* line 58, ../sass/variables.scss */
+/* line 62, ../sass/variables.scss */
 .s2 h2, .s2 h3, .s2 p, .s2 a, .s2 li {
   color: #404040;
+}
+
+/* line 86, ../sass/variables.scss */
+.p1 {
+  background-color: #ffffff;
+}
+/* line 86, ../sass/variables.scss */
+.p1 h2, .p1 h3, .p1 p, .p1 a, .p1 li {
+  color: rgba(21, 21, 21, 0.95);
+}
+
+/* line 87, ../sass/variables.scss */
+.p2 {
+  background-color: #49d767;
+}
+/* line 87, ../sass/variables.scss */
+.p2 h2, .p2 h3, .p2 p, .p2 a, .p2 li {
+  color: rgba(21, 21, 21, 0.95);
+}
+
+/* line 88, ../sass/variables.scss */
+.p3 {
+  background-color: #ff375f;
+}
+/* line 88, ../sass/variables.scss */
+.p3 h2, .p3 h3, .p3 p, .p3 a, .p3 li {
+  color: white;
+}
+
+/* line 89, ../sass/variables.scss */
+.s1 {
+  background-color: #ffffff;
+}
+/* line 89, ../sass/variables.scss */
+.s1 h2, .s1 h3, .s1 p, .s1 a, .s1 li {
+  color: rgba(21, 21, 21, 0.95);
+}
+
+/* line 90, ../sass/variables.scss */
+.s2 {
+  background-color: #2b2323;
+}
+/* line 90, ../sass/variables.scss */
+.s2 h2, .s2 h3, .s2 p, .s2 a, .s2 li {
+  color: white;
 }
 
 /**/

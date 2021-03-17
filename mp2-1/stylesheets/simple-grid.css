@@ -1,0 +1,351 @@
+/* line 31, ../sass/variables.scss */
+.rotated {
+  -webkit-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+}
+
+/* line 54, ../sass/variables.scss */
+.p1 {
+  background-color: #ececec;
+}
+/* line 54, ../sass/variables.scss */
+.p1 h2, .p1 h3, .p1 p, .p1 a, .p1 li {
+  color: #404040;
+}
+
+/* line 55, ../sass/variables.scss */
+.p2 {
+  background-color: #262626;
+}
+/* line 55, ../sass/variables.scss */
+.p2 h2, .p2 h3, .p2 p, .p2 a, .p2 li {
+  color: #ececec;
+}
+
+/* line 56, ../sass/variables.scss */
+.p3 {
+  background-color: #ececec;
+}
+/* line 56, ../sass/variables.scss */
+.p3 h2, .p3 h3, .p3 p, .p3 a, .p3 li {
+  color: #404040;
+}
+
+/* line 57, ../sass/variables.scss */
+.s1 {
+  background-color: #b8b8b9;
+}
+/* line 57, ../sass/variables.scss */
+.s1 h2, .s1 h3, .s1 p, .s1 a, .s1 li {
+  color: #404040;
+}
+
+/* line 58, ../sass/variables.scss */
+.s2 {
+  background-color: #ececec;
+}
+/* line 58, ../sass/variables.scss */
+.s2 h2, .s2 h3, .s2 p, .s2 a, .s2 li {
+  color: #404040;
+}
+
+/**/
+/* line 7, ../sass/simple-grid.scss */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+}
+
+/* line 18, ../sass/simple-grid.scss */
+* {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  line-height: 1.5;
+}
+
+/* line 25, ../sass/simple-grid.scss */
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-size: 2.5rem;
+}
+
+/* line 30, ../sass/simple-grid.scss */
+h2 {
+  font-family: "Kanit", sans-serif;
+  font-size: 2rem;
+  text-shadow: 0px 1px 1px rgba(4, 4, 4, 0.2);
+}
+@media only screen and (min-width: 900px) {
+  /* line 30, ../sass/simple-grid.scss */
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  /* line 30, ../sass/simple-grid.scss */
+  h2 {
+    font-size: 4rem;
+  }
+}
+
+/* line 42, ../sass/simple-grid.scss */
+h3 {
+  font-family: "Kanit", sans-serif;
+  font-size: 1.375rem;
+  font-weight: 300;
+}
+
+/* line 49, ../sass/simple-grid.scss */
+h4 {
+  font-family: "Kanit", sans-serif;
+  font-size: 1.125rem;
+}
+
+/* line 54, ../sass/simple-grid.scss */
+h5 {
+  font-family: "Kanit", sans-serif;
+  font-size: 1rem;
+}
+
+/* line 59, ../sass/simple-grid.scss */
+h6 {
+  font-family: "Kanit", sans-serif;
+  font-size: 0.875rem;
+}
+
+/* line 64, ../sass/simple-grid.scss */
+p, a, li {
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+/* line 70, ../sass/simple-grid.scss */
+.font-light {
+  font-weight: 300;
+}
+
+/* line 74, ../sass/simple-grid.scss */
+.font-regular {
+  font-weight: 400;
+}
+
+/* line 78, ../sass/simple-grid.scss */
+.font-heavy {
+  font-weight: 700;
+}
+
+/* line 84, ../sass/simple-grid.scss */
+.left {
+  text-align: left;
+}
+
+/* line 88, ../sass/simple-grid.scss */
+.right {
+  text-align: right;
+}
+
+/* line 92, ../sass/simple-grid.scss */
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 98, ../sass/simple-grid.scss */
+.justify {
+  text-align: justify;
+}
+
+/* line 102, ../sass/simple-grid.scss */
+.hidden-sm {
+  display: none;
+}
+
+/* line 111, ../sass/simple-grid.scss */
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (min-width: 600px) {
+  /* line 111, ../sass/simple-grid.scss */
+  .container {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  /* line 111, ../sass/simple-grid.scss */
+  .container {
+    width: 75%;
+    max-width: 80rem;
+  }
+}
+
+/* line 126, ../sass/simple-grid.scss */
+.row {
+  position: relative;
+  width: 100%;
+}
+
+/* line 131, ../sass/simple-grid.scss */
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+/* line 137, ../sass/simple-grid.scss */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 143, ../sass/simple-grid.scss */
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 96%;
+}
+
+/* line 158, ../sass/simple-grid.scss */
+.col-1-sm {
+  width: 4.33333%;
+}
+
+/* line 159, ../sass/simple-grid.scss */
+.col-2-sm {
+  width: 12.66667%;
+}
+
+/* line 160, ../sass/simple-grid.scss */
+.col-3-sm {
+  width: 21%;
+}
+
+/* line 161, ../sass/simple-grid.scss */
+.col-4-sm {
+  width: 29.33333%;
+}
+
+/* line 162, ../sass/simple-grid.scss */
+.col-5-sm {
+  width: 37.66667%;
+}
+
+/* line 163, ../sass/simple-grid.scss */
+.col-6-sm {
+  width: 46%;
+}
+
+/* line 164, ../sass/simple-grid.scss */
+.col-7-sm {
+  width: 54.33333%;
+}
+
+/* line 165, ../sass/simple-grid.scss */
+.col-8-sm {
+  width: 62.66667%;
+}
+
+/* line 166, ../sass/simple-grid.scss */
+.col-9-sm {
+  width: 71%;
+}
+
+/* line 167, ../sass/simple-grid.scss */
+.col-10-sm {
+  width: 79.33333%;
+}
+
+/* line 168, ../sass/simple-grid.scss */
+.col-11-sm {
+  width: 87.66667%;
+}
+
+/* line 169, ../sass/simple-grid.scss */
+.col-12-sm {
+  width: 96%;
+}
+
+@media only screen and (min-width: 900px) {
+  /* line 172, ../sass/simple-grid.scss */
+  .col-1 {
+    width: 4.33333%;
+  }
+
+  /* line 173, ../sass/simple-grid.scss */
+  .col-2 {
+    width: 12.66667%;
+  }
+
+  /* line 174, ../sass/simple-grid.scss */
+  .col-3 {
+    width: 21%;
+  }
+
+  /* line 175, ../sass/simple-grid.scss */
+  .col-4 {
+    width: 29.33333%;
+  }
+
+  /* line 176, ../sass/simple-grid.scss */
+  .col-5 {
+    width: 37.66667%;
+  }
+
+  /* line 177, ../sass/simple-grid.scss */
+  .col-6 {
+    width: 46%;
+  }
+
+  /* line 178, ../sass/simple-grid.scss */
+  .col-7 {
+    width: 54.33333%;
+  }
+
+  /* line 179, ../sass/simple-grid.scss */
+  .col-8 {
+    width: 62.66667%;
+  }
+
+  /* line 180, ../sass/simple-grid.scss */
+  .col-9 {
+    width: 71%;
+  }
+
+  /* line 181, ../sass/simple-grid.scss */
+  .col-10 {
+    width: 79.33333%;
+  }
+
+  /* line 182, ../sass/simple-grid.scss */
+  .col-11 {
+    width: 87.66667%;
+  }
+
+  /* line 183, ../sass/simple-grid.scss */
+  .col-12 {
+    width: 96%;
+  }
+
+  /* line 185, ../sass/simple-grid.scss */
+  .hidden-sm {
+    display: block;
+  }
+}
