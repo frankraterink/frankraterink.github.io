@@ -33,11 +33,11 @@
 
 /* line 57, ../sass/variables.scss */
 .s1 {
-  background-color: #262626;
+  background-color: #b8b8b9;
 }
 /* line 57, ../sass/variables.scss */
 .s1 h2, .s1 h3, .s1 p, .s1 a, .s1 li {
-  color: #ececec;
+  color: #404040;
 }
 
 /* line 58, ../sass/variables.scss */
@@ -49,55 +49,10 @@
   color: #404040;
 }
 
-/* line 68, ../sass/variables.scss */
-.p1 {
-  background-color: #ffffff;
-}
-/* line 68, ../sass/variables.scss */
-.p1 h2, .p1 h3, .p1 p, .p1 a, .p1 li {
-  color: rgba(64, 64, 64, 0.95);
-}
-
-/* line 69, ../sass/variables.scss */
-.p2 {
-  background-color: #ffac00;
-}
-/* line 69, ../sass/variables.scss */
-.p2 h2, .p2 h3, .p2 p, .p2 a, .p2 li {
-  color: rgba(64, 64, 64, 0.95);
-}
-
-/* line 70, ../sass/variables.scss */
-.p3 {
-  background-color: #ad3118;
-}
-/* line 70, ../sass/variables.scss */
-.p3 h2, .p3 h3, .p3 p, .p3 a, .p3 li {
-  color: rgba(236, 236, 236, 0.95);
-}
-
-/* line 71, ../sass/variables.scss */
-.s1 {
-  background-color: #ffffff;
-}
-/* line 71, ../sass/variables.scss */
-.s1 h2, .s1 h3, .s1 p, .s1 a, .s1 li {
-  color: rgba(64, 64, 64, 0.95);
-}
-
-/* line 72, ../sass/variables.scss */
-.s2 {
-  background-color: #2b2323;
-}
-/* line 72, ../sass/variables.scss */
-.s2 h2, .s2 h3, .s2 p, .s2 a, .s2 li {
-  color: rgba(236, 236, 236, 0.95);
-}
-
 /**/
 /* line 5, ../sass/main.scss */
 body {
-  background-color: #ffffff;
+  background-color: #ececec;
 }
 
 /* line 9, ../sass/main.scss */
@@ -163,7 +118,7 @@ body {
 /* line 50, ../sass/main.scss */
 .header h1 {
   font-family: "Kanit", sans-serif;
-  color: rgba(64, 64, 64, 0.95);
+  color: #404040;
   font-size: 1.8em;
   position: relative;
 }
@@ -180,11 +135,11 @@ body {
 }
 /* line 65, ../sass/main.scss */
 .btn:hover {
-  background-color: #2b2323;
+  background-color: #ececec;
 }
 /* line 68, ../sass/main.scss */
 .btn a {
-  color: rgba(236, 236, 236, 0.95);
+  color: #404040;
 }
 /* line 71, ../sass/main.scss */
 .btn ~ .btn {
@@ -192,7 +147,7 @@ body {
 }
 /* line 74, ../sass/main.scss */
 .btn.p3 {
-  color: rgba(236, 236, 236, 0.95);
+  color: #404040;
 }
 
 /* line 80, ../sass/main.scss */
