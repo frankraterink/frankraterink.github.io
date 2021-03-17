@@ -8,20 +8,20 @@ body {
 
 .slanted-divider {
   overflow: hidden;
-  height: 70px;
+  height: 170px;
   width: 100%;
   position: relative;
   z-index: 0;
-  @media only screen and (min-width: $breakpoint-small) {
-    height: 170px;
-  }
+  // @media only screen and (min-width: $breakpoint-small) {
+  //   height: 170px;
+  // }
   @media only screen and (min-width: $breakpoint-med) {
     height: 260px;
   }
   .slanted-thing {
     @extend .rotated;
     top: 60px;
-    left: -2px;
+    left: -20px;
     width: 110%;
     height: 100%;
     -webkit-transform-origin: left top;
@@ -37,7 +37,7 @@ body {
 }
 
 .header {
-  height: 323px;
+
   text-align: center;
   .logo {
     width: 100%;

@@ -59,16 +59,10 @@ body {
 /* line 9, ../sass/main.scss */
 .slanted-divider {
   overflow: hidden;
-  height: 70px;
+  height: 170px;
   width: 100%;
   position: relative;
   z-index: 0;
-}
-@media only screen and (min-width: 600px) {
-  /* line 9, ../sass/main.scss */
-  .slanted-divider {
-    height: 170px;
-  }
 }
 @media only screen and (min-width: 900px) {
   /* line 9, ../sass/main.scss */
@@ -79,7 +73,7 @@ body {
 /* line 21, ../sass/main.scss */
 .slanted-divider .slanted-thing {
   top: 60px;
-  left: -2px;
+  left: -20px;
   width: 110%;
   height: 100%;
   -webkit-transform-origin: left top;
@@ -101,7 +95,6 @@ body {
 
 /* line 39, ../sass/main.scss */
 .header {
-  height: 323px;
   text-align: center;
 }
 /* line 42, ../sass/main.scss */
