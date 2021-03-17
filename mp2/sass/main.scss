@@ -209,8 +209,14 @@ a {
 
 .partner {
 
-  height: 200px;
+  height: 130px;
   text-align: center;
+  @media only screen and (min-width: $breakpoint-small) {
+    height: 170px;
+  }
+  @media only screen and (min-width: $breakpoint-med) {
+    height: 200px;
+  }
   a {
     text-align: center;
     width: 100%;

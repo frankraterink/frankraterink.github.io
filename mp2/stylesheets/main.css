@@ -332,17 +332,29 @@ a img {
 
 /* line 210, ../sass/main.scss */
 .partner {
-  height: 200px;
+  height: 130px;
   text-align: center;
 }
-/* line 214, ../sass/main.scss */
+@media only screen and (min-width: 600px) {
+  /* line 210, ../sass/main.scss */
+  .partner {
+    height: 170px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  /* line 210, ../sass/main.scss */
+  .partner {
+    height: 200px;
+  }
+}
+/* line 220, ../sass/main.scss */
 .partner a {
   text-align: center;
   width: 100%;
   display: block;
   height: 100%;
 }
-/* line 219, ../sass/main.scss */
+/* line 225, ../sass/main.scss */
 .partner a img {
   position: absolute;
   max-width: 90%;
@@ -353,45 +365,45 @@ a img {
   margin: auto;
 }
 
-/* line 231, ../sass/main.scss */
+/* line 237, ../sass/main.scss */
 .footer {
   padding-bottom: 160px;
 }
-/* line 232, ../sass/main.scss */
+/* line 238, ../sass/main.scss */
 .footer .container {
   padding-top: 100px;
 }
-/* line 236, ../sass/main.scss */
+/* line 242, ../sass/main.scss */
 .footer img {
   width: 100%;
 }
 @media only screen and (min-width: 900px) {
-  /* line 236, ../sass/main.scss */
+  /* line 242, ../sass/main.scss */
   .footer img {
     margin: 7px 0 0 0;
   }
 }
 @media only screen and (min-width: 2000px) {
-  /* line 236, ../sass/main.scss */
+  /* line 242, ../sass/main.scss */
   .footer img {
     margin: 16px 0 0 0;
   }
 }
-/* line 245, ../sass/main.scss */
+/* line 251, ../sass/main.scss */
 .footer h2 {
   margin: -10px 0 -10px 0;
 }
 @media only screen and (min-width: 2000px) {
-  /* line 249, ../sass/main.scss */
+  /* line 255, ../sass/main.scss */
   .footer img ~ p {
     margin-top: 10px;
   }
-  /* line 252, ../sass/main.scss */
+  /* line 258, ../sass/main.scss */
   .footer h2 ~ p, .footer h2 ~ ul {
     margin-top: 0px;
   }
 }
-/* line 256, ../sass/main.scss */
+/* line 262, ../sass/main.scss */
 .footer ul {
   list-style-type: none;
   padding: 0;
