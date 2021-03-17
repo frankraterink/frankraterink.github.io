@@ -79,7 +79,7 @@ body {
 /* line 21, ../sass/main.scss */
 .slanted-divider .slanted-thing {
   top: 60px;
-  left: 0;
+  left: -2px;
   width: 110%;
   height: 100%;
   -webkit-transform-origin: left top;
