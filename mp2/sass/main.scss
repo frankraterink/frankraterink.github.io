@@ -116,6 +116,30 @@ body {
   h3 ~ p {
     margin-top: 0px;
   }
+  a {
+    position: relative;
+    &.tile {
+      display: block;
+      overflow: auto;
+      &:hover {
+        &:before {
+          content: "Go to website »";
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          background-color: $color-p2;
+          color: $color-ti;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+    img {
+      display: block;
+      float: left;
+    }
+  }
 }
 
 .footer {
