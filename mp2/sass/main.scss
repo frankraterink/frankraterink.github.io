@@ -107,19 +107,24 @@ a.btn {
   vertical-align: middle;
   padding: .375rem .75rem;
   text-decoration: none;
-  background-color: $color-s2;
-  color: $color-ti;
-  &:hover {
-    background-color: #ff375f;
-  }
-  a {
 
-  }
   &~.btn {
     margin-left: 0.5rem;
   }
-  &.p3 {
+  &.btn-game {
+    background-color: $color-s2;
+    color: $color-ti;
+    &:hover {
+      background-color: $color-p3;
+    }
+  }
+  &.btn-chowdren {
+    background-color: $color-s1;
     color: $color-t;
+    &:hover {
+      color: $color-ti;
+      background-color: $color-p3;
+    }
   }
 }
 
