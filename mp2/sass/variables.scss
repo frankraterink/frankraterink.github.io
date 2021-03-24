@@ -1,6 +1,3 @@
-
-
-
 $font-header: 'Kanit', sans-serif;
 $font-content: 'Barlow Semi Condensed', sans-serif;
 
@@ -18,15 +15,9 @@ $breakpoint-large: 2000px; // 960px
 // $breakpoint-med: 45em; // 720px
 // $breakpoint-large: 60em; // 960px
 
-
-
-$color-p1: #B31535;
-$color-p2: #FFF652;
-$color-p3: #FF375F;
-$color-s1: #1FC0FF;
-$color-s2: #1E89B3;
-$color-t: #23221F;
-$color-ti: #f4f4f4;
+$space-s: .4em;
+$space-m: $space-s * 2;
+$space-l: $space-s * 4;
 
 .rotated {
   -webkit-transform: rotate(-4deg);
@@ -37,14 +28,6 @@ $color-ti: #f4f4f4;
   transform: rotate(4deg);
 }
 
-
-$color-p1: #f4f4f4;
-$color-p2: #83B76C;
-$color-p3: #0E4749;
-$color-s1: #002626;
-$color-s2: #E55812;
-$color-t: #404040;
-$color-ti: #ffffffed;
 
 
 // BLACK-AND-WHITE
@@ -75,17 +58,33 @@ $color-ti: #ececec; // text inverse
 // .s1 { background-color: $color-s1; h2, h3, p, a, li { color: $color-t; } }
 // .s2 { background-color: $color-s2; h2, h3, p, a, li { color: $color-ti; } }
 
+// MP2
+// $color-p1: #ffffff; // body
+// $color-p2: #49d767;
+// $color-p3: #ff375f;
+// $color-s1: #ffffff;
+// $color-s2: #2b2323;
+// $color-t: rgba(21,21,21,0.95);  // text
+// $color-ti: rgba(255, 255, 255, 1); // text inverse
+// .p1 { background-color: $color-p1; h2, h3, p, a, li { color: $color-t; } }
+// .p2 { background-color: $color-p2; h2, h3, p, a, li { color: $color-t; } }
+// .p3 { background-color: $color-p3; h2, h3, p, a, li { color: $color-ti; } }
+// .s1 { background-color: $color-s1; h2, h3, p, a, li { color: $color-t; } }
+// .s2 { background-color: $color-s2; h2, h3, p, a, li { color: $color-ti; } }
+
 // NEW
-$color-p1: #ffffff; // body
-$color-p2: #49d767;
-$color-p3: #ff375f;
+$color-p1: #afcbff; // body
+$color-p2: #4265a6;
+$color-p3: #f2365b;
+$color-p4: #3ab363;
 $color-s1: #ffffff;
 $color-s2: #2b2323;
 $color-t: rgba(21,21,21,0.95);  // text
 $color-ti: rgba(255, 255, 255, 1); // text inverse
 .p1 { background-color: $color-p1; h2, h3, p, a, li { color: $color-t; } }
-.p2 { background-color: $color-p2; h2, h3, p, a, li { color: $color-t; } }
+.p2 { background-color: $color-p2; h2, h3, p, a, li { color: $color-ti; } }
 .p3 { background-color: $color-p3; h2, h3, p, a, li { color: $color-ti; } }
+.p4 { background-color: $color-p4; h2, h3, p, a, li { color: $color-ti; } }
 .s1 { background-color: $color-s1; h2, h3, p, a, li { color: $color-t; } }
 .s2 { background-color: $color-s2; h2, h3, p, a, li { color: $color-ti; } }
 
