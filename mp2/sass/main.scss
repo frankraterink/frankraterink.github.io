@@ -125,16 +125,10 @@ a {
   }
   &.col-6 {
     h3 {
-      font-size: 3em;
+      font-size: $font-size-xl;
       line-height: 1em;
       text-shadow: 0px 1px 1px rgba(4, 4, 4, 0.2);
     }
-  }
-  .logo-container {
-    position: absolute;
-    bottom: 207px;
-    left: 0;
-    width: 100%;
   }
   img {
     width: 100%;
@@ -153,9 +147,7 @@ a {
     }
   }
   a {
-
     &.tile {
-
       &:hover {
         &:before {
           position: absolute;
