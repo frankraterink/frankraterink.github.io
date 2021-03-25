@@ -34,7 +34,7 @@ h2 {
   font-family: $font-header;
   font-size: $font-size-l;
   text-shadow: 0px 1px 1px rgba(4, 4, 4, 0.2);
-  margin: 2em 0 0.4em;
+  margin: 0em 0 0.4em;
   @media only screen and (min-width: $breakpoint-large) {
     font-size: $font-size-l * 1.3;
   }
