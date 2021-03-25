@@ -15,6 +15,8 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 table { border-collapse: collapse; border-spacing: 0; }
 
 /* DARK MODE */
+.spacer-top-m { margin-top: 4em; }
+
 * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 h1, h2, h3, h4 { font-family: 'DM Serif Text', serif; }
@@ -114,6 +116,8 @@ figcaption { font-family: 'Playfair Display', serif; line-height: 1.5em; font-si
 @media screen and (min-width: 1600px) { .intermezzo p { font-size: 1em; } }
 
 /* DARK MODE */
+.spacer-top-m { margin-top: 4em; }
+
 html, body { background: linear-gradient(90deg, #11202b, #263b46, #3c5863, #557780, #70989d, #8db9ba, #acdcd6, #cffff2); }
 
 @media screen and (prefers-color-scheme: dark) { html, body { background: linear-gradient(90deg, #0b151c, #18252c, #25363c, #33474c, #425a5d, #526d6d, #64807c, #78948c); } }
