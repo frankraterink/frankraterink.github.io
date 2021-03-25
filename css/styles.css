@@ -114,9 +114,9 @@ figcaption { font-family: 'Playfair Display', serif; line-height: 1.5em; font-si
 @media screen and (min-width: 1600px) { .intermezzo p { font-size: 1em; } }
 
 /* DARK MODE */
-html, body { background-color: #fff; }
+html, body { background: linear-gradient(90deg, #11202b, #263b46, #3c5863, #557780, #70989d, #8db9ba, #acdcd6, #cffff2); }
 
-@media screen and (prefers-color-scheme: dark) { html, body { background-color: #545655; } }
+@media screen and (prefers-color-scheme: dark) { html, body { background: linear-gradient(90deg, #0b151c, #18252c, #25363c, #33474c, #425a5d, #526d6d, #64807c, #78948c); } }
 
 h1, h2, h3, h4 { color: #171717; }
 
@@ -148,11 +148,11 @@ header img { width: 100%; display: inline-block; vertical-align: bottom; }
 
 header .franklabs { display: inline-block; margin-left: 0.4em; }
 
-header i { color: #bcc1be; }
+header i { color: #e8e8e8; }
 
 header .menu { margin: 30px 0px 0px 0px; }
 
-header .menu a { color: rgba(0, 0, 0, 0.6); }
+header .menu a { color: rgba(0, 0, 0, 0.8); }
 
 @media screen and (prefers-color-scheme: dark) { header .menu a { color: rgba(255, 255, 255, 0.8); } }
 
@@ -164,15 +164,15 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 
 @media screen and (min-width: 1600px) { header .menu { position: absolute; right: -11px; bottom: 5px; } }
 
-.content-wrapper { position: relative; background-color: #bcc1be; margin: 5% auto; max-width: 80%; padding: 5%; }
+.content-wrapper { position: relative; background-color: #e8e8e8; box-shadow: 0 1.1px 1.2px -2px rgba(0, 0, 0, 0.072), 0 2.5px 2.7px -2px rgba(0, 0, 0, 0.105), 0 4.5px 4.8px -2px rgba(0, 0, 0, 0.129), 0 7.4px 8px -2px rgba(0, 0, 0, 0.151), 0 12.2px 13.2px -2px rgba(0, 0, 0, 0.175), 0 21.3px 23.1px -2px rgba(0, 0, 0, 0.208), 0 46px 50px -2px rgba(0, 0, 0, 0.28); margin: 5% auto 20em; max-width: 80%; padding: 5%; }
 
 @media screen and (prefers-color-scheme: dark) { .content-wrapper { background-color: #2c2d2d; } }
 
-@media screen and (min-width: 600px) { .content-wrapper { max-width: 456px; margin: 2em auto; padding: 2em; } }
+@media screen and (min-width: 600px) { .content-wrapper { max-width: 456px; margin: 2em auto 20em; padding: 2em; } }
 
-@media screen and (min-width: 1200px) { .content-wrapper { max-width: 550px; margin: 3em auto; padding: 3em; } }
+@media screen and (min-width: 1200px) { .content-wrapper { max-width: 550px; margin: 3em auto 20em; padding: 3em; } }
 
-@media screen and (min-width: 1600px) { .content-wrapper { max-width: 570px; margin: 3.5 auto; padding: 3.5em; } }
+@media screen and (min-width: 1600px) { .content-wrapper { max-width: 570px; margin: 3.5 auto 20em; padding: 3.5em; } }
 
 .content-wrapper h1:first-of-type { margin: 0 0 0.6em; }
 
