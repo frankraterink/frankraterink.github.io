@@ -136,6 +136,12 @@ a {
     margin-top: $space-s;
     text-align: center;
     opacity: .7;
+    &:before {
+      content: "Ported to: ";
+      margin-right: $space-s;
+      font-size: 16px;
+      color: $color-ti;
+    }
     img {
       height: 13px;
       width: auto;
@@ -153,8 +159,8 @@ a {
           width: 100%;
           height: 100%;
           content: "Go to website »";
-          background-color: $color-p4;
-          color: $color-ti;
+          background-color: $color-p1;
+          color: $color-t;
           justify-content: center;
           align-items: center;
         }

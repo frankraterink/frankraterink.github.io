@@ -20,6 +20,12 @@ body {
   line-height: $font-height;
 }
 
+::-moz-selection,
+::selection {
+  color: $color-ti;
+  background: $color-t;
+}
+
 // typography
 
 h1 {
@@ -54,7 +60,7 @@ h3 {
 p, a, li {
   font-size: $font-size-default;
   font-weight: 200;
-  line-height: 1.8;
+  line-height: 1.4;
 }
 
 

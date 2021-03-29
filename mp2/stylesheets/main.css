@@ -11,56 +11,56 @@
   transform: rotate(4deg);
 }
 
-/* line 87, ../sass/variables.scss */
+/* line 59, ../sass/variables.scss */
 .p1 {
-  background-color: #afcbff;
+  background-color: #e6d717;
 }
-/* line 87, ../sass/variables.scss */
+/* line 59, ../sass/variables.scss */
 .p1 h2, .p1 h3, .p1 p, .p1 a, .p1 li {
   color: rgba(21, 21, 21, 0.95);
 }
 
-/* line 88, ../sass/variables.scss */
+/* line 60, ../sass/variables.scss */
 .p2 {
-  background-color: #4265a6;
+  background-color: #e61753;
 }
-/* line 88, ../sass/variables.scss */
+/* line 60, ../sass/variables.scss */
 .p2 h2, .p2 h3, .p2 p, .p2 a, .p2 li {
   color: white;
 }
 
-/* line 89, ../sass/variables.scss */
+/* line 61, ../sass/variables.scss */
 .p3 {
-  background-color: #f2365b;
+  background-color: #00b0e6;
 }
-/* line 89, ../sass/variables.scss */
+/* line 61, ../sass/variables.scss */
 .p3 h2, .p3 h3, .p3 p, .p3 a, .p3 li {
   color: white;
 }
 
-/* line 90, ../sass/variables.scss */
+/* line 62, ../sass/variables.scss */
 .p4 {
-  background-color: #3ab363;
+  background-color: #8c8c8c;
 }
-/* line 90, ../sass/variables.scss */
+/* line 62, ../sass/variables.scss */
 .p4 h2, .p4 h3, .p4 p, .p4 a, .p4 li {
   color: white;
 }
 
-/* line 91, ../sass/variables.scss */
+/* line 63, ../sass/variables.scss */
 .s1 {
   background-color: #ffffff;
 }
-/* line 91, ../sass/variables.scss */
+/* line 63, ../sass/variables.scss */
 .s1 h2, .s1 h3, .s1 p, .s1 a, .s1 li {
   color: rgba(21, 21, 21, 0.95);
 }
 
-/* line 92, ../sass/variables.scss */
+/* line 64, ../sass/variables.scss */
 .s2 {
   background-color: #2b2323;
 }
-/* line 92, ../sass/variables.scss */
+/* line 64, ../sass/variables.scss */
 .s2 h2, .s2 h3, .s2 p, .s2 a, .s2 li {
   color: white;
 }
@@ -84,19 +84,26 @@ body {
   line-height: 1.5;
 }
 
-/* line 25, ../sass/simple-grid.scss */
+/* line 23, ../sass/simple-grid.scss */
+::-moz-selection,
+::selection {
+  color: white;
+  background: rgba(21, 21, 21, 0.95);
+}
+
+/* line 31, ../sass/simple-grid.scss */
 h1 {
   font-family: "Kanit", sans-serif;
   font-size: 1.3rem;
 }
 @media only screen and (min-width: 900px) {
-  /* line 25, ../sass/simple-grid.scss */
+  /* line 31, ../sass/simple-grid.scss */
   h1 {
     font-size: 1.69rem;
   }
 }
 
-/* line 33, ../sass/simple-grid.scss */
+/* line 39, ../sass/simple-grid.scss */
 h2 {
   font-family: "Kanit", sans-serif;
   font-size: 2rem;
@@ -104,13 +111,13 @@ h2 {
   margin: 0em 0 0.4em;
 }
 @media only screen and (min-width: 2000px) {
-  /* line 33, ../sass/simple-grid.scss */
+  /* line 39, ../sass/simple-grid.scss */
   h2 {
     font-size: 2.6rem;
   }
 }
 
-/* line 43, ../sass/simple-grid.scss */
+/* line 49, ../sass/simple-grid.scss */
 h3 {
   font-family: "Kanit", sans-serif;
   font-size: 1.475rem;
@@ -118,97 +125,97 @@ h3 {
   margin: .4em 0 0.4em;
 }
 @media only screen and (min-width: 2000px) {
-  /* line 43, ../sass/simple-grid.scss */
+  /* line 49, ../sass/simple-grid.scss */
   h3 {
     font-size: 1.77rem;
   }
 }
 
-/* line 54, ../sass/simple-grid.scss */
+/* line 60, ../sass/simple-grid.scss */
 p, a, li {
   font-size: 1.125rem;
   font-weight: 200;
-  line-height: 1.8;
+  line-height: 1.4;
 }
 
-/* line 63, ../sass/simple-grid.scss */
+/* line 69, ../sass/simple-grid.scss */
 .left {
   text-align: left;
 }
 
-/* line 67, ../sass/simple-grid.scss */
+/* line 73, ../sass/simple-grid.scss */
 .right {
   text-align: right;
 }
 
-/* line 71, ../sass/simple-grid.scss */
+/* line 77, ../sass/simple-grid.scss */
 .center {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 77, ../sass/simple-grid.scss */
+/* line 83, ../sass/simple-grid.scss */
 .justify {
   text-align: justify;
 }
 
-/* line 81, ../sass/simple-grid.scss */
+/* line 87, ../sass/simple-grid.scss */
 .hidden-sm {
   display: none;
 }
 
-/* line 85, ../sass/simple-grid.scss */
+/* line 91, ../sass/simple-grid.scss */
 .spacer-top-m {
   padding-top: 21px;
 }
 
-/* line 88, ../sass/simple-grid.scss */
+/* line 94, ../sass/simple-grid.scss */
 .spacer-bottom-l, .game {
   padding-bottom: 35px;
 }
 
-/* line 97, ../sass/simple-grid.scss */
+/* line 103, ../sass/simple-grid.scss */
 .container {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 @media only screen and (min-width: 600px) {
-  /* line 97, ../sass/simple-grid.scss */
+  /* line 103, ../sass/simple-grid.scss */
   .container {
     width: 80%;
   }
 }
 @media only screen and (min-width: 2000px) {
-  /* line 97, ../sass/simple-grid.scss */
+  /* line 103, ../sass/simple-grid.scss */
   .container {
     width: 75%;
     max-width: 80rem;
   }
 }
 
-/* line 112, ../sass/simple-grid.scss */
+/* line 118, ../sass/simple-grid.scss */
 .row {
   position: relative;
   width: 100%;
 }
 
-/* line 117, ../sass/simple-grid.scss */
+/* line 123, ../sass/simple-grid.scss */
 .row [class^="col"] {
   float: left;
   margin: 0.5rem 2%;
   min-height: 0.125rem;
 }
 
-/* line 123, ../sass/simple-grid.scss */
+/* line 129, ../sass/simple-grid.scss */
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 129, ../sass/simple-grid.scss */
+/* line 135, ../sass/simple-grid.scss */
 .col-1,
 .col-2,
 .col-3,
@@ -224,128 +231,128 @@ p, a, li {
   width: 96%;
 }
 
-/* line 144, ../sass/simple-grid.scss */
+/* line 150, ../sass/simple-grid.scss */
 .col-1-sm {
   width: 4.33333%;
 }
 
-/* line 145, ../sass/simple-grid.scss */
+/* line 151, ../sass/simple-grid.scss */
 .col-2-sm {
   width: 12.66667%;
 }
 
-/* line 146, ../sass/simple-grid.scss */
+/* line 152, ../sass/simple-grid.scss */
 .col-3-sm {
   width: 21%;
 }
 
-/* line 147, ../sass/simple-grid.scss */
+/* line 153, ../sass/simple-grid.scss */
 .col-4-sm {
   width: 29.33333%;
 }
 
-/* line 148, ../sass/simple-grid.scss */
+/* line 154, ../sass/simple-grid.scss */
 .col-5-sm {
   width: 37.66667%;
 }
 
-/* line 149, ../sass/simple-grid.scss */
+/* line 155, ../sass/simple-grid.scss */
 .col-6-sm {
   width: 46%;
 }
 
-/* line 150, ../sass/simple-grid.scss */
+/* line 156, ../sass/simple-grid.scss */
 .col-7-sm {
   width: 54.33333%;
 }
 
-/* line 151, ../sass/simple-grid.scss */
+/* line 157, ../sass/simple-grid.scss */
 .col-8-sm {
   width: 62.66667%;
 }
 
-/* line 152, ../sass/simple-grid.scss */
+/* line 158, ../sass/simple-grid.scss */
 .col-9-sm {
   width: 71%;
 }
 
-/* line 153, ../sass/simple-grid.scss */
+/* line 159, ../sass/simple-grid.scss */
 .col-10-sm {
   width: 79.33333%;
 }
 
-/* line 154, ../sass/simple-grid.scss */
+/* line 160, ../sass/simple-grid.scss */
 .col-11-sm {
   width: 87.66667%;
 }
 
-/* line 155, ../sass/simple-grid.scss */
+/* line 161, ../sass/simple-grid.scss */
 .col-12-sm {
   width: 96%;
 }
 
 @media only screen and (min-width: 900px) {
-  /* line 158, ../sass/simple-grid.scss */
+  /* line 164, ../sass/simple-grid.scss */
   .col-1 {
     width: 4.33333%;
   }
 
-  /* line 159, ../sass/simple-grid.scss */
+  /* line 165, ../sass/simple-grid.scss */
   .col-2 {
     width: 12.66667%;
   }
 
-  /* line 160, ../sass/simple-grid.scss */
+  /* line 166, ../sass/simple-grid.scss */
   .col-3 {
     width: 21%;
   }
 
-  /* line 161, ../sass/simple-grid.scss */
+  /* line 167, ../sass/simple-grid.scss */
   .col-4 {
     width: 29.33333%;
   }
 
-  /* line 162, ../sass/simple-grid.scss */
+  /* line 168, ../sass/simple-grid.scss */
   .col-5 {
     width: 37.66667%;
   }
 
-  /* line 163, ../sass/simple-grid.scss */
+  /* line 169, ../sass/simple-grid.scss */
   .col-6 {
     width: 46%;
   }
 
-  /* line 164, ../sass/simple-grid.scss */
+  /* line 170, ../sass/simple-grid.scss */
   .col-7 {
     width: 54.33333%;
   }
 
-  /* line 165, ../sass/simple-grid.scss */
+  /* line 171, ../sass/simple-grid.scss */
   .col-8 {
     width: 62.66667%;
   }
 
-  /* line 166, ../sass/simple-grid.scss */
+  /* line 172, ../sass/simple-grid.scss */
   .col-9 {
     width: 71%;
   }
 
-  /* line 167, ../sass/simple-grid.scss */
+  /* line 173, ../sass/simple-grid.scss */
   .col-10 {
     width: 79.33333%;
   }
 
-  /* line 168, ../sass/simple-grid.scss */
+  /* line 174, ../sass/simple-grid.scss */
   .col-11 {
     width: 87.66667%;
   }
 
-  /* line 169, ../sass/simple-grid.scss */
+  /* line 175, ../sass/simple-grid.scss */
   .col-12 {
     width: 96%;
   }
 
-  /* line 171, ../sass/simple-grid.scss */
+  /* line 177, ../sass/simple-grid.scss */
   .hidden-sm {
     display: block;
   }
@@ -363,7 +370,7 @@ p, a, li {
 
 /* line 14, ../sass/main.scss */
 body {
-  background-color: #afcbff;
+  background-color: #e6d717;
 }
 
 /* line 18, ../sass/main.scss */
@@ -460,7 +467,7 @@ a.btn.btn-game {
 }
 /* line 92, ../sass/main.scss */
 a.btn.btn-game:hover {
-  background-color: #f2365b;
+  background-color: #00b0e6;
 }
 /* line 96, ../sass/main.scss */
 a.btn.btn-chowdren {
@@ -514,57 +521,64 @@ a img {
   opacity: .7;
 }
 /* line 139, ../sass/main.scss */
+.game .console-logos:before {
+  content: "Ported to: ";
+  margin-right: 0.4em;
+  font-size: 16px;
+  color: white;
+}
+/* line 145, ../sass/main.scss */
 .game .console-logos img {
   height: 13px;
   width: auto;
 }
-/* line 142, ../sass/main.scss */
+/* line 148, ../sass/main.scss */
 .game .console-logos img ~ img {
   margin-left: 0.4em;
 }
-/* line 150, ../sass/main.scss */
+/* line 156, ../sass/main.scss */
 .game a.tile:hover:before {
   position: absolute;
   display: flex;
   width: 100%;
   height: 100%;
   content: "Go to website »";
-  background-color: #3ab363;
-  color: white;
+  background-color: #e6d717;
+  color: rgba(21, 21, 21, 0.95);
   justify-content: center;
   align-items: center;
 }
-/* line 163, ../sass/main.scss */
+/* line 169, ../sass/main.scss */
 .game a img {
   display: block;
   float: left;
 }
 
-/* line 171, ../sass/main.scss */
+/* line 177, ../sass/main.scss */
 .partner {
   height: 130px;
   text-align: center;
 }
 @media only screen and (min-width: 600px) {
-  /* line 171, ../sass/main.scss */
+  /* line 177, ../sass/main.scss */
   .partner {
     height: 170px;
   }
 }
 @media only screen and (min-width: 900px) {
-  /* line 171, ../sass/main.scss */
+  /* line 177, ../sass/main.scss */
   .partner {
     height: 200px;
   }
 }
-/* line 180, ../sass/main.scss */
+/* line 186, ../sass/main.scss */
 .partner a {
   display: block;
   width: 100%;
   height: 100%;
   text-align: center;
 }
-/* line 185, ../sass/main.scss */
+/* line 191, ../sass/main.scss */
 .partner a img {
   position: absolute;
   max-width: 90%;
@@ -575,11 +589,11 @@ a img {
   margin: auto;
 }
 
-/* line 197, ../sass/main.scss */
+/* line 203, ../sass/main.scss */
 .footer {
   padding-bottom: 160px;
 }
-/* line 199, ../sass/main.scss */
+/* line 205, ../sass/main.scss */
 .footer p, .footer a {
   font-size: 1.475rem;
 }
