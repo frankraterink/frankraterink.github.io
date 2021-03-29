@@ -11,10 +11,6 @@
   background: transparent;
 }
 
-body {
-  background-color: $color-p1;
-}
-
 p {
   margin: $space-s 0;
 }
@@ -23,7 +19,7 @@ p {
   position: relative;
   overflow: hidden;
   height: 170px;
-  width: 200%;
+  width: 100%;
   z-index: 0;
   @media only screen and (min-width: $breakpoint-med) {
     height: 260px;
@@ -31,8 +27,8 @@ p {
   .slanted-thing {
     @extend .rotated;
     bottom: -54%;
-    left: -25%;
-    width: 100%;
+    left: -50%;
+    width: 200%;
     height: 100%;
     -webkit-transform-origin: center bottom;
     transform-origin: center bottom;
