@@ -141,6 +141,7 @@ a {
     img {
       height: 13px;
       width: auto;
+      vertical-align: middle;
       &~img {
         margin-left: $space-s;
       }

@@ -531,12 +531,13 @@ a img {
 .game .console-logos img {
   height: 13px;
   width: auto;
+  vertical-align: middle;
 }
-/* line 144, ../sass/main.scss */
+/* line 145, ../sass/main.scss */
 .game .console-logos img ~ img {
   margin-left: 0.4em;
 }
-/* line 152, ../sass/main.scss */
+/* line 153, ../sass/main.scss */
 .game a.tile:hover:before {
   position: absolute;
   display: flex;
@@ -548,37 +549,37 @@ a img {
   justify-content: center;
   align-items: center;
 }
-/* line 165, ../sass/main.scss */
+/* line 166, ../sass/main.scss */
 .game a img {
   display: block;
   float: left;
 }
 
-/* line 173, ../sass/main.scss */
+/* line 174, ../sass/main.scss */
 .partner {
   height: 130px;
   text-align: center;
 }
 @media only screen and (min-width: 600px) {
-  /* line 173, ../sass/main.scss */
+  /* line 174, ../sass/main.scss */
   .partner {
     height: 170px;
   }
 }
 @media only screen and (min-width: 900px) {
-  /* line 173, ../sass/main.scss */
+  /* line 174, ../sass/main.scss */
   .partner {
     height: 200px;
   }
 }
-/* line 182, ../sass/main.scss */
+/* line 183, ../sass/main.scss */
 .partner a {
   display: block;
   width: 100%;
   height: 100%;
   text-align: center;
 }
-/* line 187, ../sass/main.scss */
+/* line 188, ../sass/main.scss */
 .partner a img {
   position: absolute;
   max-width: 90%;
@@ -589,11 +590,11 @@ a img {
   margin: auto;
 }
 
-/* line 199, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
 .footer {
   padding-bottom: 160px;
 }
-/* line 201, ../sass/main.scss */
+/* line 202, ../sass/main.scss */
 .footer p, .footer a {
   font-size: 1.475rem;
 }
