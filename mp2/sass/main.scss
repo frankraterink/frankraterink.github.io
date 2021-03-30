@@ -2,7 +2,7 @@
 @import "simple-grid.scss";
 
 body, html {
-  overflow-x: hidden;
+
 }
 
 * {
@@ -26,7 +26,7 @@ p {
   svg {
     display: block;
     width: 100%;
-    height: 10vw;
+    height: 6.4vw;
     #pid-p1 { fill: $color-p1; }
     #pid-p2 { fill: $color-p2; }
     #pid-p3 { fill: $color-p3; }
@@ -93,9 +93,6 @@ p {
 .contact {
   position: fixed;
   right: $space-l;
-  @media only screen and (min-width: $breakpoint-med) {
-    right: $space-xl;
-  }
   top: $space-l;
   z-index: 999;
   a {
