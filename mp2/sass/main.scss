@@ -19,6 +19,23 @@ p {
   margin: $space-s 0;
 }
 
+.slantnew {
+  position: relative;
+  margin-bottom: -1px; // rendering bug
+  svg {
+    display: block;
+    width: 100%;
+    height: 10vw;
+    #pid-p1 { fill: $color-p1; }
+    #pid-p2 { fill: $color-p2; }
+    #pid-p3 { fill: $color-p3; }
+    #pid-p4 { fill: $color-p4; }
+    #pid-s1 { fill: $color-s1; }
+    #pid-s2 { fill: $color-s2; }
+  }
+
+}
+
 .p1p2 {
   border-top: 3vw solid $color-p1;
   border-left: 50vw solid $color-p1;
@@ -74,7 +91,7 @@ p {
 
 .contact {
   position: fixed;
-  right: $space-l;
+  right: $space-xl;
   top: $space-l;
   z-index: 999;
   a {
