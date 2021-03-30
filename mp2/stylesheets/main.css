@@ -381,40 +381,41 @@ p {
 /* line 22, ../sass/main.scss */
 .slantnew {
   position: relative;
+  margin-top: -1px;
   margin-bottom: -1px;
 }
-/* line 25, ../sass/main.scss */
+/* line 26, ../sass/main.scss */
 .slantnew svg {
   display: block;
   width: 100%;
   height: 10vw;
 }
-/* line 29, ../sass/main.scss */
+/* line 30, ../sass/main.scss */
 .slantnew svg #pid-p1 {
   fill: #e6d717;
 }
-/* line 30, ../sass/main.scss */
+/* line 31, ../sass/main.scss */
 .slantnew svg #pid-p2 {
   fill: #e61753;
 }
-/* line 31, ../sass/main.scss */
+/* line 32, ../sass/main.scss */
 .slantnew svg #pid-p3 {
   fill: #00b0e6;
 }
-/* line 32, ../sass/main.scss */
+/* line 33, ../sass/main.scss */
 .slantnew svg #pid-p4 {
   fill: #8c8c8c;
 }
-/* line 33, ../sass/main.scss */
+/* line 34, ../sass/main.scss */
 .slantnew svg #pid-s1 {
   fill: #ffffff;
 }
-/* line 34, ../sass/main.scss */
+/* line 35, ../sass/main.scss */
 .slantnew svg #pid-s2 {
   fill: #2b2323;
 }
 
-/* line 39, ../sass/main.scss */
+/* line 40, ../sass/main.scss */
 .p1p2 {
   border-top: 3vw solid #e6d717;
   border-left: 50vw solid #e6d717;
@@ -422,7 +423,7 @@ p {
   border-right: 50vw solid #e61753;
 }
 
-/* line 45, ../sass/main.scss */
+/* line 46, ../sass/main.scss */
 .p2p3 {
   border-top: 3vw solid #e61753;
   border-left: 50vw solid #e61753;
@@ -430,7 +431,7 @@ p {
   border-right: 50vw solid #00b0e6;
 }
 
-/* line 51, ../sass/main.scss */
+/* line 52, ../sass/main.scss */
 .p3s1 {
   border-top: 3vw solid #00b0e6;
   border-left: 50vw solid #00b0e6;
@@ -438,7 +439,7 @@ p {
   border-right: 50vw solid #ffffff;
 }
 
-/* line 57, ../sass/main.scss */
+/* line 58, ../sass/main.scss */
 .s1p4 {
   border-top: 3vw solid #ffffff;
   border-left: 50vw solid #ffffff;
@@ -446,7 +447,7 @@ p {
   border-right: 50vw solid #8c8c8c;
 }
 
-/* line 63, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 .p4s2 {
   border-top: 3vw solid #8c8c8c;
   border-left: 50vw solid #8c8c8c;
@@ -454,7 +455,7 @@ p {
   border-right: 50vw solid #2b2323;
 }
 
-/* line 70, ../sass/main.scss */
+/* line 71, ../sass/main.scss */
 .slanted-divider {
   position: relative;
   overflow: hidden;
@@ -463,12 +464,12 @@ p {
   z-index: 0;
 }
 @media only screen and (min-width: 900px) {
-  /* line 70, ../sass/main.scss */
+  /* line 71, ../sass/main.scss */
   .slanted-divider {
     height: 260px;
   }
 }
-/* line 79, ../sass/main.scss */
+/* line 80, ../sass/main.scss */
 .slanted-divider .slanted-thing {
   bottom: -54%;
   left: -50%;
@@ -479,56 +480,56 @@ p {
   position: absolute;
 }
 
-/* line 92, ../sass/main.scss */
+/* line 93, ../sass/main.scss */
 .contact {
   position: fixed;
   right: 2.4em;
   top: 1.6em;
   z-index: 999;
 }
-/* line 97, ../sass/main.scss */
+/* line 98, ../sass/main.scss */
 .contact a {
   display: inline-block;
 }
-/* line 99, ../sass/main.scss */
+/* line 100, ../sass/main.scss */
 .contact a ~ a {
   margin-left: 0.8em;
 }
-/* line 103, ../sass/main.scss */
+/* line 104, ../sass/main.scss */
 .contact img {
   width: 32px;
   display: inline-block;
   float: none;
 }
 
-/* line 110, ../sass/main.scss */
+/* line 111, ../sass/main.scss */
 .header {
   text-align: center;
 }
-/* line 112, ../sass/main.scss */
+/* line 113, ../sass/main.scss */
 .header .logo {
   position: relative;
   margin-top: 46px;
   width: 100%;
 }
 @media screen and (min-width: 900px) {
-  /* line 112, ../sass/main.scss */
+  /* line 113, ../sass/main.scss */
   .header .logo {
     width: 700px;
   }
 }
-/* line 120, ../sass/main.scss */
+/* line 121, ../sass/main.scss */
 .header h1 {
   position: relative;
   color: rgba(21, 21, 21, 0.95);
 }
 
-/* line 125, ../sass/main.scss */
+/* line 126, ../sass/main.scss */
 section {
   padding: 70px 0 86px;
 }
 
-/* line 129, ../sass/main.scss */
+/* line 130, ../sass/main.scss */
 a.btn {
   display: inline-block;
   text-align: center;
@@ -537,88 +538,88 @@ a.btn {
   padding: 0.2em 0.8em;
   text-decoration: none;
 }
-/* line 137, ../sass/main.scss */
+/* line 138, ../sass/main.scss */
 a.btn ~ .btn {
   margin-left: 0.4em;
 }
-/* line 140, ../sass/main.scss */
+/* line 141, ../sass/main.scss */
 a.btn.btn-game {
   background-color: #2b2323;
   color: white;
 }
-/* line 143, ../sass/main.scss */
+/* line 144, ../sass/main.scss */
 a.btn.btn-game:hover {
   background-color: #00b0e6;
 }
-/* line 147, ../sass/main.scss */
+/* line 148, ../sass/main.scss */
 a.btn.btn-chowdren {
   background-color: #ffffff;
   color: rgba(21, 21, 21, 0.95);
 }
-/* line 150, ../sass/main.scss */
+/* line 151, ../sass/main.scss */
 a.btn.btn-chowdren:hover {
   color: white;
   background-color: #2b2323;
 }
 
-/* line 157, ../sass/main.scss */
+/* line 158, ../sass/main.scss */
 a {
   position: relative;
 }
-/* line 159, ../sass/main.scss */
+/* line 160, ../sass/main.scss */
 a.tile {
   display: block;
   overflow: auto;
 }
-/* line 163, ../sass/main.scss */
+/* line 164, ../sass/main.scss */
 a img {
   display: block;
   float: left;
 }
 
-/* line 169, ../sass/main.scss */
+/* line 170, ../sass/main.scss */
 .game {
   position: relative;
 }
-/* line 172, ../sass/main.scss */
+/* line 173, ../sass/main.scss */
 .game h3, .game p {
   text-align: center;
 }
-/* line 176, ../sass/main.scss */
+/* line 177, ../sass/main.scss */
 .game.col-6 h3 {
   font-size: 2.6rem;
   line-height: 1em;
   text-shadow: 0px 1px 1px rgba(4, 4, 4, 0.2);
 }
-/* line 182, ../sass/main.scss */
+/* line 183, ../sass/main.scss */
 .game img {
   width: 100%;
 }
-/* line 185, ../sass/main.scss */
+/* line 186, ../sass/main.scss */
 .game .console-logos {
   width: 100%;
   margin-top: 0.4em;
   text-align: center;
   opacity: .7;
 }
-/* line 190, ../sass/main.scss */
+/* line 191, ../sass/main.scss */
 .game .console-logos:before {
   content: "Ported to: ";
   margin-right: 0.4em;
   font-size: 16px;
   color: white;
 }
-/* line 196, ../sass/main.scss */
+/* line 197, ../sass/main.scss */
 .game .console-logos img {
   height: 13px;
   width: auto;
   vertical-align: middle;
 }
-/* line 200, ../sass/main.scss */
+/* line 201, ../sass/main.scss */
 .game .console-logos img ~ img {
   margin-left: 0.4em;
 }
-/* line 208, ../sass/main.scss */
+/* line 209, ../sass/main.scss */
 .game a.tile:hover:before {
   position: absolute;
   display: flex;
@@ -630,37 +631,37 @@ a img {
   justify-content: center;
   align-items: center;
 }
-/* line 221, ../sass/main.scss */
+/* line 222, ../sass/main.scss */
 .game a img {
   display: block;
   float: left;
 }
 
-/* line 229, ../sass/main.scss */
+/* line 230, ../sass/main.scss */
 .partner {
   height: 130px;
   text-align: center;
 }
 @media only screen and (min-width: 600px) {
-  /* line 229, ../sass/main.scss */
+  /* line 230, ../sass/main.scss */
   .partner {
     height: 170px;
   }
 }
 @media only screen and (min-width: 900px) {
-  /* line 229, ../sass/main.scss */
+  /* line 230, ../sass/main.scss */
   .partner {
     height: 200px;
   }
 }
-/* line 238, ../sass/main.scss */
+/* line 239, ../sass/main.scss */
 .partner a {
   display: block;
   width: 100%;
   height: 100%;
   text-align: center;
 }
-/* line 243, ../sass/main.scss */
+/* line 244, ../sass/main.scss */
 .partner a img {
   position: absolute;
   max-width: 90%;
@@ -671,11 +672,11 @@ a img {
   margin: auto;
 }
 
-/* line 255, ../sass/main.scss */
+/* line 256, ../sass/main.scss */
 .footer {
   padding-bottom: 160px;
 }
-/* line 257, ../sass/main.scss */
+/* line 258, ../sass/main.scss */
 .footer p, .footer a {
   font-size: 1.475rem;
 }
