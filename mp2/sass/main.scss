@@ -92,7 +92,10 @@ p {
 
 .contact {
   position: fixed;
-  right: $space-xl;
+  right: $space-l;
+  @media only screen and (min-width: $breakpoint-med) {
+    right: $space-xl;
+  }
   top: $space-l;
   z-index: 999;
   a {
