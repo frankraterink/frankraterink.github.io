@@ -483,7 +483,7 @@ p {
 /* line 93, ../sass/main.scss */
 .contact {
   position: fixed;
-  right: 2.4em;
+  right: 2em;
   top: 1.6em;
   z-index: 999;
 }
