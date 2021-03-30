@@ -1,6 +1,10 @@
 @import "variables.scss";
 @import "simple-grid.scss";
 
+body, html {
+  overflow-x: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
