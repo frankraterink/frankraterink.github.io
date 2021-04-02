@@ -119,8 +119,15 @@ p {
     }
   }
   h1 {
+    font-family: $font-content;
     position: relative;
     color: $color-t;
+    font-weight: 200;
+    margin: 117px 0px 102px;
+    font-size: 3.45em;
+    &.hide {
+      display: none;
+    }
   }
 }
 section {

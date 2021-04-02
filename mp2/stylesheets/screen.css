@@ -520,16 +520,24 @@ p {
 }
 /* line 121, ../sass/main.scss */
 .header h1 {
+  font-family: "Barlow Semi Condensed", sans-serif;
   position: relative;
   color: rgba(21, 21, 21, 0.95);
+  font-weight: 200;
+  margin: 117px 0px 102px;
+  font-size: 3.45em;
+}
+/* line 128, ../sass/main.scss */
+.header h1.hide {
+  display: none;
 }
 
-/* line 126, ../sass/main.scss */
+/* line 133, ../sass/main.scss */
 section {
   padding: 70px 0 86px;
 }
 
-/* line 130, ../sass/main.scss */
+/* line 137, ../sass/main.scss */
 a.btn {
   display: inline-block;
   text-align: center;
@@ -538,88 +546,88 @@ a.btn {
   padding: 0.2em 0.8em;
   text-decoration: none;
 }
-/* line 138, ../sass/main.scss */
+/* line 145, ../sass/main.scss */
 a.btn ~ .btn {
   margin-left: 0.4em;
 }
-/* line 141, ../sass/main.scss */
+/* line 148, ../sass/main.scss */
 a.btn.btn-game {
   background-color: #2b2323;
   color: white;
 }
-/* line 144, ../sass/main.scss */
+/* line 151, ../sass/main.scss */
 a.btn.btn-game:hover {
   background-color: #00b0e6;
 }
-/* line 148, ../sass/main.scss */
+/* line 155, ../sass/main.scss */
 a.btn.btn-chowdren {
   background-color: #ffffff;
   color: rgba(21, 21, 21, 0.95);
 }
-/* line 151, ../sass/main.scss */
+/* line 158, ../sass/main.scss */
 a.btn.btn-chowdren:hover {
   color: white;
   background-color: #2b2323;
 }
 
-/* line 158, ../sass/main.scss */
+/* line 165, ../sass/main.scss */
 a {
   position: relative;
 }
-/* line 160, ../sass/main.scss */
+/* line 167, ../sass/main.scss */
 a.tile {
   display: block;
   overflow: auto;
 }
-/* line 164, ../sass/main.scss */
+/* line 171, ../sass/main.scss */
 a img {
   display: block;
   float: left;
 }
 
-/* line 170, ../sass/main.scss */
+/* line 177, ../sass/main.scss */
 .game {
   position: relative;
 }
-/* line 173, ../sass/main.scss */
+/* line 180, ../sass/main.scss */
 .game h3, .game p {
   text-align: center;
 }
-/* line 177, ../sass/main.scss */
+/* line 184, ../sass/main.scss */
 .game.col-6 h3 {
   font-size: 2.6rem;
   line-height: 1em;
   text-shadow: 0px 1px 1px rgba(4, 4, 4, 0.2);
 }
-/* line 183, ../sass/main.scss */
+/* line 190, ../sass/main.scss */
 .game img {
   width: 100%;
 }
-/* line 186, ../sass/main.scss */
+/* line 193, ../sass/main.scss */
 .game .console-logos {
   width: 100%;
   margin-top: 0.4em;
   text-align: center;
   opacity: .7;
 }
-/* line 191, ../sass/main.scss */
+/* line 198, ../sass/main.scss */
 .game .console-logos:before {
   content: "Ported to: ";
   margin-right: 0.4em;
   font-size: 16px;
   color: white;
 }
-/* line 197, ../sass/main.scss */
+/* line 204, ../sass/main.scss */
 .game .console-logos img {
   height: 13px;
   width: auto;
   vertical-align: middle;
 }
-/* line 201, ../sass/main.scss */
+/* line 208, ../sass/main.scss */
 .game .console-logos img ~ img {
   margin-left: 0.4em;
 }
-/* line 209, ../sass/main.scss */
+/* line 216, ../sass/main.scss */
 .game a.tile:hover:before {
   position: absolute;
   display: flex;
@@ -631,37 +639,37 @@ a img {
   justify-content: center;
   align-items: center;
 }
-/* line 222, ../sass/main.scss */
+/* line 229, ../sass/main.scss */
 .game a img {
   display: block;
   float: left;
 }
 
-/* line 230, ../sass/main.scss */
+/* line 237, ../sass/main.scss */
 .partner {
   height: 130px;
   text-align: center;
 }
 @media only screen and (min-width: 600px) {
-  /* line 230, ../sass/main.scss */
+  /* line 237, ../sass/main.scss */
   .partner {
     height: 170px;
   }
 }
 @media only screen and (min-width: 900px) {
-  /* line 230, ../sass/main.scss */
+  /* line 237, ../sass/main.scss */
   .partner {
     height: 200px;
   }
 }
-/* line 239, ../sass/main.scss */
+/* line 246, ../sass/main.scss */
 .partner a {
   display: block;
   width: 100%;
   height: 100%;
   text-align: center;
 }
-/* line 244, ../sass/main.scss */
+/* line 251, ../sass/main.scss */
 .partner a img {
   position: absolute;
   max-width: 90%;
@@ -672,11 +680,11 @@ a img {
   margin: auto;
 }
 
-/* line 256, ../sass/main.scss */
+/* line 263, ../sass/main.scss */
 .footer {
   padding-bottom: 160px;
 }
-/* line 258, ../sass/main.scss */
+/* line 265, ../sass/main.scss */
 .footer p, .footer a {
   font-size: 2rem;
 }
