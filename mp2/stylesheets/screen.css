@@ -5,7 +5,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@600&display=swap");
 /* line 26, ../sass/variables.scss */
-.rotated, .slanted-divider .slanted-thing {
+.rotated {
   -webkit-transform: rotate(-4deg);
   transform: rotate(-4deg);
 }
@@ -379,146 +379,81 @@ p {
 }
 
 /* line 22, ../sass/main.scss */
-.slantnew {
+.slant {
   position: relative;
   margin-top: -1px;
   margin-bottom: -1px;
 }
 /* line 26, ../sass/main.scss */
-.slantnew svg {
+.slant svg {
   display: block;
   width: 100%;
   height: 6.4vw;
 }
 /* line 30, ../sass/main.scss */
-.slantnew svg #pid-p1 {
+.slant svg #pid-p1 {
   fill: #e6d717;
 }
 /* line 31, ../sass/main.scss */
-.slantnew svg #pid-p2 {
+.slant svg #pid-p2 {
   fill: #e61753;
 }
 /* line 32, ../sass/main.scss */
-.slantnew svg #pid-p3 {
+.slant svg #pid-p3 {
   fill: #00b0e6;
 }
 /* line 33, ../sass/main.scss */
-.slantnew svg #pid-p4 {
+.slant svg #pid-p4 {
   fill: #8c8c8c;
 }
 /* line 34, ../sass/main.scss */
-.slantnew svg #pid-s1 {
+.slant svg #pid-s1 {
   fill: #ffffff;
 }
 /* line 35, ../sass/main.scss */
-.slantnew svg #pid-s2 {
+.slant svg #pid-s2 {
   fill: #2b2323;
 }
 
 /* line 40, ../sass/main.scss */
-.p1p2 {
-  border-top: 3vw solid #e6d717;
-  border-left: 50vw solid #e6d717;
-  border-bottom: 3vw solid #e61753;
-  border-right: 50vw solid #e61753;
-}
-
-/* line 46, ../sass/main.scss */
-.p2p3 {
-  border-top: 3vw solid #e61753;
-  border-left: 50vw solid #e61753;
-  border-bottom: 3vw solid #00b0e6;
-  border-right: 50vw solid #00b0e6;
-}
-
-/* line 52, ../sass/main.scss */
-.p3s1 {
-  border-top: 3vw solid #00b0e6;
-  border-left: 50vw solid #00b0e6;
-  border-bottom: 3vw solid #ffffff;
-  border-right: 50vw solid #ffffff;
-}
-
-/* line 58, ../sass/main.scss */
-.s1p4 {
-  border-top: 3vw solid #ffffff;
-  border-left: 50vw solid #ffffff;
-  border-bottom: 3vw solid #8c8c8c;
-  border-right: 50vw solid #8c8c8c;
-}
-
-/* line 64, ../sass/main.scss */
-.p4s2 {
-  border-top: 3vw solid #8c8c8c;
-  border-left: 50vw solid #8c8c8c;
-  border-bottom: 3vw solid #2b2323;
-  border-right: 50vw solid #2b2323;
-}
-
-/* line 71, ../sass/main.scss */
-.slanted-divider {
-  position: relative;
-  overflow: hidden;
-  height: 170px;
-  width: 100%;
-  z-index: 0;
-}
-@media only screen and (min-width: 900px) {
-  /* line 71, ../sass/main.scss */
-  .slanted-divider {
-    height: 260px;
-  }
-}
-/* line 80, ../sass/main.scss */
-.slanted-divider .slanted-thing {
-  bottom: -54%;
-  left: -50%;
-  width: 200%;
-  height: 100%;
-  -webkit-transform-origin: center bottom;
-  transform-origin: center bottom;
-  position: absolute;
-}
-
-/* line 93, ../sass/main.scss */
 .contact {
   position: fixed;
   right: 1.6em;
   top: 1.6em;
   z-index: 999;
 }
-/* line 98, ../sass/main.scss */
+/* line 45, ../sass/main.scss */
 .contact a {
   display: inline-block;
 }
-/* line 100, ../sass/main.scss */
+/* line 47, ../sass/main.scss */
 .contact a ~ a {
   margin-left: 0.8em;
 }
-/* line 104, ../sass/main.scss */
+/* line 51, ../sass/main.scss */
 .contact img {
   width: 32px;
   display: inline-block;
   float: none;
 }
 
-/* line 111, ../sass/main.scss */
+/* line 58, ../sass/main.scss */
 .header {
   text-align: center;
 }
-/* line 113, ../sass/main.scss */
+/* line 60, ../sass/main.scss */
 .header .logo {
   position: relative;
   margin-top: 46px;
   width: 100%;
 }
 @media screen and (min-width: 900px) {
-  /* line 113, ../sass/main.scss */
+  /* line 60, ../sass/main.scss */
   .header .logo {
     width: 700px;
   }
 }
-/* line 121, ../sass/main.scss */
+/* line 68, ../sass/main.scss */
 .header h1 {
   font-family: "Barlow Semi Condensed", sans-serif;
   position: relative;
@@ -527,17 +462,17 @@ p {
   margin: 117px 0px 102px;
   font-size: 3.45em;
 }
-/* line 128, ../sass/main.scss */
+/* line 75, ../sass/main.scss */
 .header h1.hide {
   display: none;
 }
 
-/* line 133, ../sass/main.scss */
+/* line 80, ../sass/main.scss */
 section {
   padding: 70px 0 86px;
 }
 
-/* line 137, ../sass/main.scss */
+/* line 84, ../sass/main.scss */
 a.btn {
   display: inline-block;
   text-align: center;
@@ -546,88 +481,88 @@ a.btn {
   padding: 0.2em 0.8em;
   text-decoration: none;
 }
-/* line 145, ../sass/main.scss */
+/* line 92, ../sass/main.scss */
 a.btn ~ .btn {
   margin-left: 0.4em;
 }
-/* line 148, ../sass/main.scss */
+/* line 95, ../sass/main.scss */
 a.btn.btn-game {
   background-color: #2b2323;
   color: white;
 }
-/* line 151, ../sass/main.scss */
+/* line 98, ../sass/main.scss */
 a.btn.btn-game:hover {
   background-color: #00b0e6;
 }
-/* line 155, ../sass/main.scss */
+/* line 102, ../sass/main.scss */
 a.btn.btn-chowdren {
   background-color: #ffffff;
   color: rgba(21, 21, 21, 0.95);
 }
-/* line 158, ../sass/main.scss */
+/* line 105, ../sass/main.scss */
 a.btn.btn-chowdren:hover {
   color: white;
   background-color: #2b2323;
 }
 
-/* line 165, ../sass/main.scss */
+/* line 112, ../sass/main.scss */
 a {
   position: relative;
 }
-/* line 167, ../sass/main.scss */
+/* line 114, ../sass/main.scss */
 a.tile {
   display: block;
   overflow: auto;
 }
-/* line 171, ../sass/main.scss */
+/* line 118, ../sass/main.scss */
 a img {
   display: block;
   float: left;
 }
 
-/* line 177, ../sass/main.scss */
+/* line 124, ../sass/main.scss */
 .game {
   position: relative;
 }
-/* line 180, ../sass/main.scss */
+/* line 127, ../sass/main.scss */
 .game h3, .game p {
   text-align: center;
 }
-/* line 184, ../sass/main.scss */
+/* line 131, ../sass/main.scss */
 .game.col-6 h3 {
   font-size: 2.6rem;
   line-height: 1em;
   text-shadow: 0px 1px 1px rgba(4, 4, 4, 0.2);
 }
-/* line 190, ../sass/main.scss */
+/* line 137, ../sass/main.scss */
 .game img {
   width: 100%;
 }
-/* line 193, ../sass/main.scss */
+/* line 140, ../sass/main.scss */
 .game .console-logos {
   width: 100%;
   margin-top: 0.4em;
   text-align: center;
   opacity: .7;
 }
-/* line 198, ../sass/main.scss */
+/* line 145, ../sass/main.scss */
 .game .console-logos:before {
   content: "Ported to: ";
   margin-right: 0.4em;
   font-size: 16px;
   color: white;
 }
-/* line 204, ../sass/main.scss */
+/* line 151, ../sass/main.scss */
 .game .console-logos img {
   height: 13px;
   width: auto;
   vertical-align: middle;
 }
-/* line 208, ../sass/main.scss */
+/* line 155, ../sass/main.scss */
 .game .console-logos img ~ img {
   margin-left: 0.4em;
 }
-/* line 216, ../sass/main.scss */
+/* line 163, ../sass/main.scss */
 .game a.tile:hover:before {
   position: absolute;
   display: flex;
@@ -639,37 +574,37 @@ a img {
   justify-content: center;
   align-items: center;
 }
-/* line 229, ../sass/main.scss */
+/* line 176, ../sass/main.scss */
 .game a img {
   display: block;
   float: left;
 }
 
-/* line 237, ../sass/main.scss */
+/* line 184, ../sass/main.scss */
 .partner {
   height: 130px;
   text-align: center;
 }
 @media only screen and (min-width: 600px) {
-  /* line 237, ../sass/main.scss */
+  /* line 184, ../sass/main.scss */
   .partner {
     height: 170px;
   }
 }
 @media only screen and (min-width: 900px) {
-  /* line 237, ../sass/main.scss */
+  /* line 184, ../sass/main.scss */
   .partner {
     height: 200px;
   }
 }
-/* line 246, ../sass/main.scss */
+/* line 193, ../sass/main.scss */
 .partner a {
   display: block;
   width: 100%;
   height: 100%;
   text-align: center;
 }
-/* line 251, ../sass/main.scss */
+/* line 198, ../sass/main.scss */
 .partner a img {
   position: absolute;
   max-width: 90%;
@@ -680,11 +615,11 @@ a img {
   margin: auto;
 }
 
-/* line 263, ../sass/main.scss */
+/* line 210, ../sass/main.scss */
 .footer {
   padding-bottom: 160px;
 }
-/* line 265, ../sass/main.scss */
+/* line 212, ../sass/main.scss */
 .footer p, .footer a {
   font-size: 2rem;
 }

@@ -19,7 +19,7 @@ p {
   margin: $space-s 0;
 }
 
-.slantnew {
+.slant {
   position: relative;
   margin-top: -1px; // rendering bug
   margin-bottom: -1px; // rendering bug
@@ -35,59 +35,6 @@ p {
     #pid-s2 { fill: $color-s2; }
   }
 
-}
-
-.p1p2 {
-  border-top: 3vw solid $color-p1;
-  border-left: 50vw solid $color-p1;
-  border-bottom: 3vw solid $color-p2;
-  border-right: 50vw solid $color-p2;
-}
-.p2p3 {
-  border-top: 3vw solid $color-p2;
-  border-left: 50vw solid $color-p2;
-  border-bottom: 3vw solid $color-p3;
-  border-right: 50vw solid $color-p3;
-}
-.p3s1 {
-  border-top: 3vw solid $color-p3;
-  border-left: 50vw solid $color-p3;
-  border-bottom: 3vw solid $color-s1;
-  border-right: 50vw solid $color-s1;
-}
-.s1p4 {
-  border-top: 3vw solid $color-s1;
-  border-left: 50vw solid $color-s1;
-  border-bottom: 3vw solid $color-p4;
-  border-right: 50vw solid $color-p4;
-}
-.p4s2 {
-  border-top: 3vw solid $color-p4;
-  border-left: 50vw solid $color-p4;
-  border-bottom: 3vw solid $color-s2;
-  border-right: 50vw solid $color-s2;
-}
-
-.slanted-divider {
-  position: relative;
-  overflow: hidden;
-  height: 170px;
-  width: 100%;
-  z-index: 0;
-  @media only screen and (min-width: $breakpoint-med) {
-    height: 260px;
-  }
-  .slanted-thing {
-    @extend .rotated;
-    bottom: -54%;
-    left: -50%;
-    width: 200%;
-    height: 100%;
-    -webkit-transform-origin: center bottom;
-    transform-origin: center bottom;
-    position: absolute;
-
-  }
 }
 
 .contact {
