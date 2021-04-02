@@ -34,7 +34,6 @@ p {
     #pid-s1 { fill: $color-s1; }
     #pid-s2 { fill: $color-s2; }
   }
-
 }
 
 .contact {
@@ -61,7 +60,7 @@ p {
     position: relative;
     margin-top: 46px;
     width: 100%;
-    @media screen and (min-width: 900px) {
+    @media screen and (min-width: $breakpoint-med) {
       width: 700px;
     }
   }
@@ -70,13 +69,18 @@ p {
     position: relative;
     color: $color-t;
     font-weight: 200;
-    margin: 117px 0px 102px;
-    font-size: 3.45em;
+    margin: 67px 0px -8px;
+    font-size: 2.55em;
+    @media screen and (min-width: $breakpoint-med) {
+      margin: 117px 0px 102px;
+      font-size: 3.45em;
+    }
     &.hide {
       display: none;
     }
   }
 }
+
 section {
   padding: 70px 0 86px;
 }

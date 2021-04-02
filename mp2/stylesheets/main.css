@@ -410,64 +410,71 @@ p {
   fill: #2b2323;
 }
 
-/* line 40, ../sass/main.scss */
+/* line 39, ../sass/main.scss */
 .contact {
   position: fixed;
   right: 1.6em;
   top: 1.6em;
   z-index: 999;
 }
-/* line 45, ../sass/main.scss */
+/* line 44, ../sass/main.scss */
 .contact a {
   display: inline-block;
 }
-/* line 47, ../sass/main.scss */
+/* line 46, ../sass/main.scss */
 .contact a ~ a {
   margin-left: 0.8em;
 }
-/* line 51, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 .contact img {
   width: 32px;
   display: inline-block;
   float: none;
 }
 
-/* line 58, ../sass/main.scss */
+/* line 57, ../sass/main.scss */
 .header {
   text-align: center;
 }
-/* line 60, ../sass/main.scss */
+/* line 59, ../sass/main.scss */
 .header .logo {
   position: relative;
   margin-top: 46px;
   width: 100%;
 }
 @media screen and (min-width: 900px) {
-  /* line 60, ../sass/main.scss */
+  /* line 59, ../sass/main.scss */
   .header .logo {
     width: 700px;
   }
 }
-/* line 68, ../sass/main.scss */
+/* line 67, ../sass/main.scss */
 .header h1 {
   font-family: "Barlow Semi Condensed", sans-serif;
   position: relative;
   color: rgba(21, 21, 21, 0.95);
   font-weight: 200;
-  margin: 117px 0px 102px;
-  font-size: 3.45em;
+  margin: 67px 0px -8px;
+  font-size: 2.55em;
 }
-/* line 75, ../sass/main.scss */
+@media screen and (min-width: 900px) {
+  /* line 67, ../sass/main.scss */
+  .header h1 {
+    margin: 117px 0px 102px;
+    font-size: 3.45em;
+  }
+}
+/* line 78, ../sass/main.scss */
 .header h1.hide {
   display: none;
 }
 
-/* line 80, ../sass/main.scss */
+/* line 84, ../sass/main.scss */
 section {
   padding: 70px 0 86px;
 }
 
-/* line 84, ../sass/main.scss */
+/* line 88, ../sass/main.scss */
 a.btn {
   display: inline-block;
   text-align: center;
@@ -476,88 +483,88 @@ a.btn {
   padding: 0.2em 0.8em;
   text-decoration: none;
 }
-/* line 92, ../sass/main.scss */
+/* line 96, ../sass/main.scss */
 a.btn ~ .btn {
   margin-left: 0.4em;
 }
-/* line 95, ../sass/main.scss */
+/* line 99, ../sass/main.scss */
 a.btn.btn-game {
   background-color: #2b2323;
   color: white;
 }
-/* line 98, ../sass/main.scss */
+/* line 102, ../sass/main.scss */
 a.btn.btn-game:hover {
   background-color: #00b0e6;
 }
-/* line 102, ../sass/main.scss */
+/* line 106, ../sass/main.scss */
 a.btn.btn-chowdren {
   background-color: #ffffff;
   color: rgba(21, 21, 21, 0.95);
 }
-/* line 105, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 a.btn.btn-chowdren:hover {
   color: white;
   background-color: #2b2323;
 }
 
-/* line 112, ../sass/main.scss */
+/* line 116, ../sass/main.scss */
 a {
   position: relative;
 }
-/* line 114, ../sass/main.scss */
+/* line 118, ../sass/main.scss */
 a.tile {
   display: block;
   overflow: auto;
 }
-/* line 118, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 a img {
   display: block;
   float: left;
 }
 
-/* line 124, ../sass/main.scss */
+/* line 128, ../sass/main.scss */
 .game {
   position: relative;
 }
-/* line 127, ../sass/main.scss */
+/* line 131, ../sass/main.scss */
 .game h3, .game p {
   text-align: center;
 }
-/* line 131, ../sass/main.scss */
+/* line 135, ../sass/main.scss */
 .game.col-6 h3 {
   font-size: 2.6rem;
   line-height: 1em;
   text-shadow: 0px 1px 1px rgba(4, 4, 4, 0.2);
 }
-/* line 137, ../sass/main.scss */
+/* line 141, ../sass/main.scss */
 .game img {
   width: 100%;
 }
-/* line 140, ../sass/main.scss */
+/* line 144, ../sass/main.scss */
 .game .console-logos {
   width: 100%;
   margin-top: 0.4em;
   text-align: center;
   opacity: .7;
 }
-/* line 145, ../sass/main.scss */
+/* line 149, ../sass/main.scss */
 .game .console-logos:before {
   content: "Ported to: ";
   margin-right: 0.4em;
   font-size: 16px;
   color: white;
 }
-/* line 151, ../sass/main.scss */
+/* line 155, ../sass/main.scss */
 .game .console-logos img {
   height: 13px;
   width: auto;
   vertical-align: middle;
 }
-/* line 155, ../sass/main.scss */
+/* line 159, ../sass/main.scss */
 .game .console-logos img ~ img {
   margin-left: 0.4em;
 }
-/* line 163, ../sass/main.scss */
+/* line 167, ../sass/main.scss */
 .game a.tile:hover:before {
   position: absolute;
   display: flex;
@@ -569,37 +576,37 @@ a img {
   justify-content: center;
   align-items: center;
 }
-/* line 176, ../sass/main.scss */
+/* line 180, ../sass/main.scss */
 .game a img {
   display: block;
   float: left;
 }
 
-/* line 184, ../sass/main.scss */
+/* line 188, ../sass/main.scss */
 .partner {
   height: 130px;
   text-align: center;
 }
 @media only screen and (min-width: 600px) {
-  /* line 184, ../sass/main.scss */
+  /* line 188, ../sass/main.scss */
   .partner {
     height: 170px;
   }
 }
 @media only screen and (min-width: 900px) {
-  /* line 184, ../sass/main.scss */
+  /* line 188, ../sass/main.scss */
   .partner {
     height: 200px;
   }
 }
-/* line 193, ../sass/main.scss */
+/* line 197, ../sass/main.scss */
 .partner a {
   display: block;
   width: 100%;
   height: 100%;
   text-align: center;
 }
-/* line 198, ../sass/main.scss */
+/* line 202, ../sass/main.scss */
 .partner a img {
   position: absolute;
   max-width: 90%;
@@ -610,11 +617,11 @@ a img {
   margin: auto;
 }
 
-/* line 210, ../sass/main.scss */
+/* line 214, ../sass/main.scss */
 .footer {
   padding-bottom: 160px;
 }
-/* line 212, ../sass/main.scss */
+/* line 216, ../sass/main.scss */
 .footer p, .footer a {
   font-size: 2rem;
 }
