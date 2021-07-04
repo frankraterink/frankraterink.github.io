@@ -70,29 +70,29 @@ h1 { font-size: 2.6rem; }
 
 h1:first-of-type { margin: 0 0 0.6em; }
 
-@media screen and (min-width: 600px) { h1 { font-size: 2.86rem; } }
+@media screen and (min-width: 600px) { h1 { font-size: 2.73rem; } }
 
-@media screen and (min-width: 1200px) { h1 { font-size: 3.12rem; } }
+@media screen and (min-width: 1200px) { h1 { font-size: 2.86rem; } }
 
-@media screen and (min-width: 1600px) { h1 { font-size: 3.38rem; } }
+@media screen and (min-width: 1600px) { h1 { font-size: 2.99rem; } }
 
 h2 { font-size: 2rem; }
 
-@media screen and (min-width: 600px) { h2 { font-size: 2.2rem; } }
+@media screen and (min-width: 600px) { h2 { font-size: 2.1rem; } }
 
-@media screen and (min-width: 1200px) { h2 { font-size: 2.4rem; } }
+@media screen and (min-width: 1200px) { h2 { font-size: 2.2rem; } }
 
-@media screen and (min-width: 1600px) { h2 { font-size: 2.6rem; } }
+@media screen and (min-width: 1600px) { h2 { font-size: 2.3rem; } }
 
 h3 { font-size: 1.7rem; }
 
-@media screen and (min-width: 600px) { h3 { font-size: 1.87rem; } }
+@media screen and (min-width: 600px) { h3 { font-size: 1.785rem; } }
 
-@media screen and (min-width: 1200px) { h3 { font-size: 2.04rem; } }
+@media screen and (min-width: 1200px) { h3 { font-size: 1.87rem; } }
 
-@media screen and (min-width: 1600px) { h3 { font-size: 2.21rem; } }
+@media screen and (min-width: 1600px) { h3 { font-size: 1.955rem; } }
 
-h4 { font-size: 1rem; line-height: 1.4em; }
+h4 { font-size: 1.1rem; line-height: 1.4em; }
 
 @media screen and (min-width: 600px) { h4 { font-size: 1.3em; } }
 
@@ -100,13 +100,13 @@ h4 { font-size: 1rem; line-height: 1.4em; }
 
 @media screen and (min-width: 1600px) { h4 { font-size: 1.47em; } }
 
-p, a, li { font-size: 1rem; line-height: 1.4em; font-weight: 200; }
+p, a, li { font-size: 1.1rem; line-height: 1.4em; font-weight: 200; }
 
-@media screen and (min-width: 600px) { p, a, li { font-size: 1.1rem; } }
+@media screen and (min-width: 600px) { p, a, li { font-size: 1.155rem; } }
 
-@media screen and (min-width: 1200px) { p, a, li { font-size: 1.2rem; } }
+@media screen and (min-width: 1200px) { p, a, li { font-size: 1.21rem; } }
 
-@media screen and (min-width: 1600px) { p, a, li { font-size: 1.3rem; } }
+@media screen and (min-width: 1600px) { p, a, li { font-size: 1.265rem; } }
 
 i, figcaption { font-style: italic; }
 
@@ -122,21 +122,21 @@ ul.list li, ol.list li { list-style-type: disc; }
 
 ul.ordered-list li, ol.ordered-list li { list-style-type: decimal; }
 
-.intro { font-size: 1.1rem; }
+.intro { font-size: 1.155rem; }
 
-@media screen and (min-width: 600px) { .intro { font-size: 1.21rem; } }
+@media screen and (min-width: 600px) { .intro { font-size: 1.21275rem; } }
 
-@media screen and (min-width: 1200px) { .intro { font-size: 1.32rem; } }
+@media screen and (min-width: 1200px) { .intro { font-size: 1.2705rem; } }
 
-@media screen and (min-width: 1600px) { .intro { font-size: 1.43rem; } }
+@media screen and (min-width: 1600px) { .intro { font-size: 1.32825rem; } }
 
 figcaption { font-size: 0.9rem; color: rgba(0, 0, 0, 0.6); margin-bottom: 0.8em; }
 
-@media screen and (min-width: 600px) { figcaption { font-size: 0.99rem; } }
+@media screen and (min-width: 600px) { figcaption { font-size: 0.945rem; } }
 
-@media screen and (min-width: 1200px) { figcaption { font-size: 1.08rem; } }
+@media screen and (min-width: 1200px) { figcaption { font-size: 0.99rem; } }
 
-@media screen and (min-width: 1600px) { figcaption { font-size: 1.17rem; } }
+@media screen and (min-width: 1600px) { figcaption { font-size: 1.035rem; } }
 
 .nohyperlinks { pointer-events: none; }
 
@@ -168,7 +168,7 @@ figcaption { font-size: 0.9rem; color: rgba(0, 0, 0, 0.6); margin-bottom: 0.8em;
 
 .company-data { margin-top: 4em; padding-bottom: 20em; }
 
-.company-data p { font-size: 1rem; text-align: center; color: #fff; }
+.company-data p { font-size: 1.1rem; text-align: center; color: #fff; }
 
 @media screen and (prefers-color-scheme: dark) { .company-data p { color: rgba(255, 255, 255, 0.7); } }
 
