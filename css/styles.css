@@ -236,13 +236,15 @@ header .franklabs { display: inline-block; margin-left: 0.4em; }
 
 header i { color: #e8e8e8; }
 
+header .menu { text-align: center; }
+
 header .menu a { color: rgba(0, 0, 0, 0.8); }
 
 @media screen and (prefers-color-scheme: dark) { header .menu a { color: rgba(255, 255, 255, 0.8); } }
 
 header .menu ul li { display: inline-block; margin-right: .6em; }
 
-@media screen and (min-width: 600px) { header .menu { position: absolute; right: -14px; bottom: -10px; } }
+@media screen and (min-width: 600px) { header .menu { text-align: left; position: absolute; right: -14px; bottom: -10px; } }
 
 @media screen and (min-width: 1200px) { header .menu { bottom: -8px; } }
 
