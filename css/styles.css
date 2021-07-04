@@ -170,7 +170,7 @@ figcaption { font-size: 0.9rem; color: rgba(0, 0, 0, 0.6); margin-bottom: 0.8em;
 
 .company-data p { font-size: 1.1rem; text-align: center; color: #fff; }
 
-@media screen and (prefers-color-scheme: dark) { .company-data p { color: rgba(255, 255, 255, 0.7); } }
+@media screen and (prefers-color-scheme: dark) { .company-data p { color: rgba(255, 255, 255, 0.7); } .company-data p > a { color: rgba(255, 255, 255, 0.7); } }
 
 .company-data p > a { color: #fff; }
 
