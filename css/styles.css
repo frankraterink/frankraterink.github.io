@@ -152,13 +152,21 @@ figcaption { font-size: 0.9rem; color: rgba(0, 0, 0, 0.6); margin-bottom: 0.8em;
 
 .spacer-top-m { padding-top: 21px; }
 
+.spacer-top-l { padding-top: 35px; }
+
 .spacer-bottom-l { padding-bottom: 35px; }
 
-.container { width: 90%; margin-left: auto; margin-right: auto; margin-bottom: 20em; }
+.container, .footer { width: 90%; margin-left: auto; margin-right: auto; margin-bottom: 1em; }
 
-@media only screen and (min-width: 600px) { .container { width: 80%; max-width: 40rem; } }
+@media only screen and (min-width: 600px) { .container, .footer { width: 80%; max-width: 40rem; } }
 
-@media only screen and (min-width: 1600px) { .container { width: 75%; } }
+@media only screen and (min-width: 1600px) { .container, .footer { width: 75%; } }
+
+.company-data { margin-top: 4em; margin-bottom: 20em; }
+
+.company-data p { font-size: 1rem; text-align: center; color: #fff; }
+
+@media screen and (prefers-color-scheme: dark) { .company-data p { color: rgba(255, 255, 255, 0.7); } }
 
 .row { position: relative; width: 100%; }
 
