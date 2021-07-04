@@ -164,9 +164,11 @@ figcaption { font-size: 0.9rem; color: rgba(0, 0, 0, 0.6); margin-bottom: 0.8em;
 
 .company-data { margin-top: 4em; padding-bottom: 20em; }
 
-.company-data p { font-size: 1rem; text-align: center; color: #fff; }
+.company-data p { font-size: 1rem; text-align: center; color: #fff; pointer-events: none; }
 
 @media screen and (prefers-color-scheme: dark) { .company-data p { color: rgba(255, 255, 255, 0.7); } }
+
+.company-data p > a { text-decoration: none; color: inherit; }
 
 .row { position: relative; width: 100%; }
 
