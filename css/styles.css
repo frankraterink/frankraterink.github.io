@@ -172,6 +172,8 @@ figcaption { font-size: 0.9rem; color: rgba(0, 0, 0, 0.6); margin-bottom: 0.8em;
 
 @media screen and (prefers-color-scheme: dark) { .company-data p { color: rgba(255, 255, 255, 0.7); } }
 
+.company-data p > a { color: #fff; }
+
 .row { position: relative; width: 100%; }
 
 .row [class^="col"] { float: left; margin: 7.5% 7.5%; min-height: 0.125rem; }
