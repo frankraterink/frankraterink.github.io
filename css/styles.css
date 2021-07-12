@@ -162,9 +162,9 @@ figcaption { font-size: 0.9rem; color: rgba(0, 0, 0, 0.6); margin-bottom: 0.8em;
 
 .container, .footer { width: 90%; margin-left: auto; margin-right: auto; margin-bottom: 1em; }
 
-@media only screen and (min-width: 600px) { .container, .footer { width: 80%; max-width: 40rem; } }
+@media only screen and (min-width: 600px) { .container, .footer { width: 80%; max-width: 50rem; } }
 
-@media only screen and (min-width: 1600px) { .container, .footer { width: 75%; } }
+@media only screen and (min-width: 1600px) { .container, .footer { width: 75%; max-width: 60rem; } }
 
 .company-data { margin-top: 4em; padding-bottom: 20em; }
 
@@ -347,6 +347,8 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 .container .image-homepage, .container .image-over { object-fit: cover; border-radius: 8px; }
 
 .container .image-homepage { height: 260px; }
+
+@media only screen and (min-width: 600px) { .container .image-homepage { height: 360px; } }
 
 .home-link { background-color: tan; }
 
