@@ -112,7 +112,7 @@ i, figcaption { font-style: italic; }
 
 p, ul, ol { margin-bottom: 0.8em; }
 
-strong { font-weight: bold; }
+strong { font-weight: bold; color: #000; letter-spacing: -0.02em; }
 
 ul, ol { list-style-type: none; }
 
@@ -344,7 +344,9 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 
 @media screen and (prefers-color-scheme: dark) { .container .button-large:hover { background: linear-gradient(204deg, #c2c2c2, #8c8c8c); color: #171717; } }
 
-.container .image-homepage { object-fit: cover; height: 260px; border-radius: 8px; }
+.container .image-homepage, .container .image-over { object-fit: cover; border-radius: 8px; }
+
+.container .image-homepage { height: 260px; }
 
 .home-link { background-color: tan; }
 
