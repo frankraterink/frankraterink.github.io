@@ -350,6 +350,8 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 
 @media only screen and (min-width: 600px) { .container .image-homepage { height: 360px; } }
 
+.container .image-over { height: 700px; }
+
 .home-link { background-color: tan; }
 
 /*# sourceMappingURL=styles.css.map */
