@@ -62,9 +62,9 @@ html, body { height: 100%; width: 100%; margin: 0; padding: 0; left: 0; top: 0; 
 
 @media screen and (prefers-color-scheme: dark) { * { color: rgba(255, 255, 255, 0.7); } }
 
-h1, h2, h3, h4 { font-family: "DM Serif Text", sans-serif; font-color: rgba(0, 0, 0, 0.8); font-weight: 400; letter-spacing: -0.6px; line-height: 1.395em; margin: 1.33em 0 0.33em; }
+h1, h2, h3, h4, h1 span, h2 span, h3 span, h4 span { font-family: "DM Serif Text", sans-serif; font-color: rgba(0, 0, 0, 0.8); font-weight: 400; letter-spacing: -0.6px; line-height: 1.395em; margin: 1.33em 0 0.33em; }
 
-@media screen and (prefers-color-scheme: dark) { h1, h2, h3, h4 { color: rgba(255, 255, 255, 0.7); } }
+@media screen and (prefers-color-scheme: dark) { h1, h2, h3, h4, h1 span, h2 span, h3 span, h4 span { color: rgba(255, 255, 255, 0.7); } }
 
 h1 { font-size: 2.6rem; }
 
@@ -351,6 +351,8 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 @media only screen and (min-width: 600px) { .container .image-homepage { height: 360px; } }
 
 .container .image-over { height: 700px; }
+
+.container .gradient-text, .container h1, .container h2, .container h3 { display: inline-block; background: -webkit-linear-gradient(left, #2c424d, #557880); background: linear-gradient(to right, #2c424d, #557880); background-clip: border-box; color: rgba(233, 70, 150, 0); -webkit-background-clip: text; }
 
 .home-link { background-color: tan; }
 
