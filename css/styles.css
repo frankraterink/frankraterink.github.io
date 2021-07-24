@@ -352,7 +352,7 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 
 .container .image-over { height: 700px; }
 
-.container .gradient-text, .container h1, .container h2, .container h3 { display: inline-block; background: -webkit-linear-gradient(left, #2c424d, #557880); background: linear-gradient(to right, #2c424d, #557880); background-clip: border-box; color: rgba(233, 70, 150, 0); -webkit-background-clip: text; }
+.container .gradient-text, .container h1, .container h2, .container h3, .container h4 { display: inline-block; background: -webkit-linear-gradient(left, #2c424d, #557880); background: linear-gradient(to right, #2c424d, #557880); background-clip: border-box; color: rgba(233, 70, 150, 0); -webkit-background-clip: text; }
 
 .home-link { background-color: tan; }
 
