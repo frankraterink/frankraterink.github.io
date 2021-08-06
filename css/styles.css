@@ -114,6 +114,8 @@ p, ul, ol { margin-bottom: 0.8em; }
 
 strong { font-weight: bold; color: #000; letter-spacing: -0.02em; }
 
+@media screen and (prefers-color-scheme: dark) { strong { color: #fff; } }
+
 ul, ol { list-style-type: none; }
 
 ul.list, ul.ordered-list, ol.list, ol.ordered-list { margin-left: 2.6em; }
@@ -338,7 +340,7 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 
 .container .button-large { display: inline-block; padding: 10px 12px; margin-right: 6px; border-radius: 8px; text-decoration: none; background: linear-gradient(90deg, #cccccc, #d9d9d9); box-shadow: -6px 0px 12px -4px #969696, 2px 0px 13px #fff; xbackground: linear-gradient(204deg, #dadfdf, #a5a8a8); }
 
-@media screen and (prefers-color-scheme: dark) { .container .button-large { background: linear-gradient(90deg, #a9a9a9, #eee); color: #545655; box-shadow: -9px 0px 12px -4px #0d0d0d, 4px 0px 9px -3px #a8a8a8; } }
+@media screen and (prefers-color-scheme: dark) { .container .button-large { background: linear-gradient(90deg, #4d4d4d, #808080); color: rgba(255, 255, 255, 0.7); box-shadow: -9px 0px 12px -4px #0d0d0d, 4px 0px 9px -3px #5f5f5f; } }
 
 .container .button-large:hover { background: linear-gradient(204deg, #bdc2c2, #898d8d); }
 
@@ -351,6 +353,8 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 @media only screen and (min-width: 600px) { .container .image-homepage { height: 360px; } }
 
 .container .gradient-text, .container h1, .container h2, .container h3, .container h4 { display: inline-block; background: -webkit-linear-gradient(left, #2c424d, #557880); background: linear-gradient(to right, #2c424d, #557880); background-clip: border-box; color: rgba(233, 70, 150, 0); -webkit-background-clip: text; }
+
+@media screen and (prefers-color-scheme: dark) { .container .gradient-text, .container h1, .container h2, .container h3, .container h4 { background: -webkit-linear-gradient(left, #627e7b, #77938b); background: linear-gradient(to right, #627e7b, #77938b); background-clip: border-box; color: rgba(233, 70, 150, 0); -webkit-background-clip: text; } }
 
 .home-link { background-color: tan; }
 
