@@ -160,7 +160,11 @@ figcaption { font-size: 0.9rem; color: rgba(0, 0, 0, 0.6); margin-bottom: 0.8em;
 
 hr { height: 2px; border-top: 5px solid #171717; margin: 60px 0 0; }
 
+@media screen and (prefers-color-scheme: dark) { hr { border-top: 5px solid #fff; } }
+
 hr.small { height: 0px; border-top: 0px; border-bottom: 1px solid #171717; margin: 52px 0 0; }
+
+@media screen and (prefers-color-scheme: dark) { hr.small { border-bottom: 1px solid #fff; } }
 
 .nohyperlinks { pointer-events: none; }
 
@@ -195,6 +199,8 @@ hr.small { height: 0px; border-top: 0px; border-bottom: 1px solid #171717; margi
 .company-data .divider { margin: 0px 20px; background-color: #171717; display: block; width: 0px; height: 0em; }
 
 @media only screen and (min-width: 600px) { .company-data .divider { display: inline-block; width: 1px; height: .8em; } }
+
+@media screen and (prefers-color-scheme: dark) { .company-data .divider { background-color: #fff; } }
 
 .company-data p { font-size: 1.1rem; text-align: center; color: #171717; }
 
@@ -352,6 +358,8 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 
 .container .pricing { padding: 0px 8px; margin: 0px 8px 0px 0px; display: inline-block; border: 1px solid #171717; }
 
+@media screen and (prefers-color-scheme: dark) { .container .pricing { border: 1px solid #fff; } }
+
 .container .gradient-text { background: -webkit-linear-gradient(left, #2c424d, #557880); background: linear-gradient(to right, #2c424d, #557880); background-clip: border-box; color: rgba(233, 70, 150, 0); -webkit-background-clip: text; }
 
 @media screen and (prefers-color-scheme: dark) { .container .gradient-text { background: -webkit-linear-gradient(left, #627e7b, #77938b); background: linear-gradient(to right, #627e7b, #77938b); background-clip: border-box; color: rgba(233, 70, 150, 0); -webkit-background-clip: text; } }
@@ -363,6 +371,8 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 .container .header-icon:before { content: ""; display: block; width: 50px; height: 50px; position: absolute; left: 86%; top: -7px; }
 
 @media only screen and (min-width: 600px) { .container .header-icon:before { left: -70px; top: 0px; } }
+
+@media screen and (prefers-color-scheme: dark) { .container .header-icon:before { filter: invert(1); } }
 
 .container .header-icon-checklist:before { background: url("/img/icons-po/checklist.png") no-repeat; background-size: contain; }
 
