@@ -23,7 +23,7 @@
 
 .s1 h2, .s1 h3, .s1 p, .s1 a, .s1 li { color: rgba(0, 0, 0, 0.8); }
 
-.s2 { background-color: #3f3b35; }
+.s2 { background-color: #3a3a3a; }
 
 .s2 h2, .s2 h3, .s2 p, .s2 a, .s2 li { color: rgba(0, 0, 0, 0.8); }
 
@@ -52,7 +52,7 @@
 
 .s1 h2, .s1 h3, .s1 p, .s1 a, .s1 li { color: rgba(0, 0, 0, 0.8); }
 
-.s2 { background-color: #3f3b35; }
+.s2 { background-color: #3a3a3a; }
 
 .s2 h2, .s2 h3, .s2 p, .s2 a, .s2 li { color: rgba(0, 0, 0, 0.8); }
 
@@ -242,7 +242,7 @@ hr.small { height: 0px; border-top: 0px; border-bottom: 1px solid #171717; margi
 
 html, body { background-color: #ffdbad; }
 
-@media screen and (prefers-color-scheme: dark) { html, body { background-color: #3f3b35; } }
+@media screen and (prefers-color-scheme: dark) { html, body { background-color: #3a3a3a; } }
 
 header { position: relative; }
 
