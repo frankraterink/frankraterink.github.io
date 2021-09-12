@@ -358,7 +358,11 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 
 .container h2 { position: relative; }
 
-.container .header-icon:before { content: ""; display: block; width: 50px; height: 50px; position: absolute; left: -70px; top: 0px; }
+@media only screen and (min-width: 600px) { .container h2 { position: relative; } }
+
+.container .header-icon:before { content: ""; display: block; width: 50px; height: 50px; position: absolute; left: 86%; top: -7px; }
+
+@media only screen and (min-width: 600px) { .container .header-icon:before { left: -70px; top: 0px; } }
 
 .container .header-icon-checklist:before { background: url("/img/icons-po/checklist.png") no-repeat; background-size: contain; }
 
