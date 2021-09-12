@@ -244,6 +244,10 @@ html, body { background-color: #ffdbad; }
 
 @media screen and (prefers-color-scheme: dark) { html, body { background-color: #3a3a3a; } }
 
+:root { color-scheme: light; }
+
+@media screen and (prefers-color-scheme: dark) { :root { color-scheme: dark; } }
+
 header { position: relative; }
 
 header .logo { display: inline-block; vertical-align: bottom; margin-top: 30px; }
@@ -301,6 +305,8 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 @media screen and (min-width: 1200px) { .container figure.right-small { width: 250px; } }
 
 .container figure img { width: 100%; }
+
+@media screen and (prefers-color-scheme: dark) { .container figure img { filter: brightness(0.7) contrast(1.2); } }
 
 .container figure figcaption { width: 100%; margin: 1em 0; text-align: center; }
 
