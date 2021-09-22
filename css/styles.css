@@ -384,6 +384,10 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 
 .container .header-icon-inbox:before { background: url("/img/icons-po/inbox.png") no-repeat; background-size: contain; }
 
+.container .header-icon-list:before { background: url("/img/icons-po/list.png") no-repeat; background-size: contain; }
+
+.container .header-icon-checkbox:before { background: url("/img/icons-po/checkbox.png") no-repeat; background-size: contain; }
+
 .container .header-icon-poppetje-wijst:before { background: url("/img/icons-po/poppetje-wijst.png") no-repeat; background-size: contain; }
 
 .container .header-icon-poppetje-steekt-hand-op:before { background: url("/img/icons-po/poppetje-steekt-hand-op.png") no-repeat; background-size: contain; }
