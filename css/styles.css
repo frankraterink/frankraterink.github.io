@@ -110,7 +110,9 @@ i, figcaption { font-style: italic; }
 
 p, ul, ol { margin-bottom: 0.8em; }
 
-strong { color: #000; letter-spacing: -0.02em; }
+strong { color: #000; letter-spacing: -0.02em; font-weight: 500; }
+
+strong a { font-weight: 500; }
 
 @media screen and (prefers-color-scheme: dark) { strong { color: #fff; } }
 
