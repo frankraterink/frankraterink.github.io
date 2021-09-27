@@ -286,6 +286,8 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 
 .company-data .linkedin-logo { width: 30px; margin: 14px 8px -8px 0px; }
 
+@media screen and (prefers-color-scheme: dark) { .company-data .linkedin-logo { filter: invert(1); } }
+
 .container { position: relative; }
 
 .container h2 i { font-weight: 600; letter-spacing: -3.8px; }
