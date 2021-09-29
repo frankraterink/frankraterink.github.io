@@ -310,11 +310,11 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 
 .container figure { margin: 0em 0px 1.2em; }
 
-.container figure.right-small { width: 100%; position: relative; float: right; margin: 0px 0px 20px 40px; }
+.container figure.right-small { width: 100%; position: relative; float: right; margin: 0px 0px 20px 40px; padding-bottom: 100%; height: 0; }
 
-@media screen and (min-width: 600px) { .container figure.right-small { width: 150px; } }
+@media screen and (min-width: 600px) { .container figure.right-small { width: 150px; padding-bottom: 150px; } }
 
-@media screen and (min-width: 1200px) { .container figure.right-small { width: 250px; } }
+@media screen and (min-width: 1200px) { .container figure.right-small { width: 250px; padding-bottom: 250px; } }
 
 .container figure img { width: 100%; }
 
