@@ -132,6 +132,8 @@ a.linkedin-link { margin-left: 41px; position: relative; }
 
 a.linkedin-link:before { content: ""; display: block; position: absolute; width: 30px; height: 30px; background-size: contain; background-image: url("/img/linkedin-logo.webp"); left: -41px; }
 
+@media screen and (prefers-color-scheme: dark) { a.linkedin-link:before { filter: invert(1); } }
+
 a.img-link { overflow: hidden; }
 
 a.img-link:hover { background-color: transparent; }
@@ -368,11 +370,11 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 
 @media screen and (prefers-color-scheme: dark) { .container .button.inverse:hover { color: #545655; } }
 
-.container .button-large { display: inline-block; padding: 10px 12px; margin-right: 6px; text-decoration: none; color: #fff; font-weight: 500; background: #00697e; xbackground: linear-gradient(204deg, #dadfdf, #a5a8a8); }
+.container .button-large { display: inline-block; padding: 10px 12px; margin-right: 6px; text-decoration: none; color: #fff; font-weight: 500; background: #00697e; }
 
 .container .button-large:hover { background: #171717; }
 
-@media screen and (prefers-color-scheme: dark) { .container .button-large { filter: invert(1); } }
+@media screen and (prefers-color-scheme: dark) { .container .button-large { background: #ff5f3f; } }
 
 .container .image-homepage, .container .image-over { object-fit: cover; }
 
