@@ -15,7 +15,7 @@
 
 .p3 h2, .p3 h3, .p3 p, .p3 a, .p3 li { color: rgba(0, 0, 0, 0.8); }
 
-.p4 { background-color: #ffdbad; }
+.p4 { background-color: #00697e; }
 
 .p4 h2, .p4 h3, .p4 p, .p4 a, .p4 li { color: rgba(0, 0, 0, 0.8); }
 
@@ -44,7 +44,7 @@
 
 .p3 h2, .p3 h3, .p3 p, .p3 a, .p3 li { color: rgba(0, 0, 0, 0.8); }
 
-.p4 { background-color: #ffdbad; }
+.p4 { background-color: #00697e; }
 
 .p4 h2, .p4 h3, .p4 p, .p4 a, .p4 li { color: rgba(0, 0, 0, 0.8); }
 
@@ -362,9 +362,9 @@ header .menu ul li { display: inline-block; margin-right: .6em; }
 
 @media screen and (prefers-color-scheme: dark) { .container .button.inverse:hover { color: #545655; } }
 
-.container .button-large { display: inline-block; padding: 10px 12px; margin-right: 6px; text-decoration: none; color: #fff; background: #009fbf; xbackground: linear-gradient(204deg, #dadfdf, #a5a8a8); }
+.container .button-large { display: inline-block; padding: 10px 12px; margin-right: 6px; text-decoration: none; color: #fff; font-weight: 500; background: #00697e; xbackground: linear-gradient(204deg, #dadfdf, #a5a8a8); }
 
-.container .button-large:hover { background: #00697e; }
+.container .button-large:hover { background: #171717; }
 
 @media screen and (prefers-color-scheme: dark) { .container .button-large { filter: invert(1); } }
 
