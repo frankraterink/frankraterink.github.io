@@ -128,9 +128,9 @@ a:hover { background-color: #171717; color: #ffdbad; }
 
 @media screen and (prefers-color-scheme: dark) { a:hover { background-color: #fff; color: #171717; } }
 
-a.linkedin-link { margin-left: 41px; position: relative; }
+a.linkedin-link { left: 41px; position: relative; }
 
-a.linkedin-link:before { content: ""; display: block; position: absolute; width: 30px; height: 30px; background-size: contain; background-image: url("/img/linkedin-logo.webp"); left: -41px; }
+a.linkedin-link:before { content: ""; display: block; position: absolute; width: 30px; height: 30px; background-size: contain; background-image: url("/img/linkedin-logo.png"); left: -41px; }
 
 @media screen and (prefers-color-scheme: dark) { a.linkedin-link:before { filter: invert(1); } }
 
