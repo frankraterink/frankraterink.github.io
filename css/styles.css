@@ -126,7 +126,7 @@ ul.ordered-list li, ol.ordered-list li { list-style-type: decimal; }
 
 a:hover { background-color: #171717; color: #ffdbad; }
 
-@media screen and (prefers-color-scheme: dark) { a:hover { color: #fff; } }
+@media screen and (prefers-color-scheme: dark) { a:hover { background-color: #fff; color: #171717; } }
 
 a.img-link:hover { background-color: transparent; }
 
