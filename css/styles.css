@@ -128,11 +128,17 @@ a:hover { background-color: #171717; color: #ffdbad; }
 
 @media screen and (prefers-color-scheme: dark) { a:hover { background-color: #fff; color: #171717; } }
 
-a.linkedin-link { left: 41px; position: relative; }
+a.linkedin-link, a.telegram-link, a.whatsapp-link { left: 35px; position: relative; }
 
-a.linkedin-link:before { content: ""; display: block; position: absolute; width: 30px; height: 30px; background-size: contain; background-image: url("/img/linkedin-logo.png"); left: -41px; }
+a.linkedin-link:before, a.telegram-link:before, a.whatsapp-link:before { content: ""; display: block; position: absolute; width: 27px; height: 27px; left: -35px; }
 
-@media screen and (prefers-color-scheme: dark) { a.linkedin-link:before { filter: invert(1); } }
+@media screen and (prefers-color-scheme: dark) { a.linkedin-link:before, a.telegram-link:before, a.whatsapp-link:before { filter: invert(1); } }
+
+a.linkedin-link:before { background-size: contain; background-image: url("/img/linkedin-logo.png"); }
+
+a.telegram-link:before { background-size: contain; background-image: url("/img/telegram-logo.png"); }
+
+a.whatsapp-link:before { background-size: contain; background-image: url("/img/whatsapp-logo.png"); }
 
 a.img-link { overflow: hidden; }
 
